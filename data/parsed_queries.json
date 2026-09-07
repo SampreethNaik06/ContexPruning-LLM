@@ -1,0 +1,182 @@
+{
+    "metadata": {
+        "last_updated": "2026-09-07 12:02:34",
+        "total_queries_logged": 3
+    },
+    "logs": [
+        {
+            "query": "Did the CEO of Microsoft meet with OpenAI researchers in Tokyo during October 2023 to discuss artificial intelligence regulation?",
+            "latency_ms": 7.695,
+            "anchors": {
+                "entity_anchors": [
+                    "OpenAI",
+                    "October 2023",
+                    "Microsoft",
+                    "Tokyo"
+                ],
+                "relation_anchors": [
+                    "regulation",
+                    "intelligence",
+                    "researcher",
+                    "ceo",
+                    "meet",
+                    "discuss"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "Microsoft",
+                    "canonical_node": "Microsoft",
+                    "type": "ORG"
+                },
+                {
+                    "raw_mention": "OpenAI",
+                    "canonical_node": "OpenAI",
+                    "type": "ORG"
+                },
+                {
+                    "raw_mention": "Tokyo",
+                    "canonical_node": "Tokyo",
+                    "type": "GPE"
+                },
+                {
+                    "raw_mention": "October 2023",
+                    "canonical_node": "October 2023",
+                    "type": "DATE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "ceo",
+                    "pos": "NOUN",
+                    "dep": "nsubj"
+                },
+                {
+                    "lemma": "meet",
+                    "pos": "VERB",
+                    "dep": "ROOT"
+                },
+                {
+                    "lemma": "researcher",
+                    "pos": "NOUN",
+                    "dep": "pobj"
+                },
+                {
+                    "lemma": "discuss",
+                    "pos": "VERB",
+                    "dep": "advcl"
+                },
+                {
+                    "lemma": "intelligence",
+                    "pos": "NOUN",
+                    "dep": "compound"
+                },
+                {
+                    "lemma": "regulation",
+                    "pos": "NOUN",
+                    "dep": "dobj"
+                }
+            ]
+        },
+        {
+            "query": "Did the CEO of \"Microsoft & OpenAI\" (in 2023) say: \"AI regulation > innovation\"? --no-log",
+            "latency_ms": 8.082,
+            "anchors": {
+                "entity_anchors": [
+                    "2023",
+                    "Microsoft &"
+                ],
+                "relation_anchors": [
+                    "ceo",
+                    "regulation",
+                    "log",
+                    "innovation",
+                    ">"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "Microsoft &",
+                    "canonical_node": "Microsoft &",
+                    "type": "ORG"
+                },
+                {
+                    "raw_mention": "2023",
+                    "canonical_node": "2023",
+                    "type": "DATE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "ceo",
+                    "pos": "NOUN",
+                    "dep": "nsubj"
+                },
+                {
+                    "lemma": "regulation",
+                    "pos": "NOUN",
+                    "dep": "dobj"
+                },
+                {
+                    "lemma": ">",
+                    "pos": "X",
+                    "dep": "prep"
+                },
+                {
+                    "lemma": "innovation",
+                    "pos": "NOUN",
+                    "dep": "appos"
+                },
+                {
+                    "lemma": "log",
+                    "pos": "NOUN",
+                    "dep": "ROOT"
+                }
+            ]
+        },
+        {
+            "query": "May June May and April August met May in May 2023.",
+            "latency_ms": 5.735,
+            "anchors": {
+                "entity_anchors": [
+                    "May 2023",
+                    "May June May",
+                    "April August",
+                    "May"
+                ],
+                "relation_anchors": [
+                    "meet"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "May June May",
+                    "canonical_node": "May June May",
+                    "type": "DATE"
+                },
+                {
+                    "raw_mention": "April August",
+                    "canonical_node": "April August",
+                    "type": "DATE"
+                },
+                {
+                    "raw_mention": "May",
+                    "canonical_node": "May",
+                    "type": "DATE"
+                },
+                {
+                    "raw_mention": "May 2023",
+                    "canonical_node": "May 2023",
+                    "type": "DATE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "meet",
+                    "pos": "VERB",
+                    "dep": "ROOT"
+                }
+            ]
+        }
+    ]
+}
