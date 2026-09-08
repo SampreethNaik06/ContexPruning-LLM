@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "last_updated": "2026-09-07 12:56:14",
-        "total_queries_logged": 1
+        "last_updated": "2026-09-07 21:35:26",
+        "total_queries_logged": 3
     },
     "logs": [
         {
@@ -20,6 +20,154 @@
                     "intelligence",
                     "researcher",
                     "ceo",
+                    "meet"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "Microsoft",
+                    "canonical_node": "Microsoft",
+                    "type": "ORG"
+                },
+                {
+                    "raw_mention": "OpenAI",
+                    "canonical_node": "OpenAI",
+                    "type": "ORG"
+                },
+                {
+                    "raw_mention": "Tokyo",
+                    "canonical_node": "Tokyo",
+                    "type": "GPE"
+                },
+                {
+                    "raw_mention": "October 2023",
+                    "canonical_node": "October 2023",
+                    "type": "DATE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "ceo",
+                    "pos": "NOUN",
+                    "dep": "nsubj"
+                },
+                {
+                    "lemma": "meet",
+                    "pos": "VERB",
+                    "dep": "ROOT"
+                },
+                {
+                    "lemma": "researcher",
+                    "pos": "NOUN",
+                    "dep": "pobj"
+                },
+                {
+                    "lemma": "discuss",
+                    "pos": "VERB",
+                    "dep": "advcl"
+                },
+                {
+                    "lemma": "intelligence",
+                    "pos": "NOUN",
+                    "dep": "compound"
+                },
+                {
+                    "lemma": "regulation",
+                    "pos": "NOUN",
+                    "dep": "dobj"
+                }
+            ]
+        },
+        {
+            "query": "Isn't St. John's-based company's co-founder working on non-U.S. state-of-the-art LLMs' safety protocols?",
+            "latency_ms": 13.381,
+            "anchors": {
+                "entity_anchors": [
+                    "U.S.",
+                    "St. John's"
+                ],
+                "relation_anchors": [
+                    "company",
+                    "state",
+                    "protocol",
+                    "art",
+                    "founder",
+                    "safety",
+                    "work",
+                    "base"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "St. John's",
+                    "canonical_node": "St. John's",
+                    "type": "GPE"
+                },
+                {
+                    "raw_mention": "U.S.",
+                    "canonical_node": "U.S.",
+                    "type": "GPE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "base",
+                    "pos": "VERB",
+                    "dep": "amod"
+                },
+                {
+                    "lemma": "company",
+                    "pos": "NOUN",
+                    "dep": "poss"
+                },
+                {
+                    "lemma": "founder",
+                    "pos": "NOUN",
+                    "dep": "attr"
+                },
+                {
+                    "lemma": "work",
+                    "pos": "VERB",
+                    "dep": "acl"
+                },
+                {
+                    "lemma": "state",
+                    "pos": "NOUN",
+                    "dep": "pobj"
+                },
+                {
+                    "lemma": "art",
+                    "pos": "NOUN",
+                    "dep": "compound"
+                },
+                {
+                    "lemma": "safety",
+                    "pos": "NOUN",
+                    "dep": "compound"
+                },
+                {
+                    "lemma": "protocol",
+                    "pos": "NOUN",
+                    "dep": "pobj"
+                }
+            ]
+        },
+        {
+            "query": "Did the CEO of Microsoft meet with OpenAI researchers in Tokyo during October 2023 to discuss artificial intelligence regulation?",
+            "latency_ms": 8.124,
+            "anchors": {
+                "entity_anchors": [
+                    "October 2023",
+                    "Microsoft",
+                    "OpenAI",
+                    "Tokyo"
+                ],
+                "relation_anchors": [
+                    "regulation",
+                    "discuss",
+                    "ceo",
+                    "intelligence",
+                    "researcher",
                     "meet"
                 ]
             },

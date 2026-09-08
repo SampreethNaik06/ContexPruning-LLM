@@ -15,7 +15,6 @@ class StandaloneQueryParser:
         """
         self.nlp = spacy.load(spacy_model)
         
-        # Target Named Entity types for Tier 1 Entity Nodes (Expanded)
         self.target_ent_types = {
             "PERSON", "ORG", "WORK_OF_ART", "DATE", 
             "GPE", "LOC", "NORP", "EVENT", "FAC",
@@ -23,7 +22,6 @@ class StandaloneQueryParser:
             "QUANTITY", "ORDINAL", "CARDINAL"
         }
         
-        # Subtoken fragments, prefixes, and noise terms to exclude from relation anchors
         self.banned_subtokens = {
             # Hyphenated prefixes & suffixes
             "non", "co", "post", "pre", "anti", "pro", "sub", "super", 
@@ -35,15 +33,10 @@ class StandaloneQueryParser:
         }
 
     def _sanitize_input(self, text: str) -> str:
-        """Strips genuine CLI flags and safely splits mid-word hyphens."""
-        # 1. Strip real CLI flags (--no-log)
-        cleaned = re.sub(r'(?<!\S)--[a-zA-Z][a-zA-Z0-9_-]*', '', text)
-        # 2. Replace hyphens between alphanumeric chars with spaces
-        cleaned = re.sub(r'(?<=[A-Za-z0-9])-(?=[A-Za-z0-9])', ' ', cleaned)
+        cleaned = re.sub(r'(?<=[A-Za-z0-9])-(?=[A-Za-z0-9])', ' ', text)
         return re.sub(r'\s+', ' ', cleaned).strip()
 
     def parse_query(self, query: str) -> Dict:
-        """Parses input query string into Entity Nodes and Relation Nodes."""
         start_time = time.perf_counter()
         
         sanitized_query = self._sanitize_input(query)
@@ -52,7 +45,7 @@ class StandaloneQueryParser:
         entity_nodes = []
         extracted_ent_tokens = set()
 
-        # --- Tier 1: Extract Entity Nodes (spaCy NER) ---
+        #Extract Entity Nodes (spaCy NER)
         for ent in doc.ents:
             if ent.label_ in self.target_ent_types:
                 entity_nodes.append({
@@ -63,7 +56,7 @@ class StandaloneQueryParser:
                 for token in ent:
                     extracted_ent_tokens.add(token.i)
 
-        # --- Tier 2: Extract Relation Nodes (Dependency Tree Walk) ---
+        #Extract Relation Nodes 
         relation_nodes = []
         for token in doc:
             lemma = token.lemma_.lower().strip()
