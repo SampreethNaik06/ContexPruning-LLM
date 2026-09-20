@@ -1,0 +1,924 @@
+{
+  "stats": {
+    "num_nodes": 19,
+    "num_edges": 71
+  },
+  "nodes": [
+    {
+      "id": "it",
+      "ent_type": null,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "work",
+      "ent_type": null,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Arthur's Magazine",
+      "ent_type": "ORG",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "American",
+      "ent_type": "NORP",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Philadelphia",
+      "ent_type": "GPE",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "the 19th century",
+      "ent_type": "DATE",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "T.S. Arthur",
+      "ent_type": "PERSON",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Edgar A. Poe",
+      "ent_type": "PERSON",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "J.H. Ingraham",
+      "ent_type": "PERSON",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Sarah Josepha Hale",
+      "ent_type": "PERSON",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Thomas G. Spear",
+      "ent_type": "PERSON",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "May 1846",
+      "ent_type": "DATE",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Godey",
+      "ent_type": "PERSON",
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "id": "Bauer Media Group",
+      "ent_type": "ORG",
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "id": "USA",
+      "ent_type": "GPE",
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "id": "1989",
+      "ent_type": "DATE",
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "id": "Englewood Cliffs",
+      "ent_type": "GPE",
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "id": "New Jersey",
+      "ent_type": "GPE",
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "id": "2011",
+      "ent_type": "DATE",
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "it",
+      "target": "work",
+      "relations": [
+        "feature"
+      ],
+      "weight": 1.0,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "Edgar A. Poe",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "Godey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "J.H. Ingraham",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "May 1846",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "Philadelphia",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Arthur's Magazine",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "Arthur's Magazine",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "Edgar A. Poe",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "Godey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "J.H. Ingraham",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "May 1846",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "Philadelphia",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "American",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Philadelphia",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Philadelphia",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Philadelphia",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Philadelphia",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "T.S. Arthur",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "T.S. Arthur",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "Godey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "J.H. Ingraham",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "May 1846",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "Philadelphia",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Edgar A. Poe",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "J.H. Ingraham",
+      "target": "May 1846",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "J.H. Ingraham",
+      "target": "Philadelphia",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "J.H. Ingraham",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "J.H. Ingraham",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "J.H. Ingraham",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "J.H. Ingraham",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Sarah Josepha Hale",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Sarah Josepha Hale",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Sarah Josepha Hale",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Thomas G. Spear",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "May 1846",
+      "target": "Philadelphia",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "May 1846",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "May 1846",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "May 1846",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "May 1846",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "J.H. Ingraham",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "May 1846",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "Philadelphia",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "Sarah Josepha Hale",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "T.S. Arthur",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "Thomas G. Spear",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Godey",
+      "target": "the 19th century",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "Arthur's Magazine_chunk_0"
+      ]
+    },
+    {
+      "source": "Bauer Media Group",
+      "target": "Englewood Cliffs",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "Bauer Media Group",
+      "target": "New Jersey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "Bauer Media Group",
+      "target": "USA",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "1989",
+      "target": "2011",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "1989",
+      "target": "Bauer Media Group",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "1989",
+      "target": "Englewood Cliffs",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "1989",
+      "target": "New Jersey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "1989",
+      "target": "USA",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "Englewood Cliffs",
+      "target": "New Jersey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "Englewood Cliffs",
+      "target": "USA",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "New Jersey",
+      "target": "USA",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "2011",
+      "target": "Bauer Media Group",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "2011",
+      "target": "Englewood Cliffs",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "2011",
+      "target": "New Jersey",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    },
+    {
+      "source": "2011",
+      "target": "USA",
+      "relations": [
+        "co_occurs"
+      ],
+      "weight": 0.25,
+      "chunks": [
+        "First for Women_chunk_0"
+      ]
+    }
+  ]
+}

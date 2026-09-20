@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "last_updated": "2026-09-07 21:35:26",
-        "total_queries_logged": 3
+        "last_updated": "2026-09-11 12:20:23",
+        "total_queries_logged": 4
     },
     "logs": [
         {
@@ -223,6 +223,80 @@
                     "lemma": "regulation",
                     "pos": "NOUN",
                     "dep": "dobj"
+                }
+            ]
+        },
+        {
+            "query": "Isn't St. John's-based company's co-founder working on non-U.S. state-of-the-art LLMs' safety protocols?",
+            "latency_ms": 20.387,
+            "anchors": {
+                "entity_anchors": [
+                    "U.S.",
+                    "St. John's"
+                ],
+                "relation_anchors": [
+                    "protocol",
+                    "work",
+                    "state",
+                    "art",
+                    "base",
+                    "founder",
+                    "company",
+                    "safety"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "St. John's",
+                    "canonical_node": "St. John's",
+                    "type": "GPE"
+                },
+                {
+                    "raw_mention": "U.S.",
+                    "canonical_node": "U.S.",
+                    "type": "GPE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "base",
+                    "pos": "VERB",
+                    "dep": "amod"
+                },
+                {
+                    "lemma": "company",
+                    "pos": "NOUN",
+                    "dep": "poss"
+                },
+                {
+                    "lemma": "founder",
+                    "pos": "NOUN",
+                    "dep": "attr"
+                },
+                {
+                    "lemma": "work",
+                    "pos": "VERB",
+                    "dep": "acl"
+                },
+                {
+                    "lemma": "state",
+                    "pos": "NOUN",
+                    "dep": "pobj"
+                },
+                {
+                    "lemma": "art",
+                    "pos": "NOUN",
+                    "dep": "compound"
+                },
+                {
+                    "lemma": "safety",
+                    "pos": "NOUN",
+                    "dep": "compound"
+                },
+                {
+                    "lemma": "protocol",
+                    "pos": "NOUN",
+                    "dep": "pobj"
                 }
             ]
         }

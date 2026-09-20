@@ -1,0 +1,4 @@
+datasets>=3.0.0
+networkx>=3.0
+spacy>=3.8.0
+matplotlib>=3.8.0
