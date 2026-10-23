@@ -1,0 +1,52 @@
+{
+  "passed": 9,
+  "total": 9,
+  "all_passed": true,
+  "results": [
+    {
+      "name": "single connected component",
+      "passed": true,
+      "detail": "component_count=1"
+    },
+    {
+      "name": "sparse connected traversal backbone",
+      "passed": true,
+      "detail": "nodes=49, edges=48, components=1"
+    },
+    {
+      "name": "no unresolved generic/deictic nodes",
+      "passed": true,
+      "detail": "forbidden_nodes=[]"
+    },
+    {
+      "name": "quantum physics/mechanics alias merge",
+      "passed": true,
+      "detail": "matching_canonical_nodes=1"
+    },
+    {
+      "name": "claim provenance round trip",
+      "passed": true,
+      "detail": "invalid_claims=[]"
+    },
+    {
+      "name": "Heisenberg formulated uncertainty principle",
+      "passed": true,
+      "detail": "matched_nodes=1, claims=2, missing_terms=[]"
+    },
+    {
+      "name": "Einstein explained photoelectric effect",
+      "passed": true,
+      "detail": "matched_nodes=1, claims=3, missing_terms=[]"
+    },
+    {
+      "name": "Quantum mechanics underpins technologies",
+      "passed": true,
+      "detail": "matched_nodes=1, claims=1, missing_terms=[]"
+    },
+    {
+      "name": "Quantum computing leverages superposition",
+      "passed": true,
+      "detail": "matched_nodes=1, claims=2, missing_terms=[]"
+    }
+  ]
+}

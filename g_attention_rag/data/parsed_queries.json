@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "last_updated": "2026-10-23 09:41:52",
+        "total_queries_logged": 1
+    },
+    "logs": [
+        {
+            "query": "Who explained the photoelectric effect in 1905?",
+            "latency_ms": 7.182,
+            "anchors": {
+                "entity_anchors": [
+                    "1905"
+                ],
+                "relation_anchors": [
+                    "explain",
+                    "effect"
+                ]
+            },
+            "detailed_entities": [
+                {
+                    "raw_mention": "1905",
+                    "canonical_node": "1905",
+                    "type": "DATE"
+                }
+            ],
+            "detailed_relations": [
+                {
+                    "lemma": "explain",
+                    "pos": "VERB",
+                    "dep": "ROOT"
+                },
+                {
+                    "lemma": "effect",
+                    "pos": "NOUN",
+                    "dep": "dobj"
+                }
+            ]
+        }
+    ]
+}
