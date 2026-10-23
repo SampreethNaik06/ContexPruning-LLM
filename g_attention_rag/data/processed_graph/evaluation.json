@@ -1,0 +1,27 @@
+{
+  "passed": 4,
+  "total": 4,
+  "all_passed": true,
+  "results": [
+    {
+      "name": "single connected component",
+      "passed": true,
+      "detail": "component_count=1"
+    },
+    {
+      "name": "sparse connected traversal backbone",
+      "passed": true,
+      "detail": "nodes=352, edges=351, components=1"
+    },
+    {
+      "name": "no unresolved generic/deictic nodes",
+      "passed": true,
+      "detail": "forbidden_nodes=[]"
+    },
+    {
+      "name": "claim provenance round trip",
+      "passed": true,
+      "detail": "invalid_claims=[]"
+    }
+  ]
+}
