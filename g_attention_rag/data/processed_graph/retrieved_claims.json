@@ -1,0 +1,679 @@
+{
+  "matched_nodes": [
+    {
+      "anchor": "SEBI",
+      "node_id": "sebi",
+      "canonical_name": "SEBI",
+      "score": 1.0
+    }
+  ],
+  "paths": [
+    {
+      "nodes": [
+        "sebi",
+        "obligation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "obligation",
+          "edge_key": "claim_8812cb89a2cb9803",
+          "relation": "list",
+          "claim_id": "claim_8812cb89a2cb9803",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "obligation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "obligation",
+          "edge_key": "claim_687bd5632c61857b",
+          "relation": "list",
+          "claim_id": "claim_687bd5632c61857b",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "obligation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "obligation",
+          "edge_key": "claim_061d2cad07f67295",
+          "relation": "list",
+          "claim_id": "claim_061d2cad07f67295",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "obligation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "obligation",
+          "edge_key": "claim_3070f805b76d0e2f",
+          "relation": "list",
+          "claim_id": "claim_3070f805b76d0e2f",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "obligation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "obligation",
+          "edge_key": "claim_bc221e88ac1c7e45",
+          "relation": "list",
+          "claim_id": "claim_bc221e88ac1c7e45",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "obligation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "obligation",
+          "edge_key": "claim_2426e096a43a2724",
+          "relation": "list",
+          "claim_id": "claim_2426e096a43a2724",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "disclosure requirement"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "disclosure requirement",
+          "edge_key": "claim_261d4e81a5f128a4",
+          "relation": "list",
+          "claim_id": "claim_261d4e81a5f128a4",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "disclosure requirement"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "disclosure requirement",
+          "edge_key": "claim_c38e40c7ca382de3",
+          "relation": "list",
+          "claim_id": "claim_c38e40c7ca382de3",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "disclosure requirement"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "disclosure requirement",
+          "edge_key": "claim_67be76f8b305f8b8",
+          "relation": "list",
+          "claim_id": "claim_67be76f8b305f8b8",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "disclosure requirement"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "disclosure requirement",
+          "edge_key": "claim_e7261987df6cd6dd",
+          "relation": "list",
+          "claim_id": "claim_e7261987df6cd6dd",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "disclosure requirement"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "disclosure requirement",
+          "edge_key": "claim_f636f1707171034e",
+          "relation": "list",
+          "claim_id": "claim_f636f1707171034e",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "disclosure requirement"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "disclosure requirement",
+          "edge_key": "claim_d3072d9d2c151938",
+          "relation": "list",
+          "claim_id": "claim_d3072d9d2c151938",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "re 1ulation"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0922,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "re 1ulation",
+          "edge_key": "claim_b27a21546a80b548",
+          "relation": "list",
+          "claim_id": "claim_b27a21546a80b548",
+          "inferred": false,
+          "confidence": 0.96,
+          "flow": 0.0922,
+          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "march 29 2019"
+      ],
+      "hop_count": 1,
+      "reliability": 1.0902,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "march 29 2019",
+          "edge_key": "claim_f5537a03ec80ff14",
+          "relation": "issue",
+          "claim_id": "claim_f5537a03ec80ff14",
+          "inferred": false,
+          "confidence": 0.95,
+          "flow": 0.0902,
+          "supporting_text": "We also performed procedures in accordance with the circular CIR/CFD/CMD1/44/2019 dated March\n 29, 2019 issued by the SEBI under Regulation 33(8) of the Listing Regulations, to the extent\n applicable."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "sebi",
+        "quarter end june 3o 2023"
+      ],
+      "hop_count": 1,
+      "reliability": 1.074,
+      "steps": [
+        {
+          "source": "sebi",
+          "target": "quarter end june 3o 2023",
+          "edge_key": "claim_4f0da3c64bcced9f",
+          "relation": "read_of",
+          "claim_id": "claim_4f0da3c64bcced9f",
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.074,
+          "supporting_text": "Y*:'t/,((ffiR\n ncial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nDeloitte Haskins & Sells PKF Sridhar & Santhanam LLP\n ASV N Ramana Tower TB & T9, Third Floor\n 52, Venkatnarayana Road Gem Plaza,\n T. Nagar; Chennai-600 017 66, Infantry Road\n Tamil Nadu, India Bangalore 560 001, India\n Tel: 044 6688 5000 Phone: 91-80-41307244\n Fax: O44 6688 5050 Phone: 91-80-41317244\n\n INDEPENDENT AUDITORS' REPORT ON REVIEW OF INTERIM STANDALONE FINANCIAL\n RESULTS\n\n TO THE BOARD OF DIRECTORS OF\n CREDITACCESS GRAMEEN LIMITED\n We have reviewed the accompanying Statement of Unaudited Standalone Financial Results of\n CreditAccess Grameen Limited (the \"Compdny'), for the quarter ended June 3O, 2023 (the\n \"Statement\"), being submitted by the Company pursuant to the requirement of Regulation 33 and\n Regulation 52 read with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure\n Requirements) Regulations, 20L5, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_8812cb89a2cb9803",
+      "subject_id": "sebi",
+      "subject": "SEBI",
+      "relation": "list",
+      "object_id": "obligation",
+      "object": "Obligations",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.96,
+      "extraction_method": "dependency_svo",
+      "document_id": "doc_59e42c99585bf22c",
+      "chunk_id": "chunk_0eff2691dde35227",
+      "sentence_id": "sent_28fce65abb3f3396",
+      "sentence_index": 18,
+      "paragraph_index": 17,
+      "sentence_span": [
+        4865,
+        5245
+      ],
+      "subject_span": [
+        4927,
+        4935
+      ],
+      "predicate_span": [
+        4937,
+        4944
+      ],
+      "object_span": [
+        4945,
+        4956
+      ],
+      "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)",
+      "fact": "SEBI list Obligations",
+      "path_reliability": 1.0922,
+      "edge_flow": 0.0922,
+      "best_path_rank": 1,
+      "path_count": 6,
+      "occurrences": [
+        {
+          "claim_id": "claim_8812cb89a2cb9803",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            4865,
+            5245
+          ],
+          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
+        },
+        {
+          "claim_id": "claim_687bd5632c61857b",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            19137,
+            19853
+          ],
+          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
+        },
+        {
+          "claim_id": "claim_061d2cad07f67295",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            20410,
+            21157
+          ],
+          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
+        },
+        {
+          "claim_id": "claim_3070f805b76d0e2f",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            34843,
+            35510
+          ],
+          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
+        },
+        {
+          "claim_id": "claim_bc221e88ac1c7e45",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            38630,
+            39001
+          ],
+          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+        },
+        {
+          "claim_id": "claim_2426e096a43a2724",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            41111,
+            41592
+          ],
+          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_261d4e81a5f128a4",
+      "subject_id": "sebi",
+      "subject": "SEBI",
+      "relation": "list",
+      "object_id": "disclosure requirement",
+      "object": "Disclosure Requirements",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.96,
+      "extraction_method": "dependency_svo",
+      "document_id": "doc_59e42c99585bf22c",
+      "chunk_id": "chunk_0eff2691dde35227",
+      "sentence_id": "sent_28fce65abb3f3396",
+      "sentence_index": 18,
+      "paragraph_index": 17,
+      "sentence_span": [
+        4865,
+        5245
+      ],
+      "subject_span": [
+        4927,
+        4935
+      ],
+      "predicate_span": [
+        4937,
+        4944
+      ],
+      "object_span": [
+        4961,
+        4984
+      ],
+      "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)",
+      "fact": "SEBI list Disclosure Requirements",
+      "path_reliability": 1.0922,
+      "edge_flow": 0.0922,
+      "best_path_rank": 7,
+      "path_count": 6,
+      "occurrences": [
+        {
+          "claim_id": "claim_261d4e81a5f128a4",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            4865,
+            5245
+          ],
+          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
+        },
+        {
+          "claim_id": "claim_c38e40c7ca382de3",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            19137,
+            19853
+          ],
+          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
+        },
+        {
+          "claim_id": "claim_67be76f8b305f8b8",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            20410,
+            21157
+          ],
+          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
+        },
+        {
+          "claim_id": "claim_e7261987df6cd6dd",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            34843,
+            35510
+          ],
+          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
+        },
+        {
+          "claim_id": "claim_f636f1707171034e",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            38630,
+            39001
+          ],
+          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+        },
+        {
+          "claim_id": "claim_d3072d9d2c151938",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            41111,
+            41592
+          ],
+          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_b27a21546a80b548",
+      "subject_id": "sebi",
+      "subject": "SEBI",
+      "relation": "list",
+      "object_id": "re 1ulation",
+      "object": "Re<1ulations",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.96,
+      "extraction_method": "dependency_svo",
+      "document_id": "doc_e6e1b70747d19696",
+      "chunk_id": "chunk_bde3c43f82451f47",
+      "sentence_id": "sent_c1e644d5512a05da",
+      "sentence_index": 144,
+      "paragraph_index": 136,
+      "sentence_span": [
+        38630,
+        39001
+      ],
+      "subject_span": [
+        38866,
+        38874
+      ],
+      "predicate_span": [
+        38876,
+        38883
+      ],
+      "object_span": [
+        38926,
+        38938
+      ],
+      "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023",
+      "fact": "SEBI list Re<1ulations",
+      "path_reliability": 1.0922,
+      "edge_flow": 0.0922,
+      "best_path_rank": 13,
+      "path_count": 1,
+      "occurrences": [
+        {
+          "claim_id": "claim_b27a21546a80b548",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            38630,
+            39001
+          ],
+          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_f5537a03ec80ff14",
+      "subject_id": "sebi",
+      "subject": "SEBI",
+      "relation": "issue",
+      "object_id": "march 29 2019",
+      "object": "March\n 29, 2019",
+      "negated": false,
+      "voice": "passive_normalized",
+      "confidence": 0.95,
+      "extraction_method": "passive_svo",
+      "document_id": "doc_e6e1b70747d19696",
+      "chunk_id": "chunk_156b73c2a1ab0d9a",
+      "sentence_id": "sent_49897d5e14fc44e4",
+      "sentence_index": 171,
+      "paragraph_index": 147,
+      "sentence_span": [
+        42893,
+        43095
+      ],
+      "subject_span": [
+        43007,
+        43015
+      ],
+      "predicate_span": [
+        42997,
+        43003
+      ],
+      "object_span": [
+        42981,
+        42996
+      ],
+      "supporting_text": "We also performed procedures in accordance with the circular CIR/CFD/CMD1/44/2019 dated March\n 29, 2019 issued by the SEBI under Regulation 33(8) of the Listing Regulations, to the extent\n applicable.",
+      "fact": "SEBI issue March\n 29, 2019",
+      "path_reliability": 1.0902,
+      "edge_flow": 0.0902,
+      "best_path_rank": 14,
+      "path_count": 1,
+      "occurrences": [
+        {
+          "claim_id": "claim_f5537a03ec80ff14",
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            42893,
+            43095
+          ],
+          "supporting_text": "We also performed procedures in accordance with the circular CIR/CFD/CMD1/44/2019 dated March\n 29, 2019 issued by the SEBI under Regulation 33(8) of the Listing Regulations, to the extent\n applicable."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_4f0da3c64bcced9f",
+      "subject_id": "quarter end june 3o 2023",
+      "subject": "the quarter ended June 3O, 2023",
+      "relation": "read_of",
+      "object_id": "sebi",
+      "object": "SEBI",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_59e42c99585bf22c",
+      "chunk_id": "chunk_c7170a3313de51ee",
+      "sentence_id": "sent_3a352b2b817a6589",
+      "sentence_index": 50,
+      "paragraph_index": 28,
+      "sentence_span": [
+        10569,
+        11539
+      ],
+      "subject_span": [
+        11243,
+        11274
+      ],
+      "predicate_span": [
+        11390,
+        11394
+      ],
+      "object_span": [
+        11420,
+        11428
+      ],
+      "supporting_text": "Y*:'t/,((ffiR\n ncial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nDeloitte Haskins & Sells PKF Sridhar & Santhanam LLP\n ASV N Ramana Tower TB & T9, Third Floor\n 52, Venkatnarayana Road Gem Plaza,\n T. Nagar; Chennai-600 017 66, Infantry Road\n Tamil Nadu, India Bangalore 560 001, India\n Tel: 044 6688 5000 Phone: 91-80-41307244\n Fax: O44 6688 5050 Phone: 91-80-41317244\n\n INDEPENDENT AUDITORS' REPORT ON REVIEW OF INTERIM STANDALONE FINANCIAL\n RESULTS\n\n TO THE BOARD OF DIRECTORS OF\n CREDITACCESS GRAMEEN LIMITED\n We have reviewed the accompanying Statement of Unaudited Standalone Financial Results of\n CreditAccess Grameen Limited (the \"Compdny'), for the quarter ended June 3O, 2023 (the\n \"Statement\"), being submitted by the Company pursuant to the requirement of Regulation 33 and\n Regulation 52 read with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure\n Requirements) Regulations, 20L5, as amended (the \"Listing Regulations\").",
+      "fact": "the quarter ended June 3O, 2023 read of SEBI",
+      "path_reliability": 1.074,
+      "edge_flow": 0.074,
+      "best_path_rank": 15,
+      "path_count": 1,
+      "occurrences": [
+        {
+          "claim_id": "claim_4f0da3c64bcced9f",
+          "document_id": "doc_59e42c99585bf22c",
+          "sentence_span": [
+            10569,
+            11539
+          ],
+          "supporting_text": "Y*:'t/,((ffiR\n ncial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nDeloitte Haskins & Sells PKF Sridhar & Santhanam LLP\n ASV N Ramana Tower TB & T9, Third Floor\n 52, Venkatnarayana Road Gem Plaza,\n T. Nagar; Chennai-600 017 66, Infantry Road\n Tamil Nadu, India Bangalore 560 001, India\n Tel: 044 6688 5000 Phone: 91-80-41307244\n Fax: O44 6688 5050 Phone: 91-80-41317244\n\n INDEPENDENT AUDITORS' REPORT ON REVIEW OF INTERIM STANDALONE FINANCIAL\n RESULTS\n\n TO THE BOARD OF DIRECTORS OF\n CREDITACCESS GRAMEEN LIMITED\n We have reviewed the accompanying Statement of Unaudited Standalone Financial Results of\n CreditAccess Grameen Limited (the \"Compdny'), for the quarter ended June 3O, 2023 (the\n \"Statement\"), being submitted by the Company pursuant to the requirement of Regulation 33 and\n Regulation 52 read with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure\n Requirements) Regulations, 20L5, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "entity_anchors_count": 1,
+    "matched_nodes_count": 1,
+    "paths_explored": 15,
+    "claims_extracted": 5,
+    "duplicates_dropped": 10,
+    "alpha": 0.8,
+    "theta": 0.05,
+    "max_hops": 3
+  }
+}

@@ -19,78 +19,21 @@ if __package__:
     from .src.graph_builder import (
         CONTEXT_RELATIONS, CO_OCCUR_RELATION, build_graph, build_graph_from_documents, export_json,
     )
+    from .src.graph_traversal import retrieve_with_traversal_details
+    from .src.query_parser import StandaloneQueryParser
 else:
     from eval.evaluate import evaluate
     from src.graph_builder import (
         CONTEXT_RELATIONS, CO_OCCUR_RELATION, build_graph, build_graph_from_documents, export_json,
     )
+    from src.graph_traversal import retrieve_with_traversal_details
+    from src.query_parser import StandaloneQueryParser
+
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
-def import_hotpotqa_dataset(
-    sample_idx: int = 0,
-    supporting_only: bool = True,
-    local_path: str = "data/raw/hotpotqa_sample.json",
-) -> tuple[dict[str, str], dict]:
-    """
-    Imports and extracts documents from the HotpotQA dataset.
-    Loads from local cache (data/raw/hotpotqa_sample.json) if available,
-    otherwise downloads samples using the `datasets` library.
-    """
-    samples = []
-    if os.path.exists(local_path):
-        with open(local_path, "r", encoding="utf-8") as f:
-            samples = json.load(f)
-    else:
-        print("[HotpotQA] Local sample cache not found. Fetching from Hugging Face 'hotpotqa/hotpot_qa'...")
-        from datasets import load_dataset
-        ds = load_dataset("hotpotqa/hotpot_qa", "distractor", split="train", streaming=True)
-        for i, item in enumerate(ds):
-            if i >= 10:
-                break
-            ctx_titles = list(item["context"]["title"])
-            ctx_sentences = [list(s) for s in item["context"]["sentences"]]
-            samples.append({
-                "id": item["id"],
-                "question": item["question"],
-                "answer": item["answer"],
-                "type": item["type"],
-                "level": item.get("level", ""),
-                "supporting_facts": {
-                    "title": list(item["supporting_facts"]["title"]),
-                    "sent_id": [int(x) for x in item["supporting_facts"]["sent_id"]],
-                },
-                "context": {
-                    "title": ctx_titles,
-                    "sentences": ctx_sentences,
-                },
-            })
-        os.makedirs(os.path.dirname(local_path), exist_ok=True)
-        with open(local_path, "w", encoding="utf-8") as f:
-            json.dump(samples, f, indent=2)
-        print(f"[HotpotQA] Saved {len(samples)} samples to {local_path}")
-
-    if not samples:
-        raise ValueError("HotpotQA sample cache is empty")
-
-    # Select requested sample
-    idx = max(0, min(sample_idx, len(samples) - 1))
-    sample = samples[idx]
-
-    gold_titles = set(sample["supporting_facts"]["title"])
-    docs = {}
-    titles = sample["context"]["title"]
-    sentences_list = sample["context"]["sentences"]
-
-    for title, sentences in zip(titles, sentences_list):
-        if supporting_only and title not in gold_titles:
-            continue
-        docs[title] = f"{title}. " + " ".join(sentences)
-
-    return docs, sample
-
-
 ENT_TYPE_COLORS = {
+
     "PERSON": "#E89344",
     "ORG": "#94C6D4",
     "GPE": "#F0AD4E",
@@ -275,9 +218,7 @@ def plot_graph(
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("input", nargs="?", type=Path, help="UTF-8 text document; otherwise use HotpotQA")
-    parser.add_argument("--sample-idx", type=int, default=0)
-    parser.add_argument("--all-context", action="store_true")
+    parser.add_argument("input", nargs="?", type=Path, help="UTF-8 text document; if omitted, loads existing data/knowledge_graph.pkl")
     parser.add_argument("--output-dir", type=Path, default=SCRIPT_DIR / "data")
     parser.add_argument("--model", default="en_core_web_sm")
     parser.add_argument("--max-chunk-chars", type=int, default=1200)
@@ -289,36 +230,40 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--fixture-checks", action="store_true", help="Also run the quantum-physics alias/retrieval checks")
     parser.add_argument("--skip-evaluation", action="store_true")
     parser.add_argument("--strict", action="store_true", help="Exit nonzero when an evaluation check fails")
+    parser.add_argument("--query", type=str, default=None, help="Query string for PathRAG traversal")
+    parser.add_argument("--retrieve", action="store_true", help="Run PathRAG query parsing & claim retrieval")
     args = parser.parse_args(argv)
     if args.max_chunk_chars < 100:
         parser.error("--max-chunk-chars must be at least 100")
     if args.strict and args.skip_evaluation:
         parser.error("--strict requires evaluation")
-    if args.input and (args.all_context or args.sample_idx != 0):
-        parser.error("HotpotQA options cannot be combined with a text input")
-
-    if args.input:
-        state = build_graph(
-            args.input.read_text(encoding="utf-8"), args.input.name,
-            args.model, args.max_chunk_chars,
-        )
-    else:
-        documents, sample = import_hotpotqa_dataset(
-            args.sample_idx, not args.all_context,
-            str(SCRIPT_DIR / "data/raw/hotpotqa_sample.json"),
-        )
-        print(f"HotpotQA: {sample['question']}")
-        state = build_graph_from_documents(
-            documents, output_path=None, spacy_model=args.model,
-            max_chunk_chars=args.max_chunk_chars,
-        ).state
 
     output = args.output_dir
     output.mkdir(parents=True, exist_ok=True)
     graph_path = output / "knowledge_graph.pkl"
-    with graph_path.open("wb") as handle:
-        pickle.dump(state, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    export_json(state, output / "processed_graph/graph_output.json")
+
+    if args.input:
+        if not args.input.exists():
+            parser.error(f"Input file not found: {args.input}")
+        text = args.input.read_text(encoding="utf-8")
+        print(f"Building knowledge graph from {args.input.name} ({len(text)} chars)...")
+        state = build_graph(
+            text, args.input.name,
+            args.model, args.max_chunk_chars,
+        )
+        with graph_path.open("wb") as handle:
+            pickle.dump(state, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        export_json(state, output / "processed_graph/graph_output.json")
+    elif graph_path.exists():
+        print(f"Loading existing knowledge graph from {graph_path}...")
+        with graph_path.open("rb") as handle:
+            state = pickle.load(handle)
+    else:
+        parser.error(
+            "No input document provided and no existing data/knowledge_graph.pkl found.\n"
+            "Usage: python main.py <document.txt> [--query '...'] [--retrieve]"
+        )
+
     print(json.dumps(state["diagnostics"], indent=2))
 
     report = None
@@ -328,6 +273,34 @@ def main(argv: list[str] | None = None) -> int:
         for result in report["results"]:
             print(f"[{'PASS' if result['passed'] else 'FAIL'}] {result['name']}: {result['detail']}")
         print(f"Passed {report['passed']}/{report['total']} checks")
+
+    query_text = args.query
+    if query_text or args.retrieve:
+        if not query_text:
+            print("[Info] No --query specified. Provide --query '<question>' to traverse claims.")
+        else:
+            print(f"\n--- PathRAG Traversal for Query: '{query_text}' ---")
+            parser_engine = StandaloneQueryParser(args.model)
+            parse_result = parser_engine.parse_query(query_text)
+            anchors = parse_result["anchors"]
+            print(f"Entity Anchors: {anchors['entity_anchors']}")
+            print(f"Relation Anchors: {anchors['relation_anchors']}")
+
+            retrieval_res = retrieve_with_traversal_details(
+                state,
+                entity_anchors=anchors["entity_anchors"],
+                relation_anchors=anchors["relation_anchors"],
+            )
+            claims_out = output / "processed_graph/retrieved_claims.json"
+            claims_out.write_text(json.dumps(retrieval_res, indent=2, ensure_ascii=False), encoding="utf-8")
+            stats = retrieval_res["stats"]
+            print(
+                f"Retrieved {len(retrieval_res['claims'])} deduplicated claims "
+                f"(dropped {stats['duplicates_dropped']} duplicates across {stats['paths_explored']} paths)"
+            )
+            for i, claim in enumerate(retrieval_res["claims"][:5], 1):
+                print(f"  {i}. [Reliability: {claim.get('path_reliability', 1.0):.3f}] {claim.get('fact', '')}")
+            print(f"Saved retrieved claims to {claims_out}")
 
     plot_graph(
         graph_path, output / "processed_graph/knowledge_graph.png", args.title,
@@ -340,6 +313,7 @@ def main(argv: list[str] | None = None) -> int:
             show_edge_labels=not args.hide_edge_labels,
         )
     return int(args.strict and report is not None and not report["all_passed"])
+
 
 
 if __name__ == "__main__":

@@ -56,6 +56,21 @@ class StandaloneQueryParser:
                 })
                 extracted_ent_tokens.update(token.i for token in ent)
 
+        # Capture domain proper nouns & acronyms (e.g. SEBI, RBI, NASDAQ) missed by statistical NER
+        for token in doc:
+            if token.i in extracted_ent_tokens:
+                continue
+            if token.is_stop or token.is_punct or len(token.text.strip()) <= 1:
+                continue
+            if token.pos_ == "PROPN" or (token.text.isupper() and token.text.isalpha() and len(token.text) >= 2):
+                entity_nodes.append({
+                    "raw_mention": token.text,
+                    "canonical_node": token.text.strip(),
+                    "type": "PROPN"
+                })
+                extracted_ent_tokens.add(token.i)
+
+
         relation_nodes = []
         for token in doc:
             lemma = token.lemma_.lower().strip()
