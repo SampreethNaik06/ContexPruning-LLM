@@ -11,10 +11,19 @@ from .graph_text import canonical_form
 
 
 def entity_covering_token(token: Token) -> Span | None:
-    for entity in token.doc.ents:
-        if entity.start <= token.i < entity.end:
-            return entity
-    return None
+    """Return a token's full named-entity span without scanning every entity."""
+    if token.ent_iob_ == "O":
+        return None
+
+    start = token.i
+    while start > 0 and token.doc[start].ent_iob_ == "I":
+        start -= 1
+
+    end = token.i + 1
+    while end < len(token.doc) and token.doc[end].ent_iob_ == "I":
+        end += 1
+
+    return token.doc[start:end]
 
 def phrase_from_token(token: Token, include_of_phrase: bool = True) -> dict[str, Any]:
     """Create a compact entity/concept phrase without swallowing clauses."""

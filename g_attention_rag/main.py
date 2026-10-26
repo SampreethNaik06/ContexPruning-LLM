@@ -10,11 +10,13 @@ from pathlib import Path
 if __package__:
     from .graph_visualization import display_name, load_graph, plot_graph
     from .src.graph_builder import build_graph, export_json
+    from .src.graph_constants import SCHEMA_VERSION
     from .src.graph_traversal import retrieve_with_traversal_details
     from .src.query_parser import StandaloneQueryParser
 else:
     from graph_visualization import display_name, load_graph, plot_graph
     from src.graph_builder import build_graph, export_json
+    from src.graph_constants import SCHEMA_VERSION
     from src.graph_traversal import retrieve_with_traversal_details
     from src.query_parser import StandaloneQueryParser
 
@@ -55,14 +57,7 @@ def main(argv: list[str] | None = None) -> int:
         parser.error("--max-chunk-chars must be at least 100")
 
     query_text = (args.query or "").strip()
-    while not query_text:
-        try:
-            query_text = input("Enter your query: ").strip()
-        except EOFError:
-            parser.error("No query received. Enter a query or pass --query '<question>'.")
-        if not query_text:
-            print("Please enter a non-empty query.")
-
+    retrieve = args.retrieve or bool(query_text)
     output = args.output_dir
     output.mkdir(parents=True, exist_ok=True)
     graph_path = output / "knowledge_graph.pkl"
@@ -83,6 +78,11 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Loading existing knowledge graph from {graph_path}...")
         with graph_path.open("rb") as handle:
             state = pickle.load(handle)
+        if state.get("schema_version") != SCHEMA_VERSION:
+            parser.error(
+                "The saved graph uses an older schema. Rebuild it from its source "
+                "document before loading it."
+            )
     else:
         parser.error(
             "No input document provided and no existing data/knowledge_graph.pkl found.\n"
@@ -91,34 +91,45 @@ def main(argv: list[str] | None = None) -> int:
 
     print(json.dumps(state["diagnostics"], indent=2))
 
-    print(f"\n--- PathRAG Traversal for Query: '{query_text}' ---")
-    parser_engine = StandaloneQueryParser(args.model)
-    parse_result = parser_engine.parse_query(query_text)
-    anchors = parse_result["anchors"]
-    print(f"Entity Anchors: {anchors['entity_anchors']}")
-    print(f"Relation Anchors: {anchors['relation_anchors']}")
+    if retrieve:
+        while not query_text:
+            try:
+                query_text = input("Enter your query: ").strip()
+            except EOFError:
+                parser.error(
+                    "No query received. Enter a query or pass --query '<question>'."
+                )
+            if not query_text:
+                print("Please enter a non-empty query.")
 
-    retrieval_res = retrieve_with_traversal_details(
-        state,
-        entity_anchors=anchors["entity_anchors"],
-        relation_anchors=anchors["relation_anchors"],
-    )
-    claims_out = output / "processed_graph/retrieved_claims.json"
-    claims_out.parent.mkdir(parents=True, exist_ok=True)
-    claims_out.write_text(
-        json.dumps(retrieval_res, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-    stats = retrieval_res["stats"]
-    print(
-        f"Retrieved {len(retrieval_res['claims'])} deduplicated claims "
-        f"(dropped {stats['duplicates_dropped']} duplicates across "
-        f"{stats['paths_explored']} paths)"
-    )
-    for i, claim in enumerate(retrieval_res["claims"], 1):
-        reliability = claim.get("path_reliability", 1.0)
-        print(f"  {i}. [Reliability: {reliability:.3f}] {claim.get('fact', '')}")
-    print(f"Saved retrieved claims to {claims_out}")
+        print(f"\n--- PathRAG Traversal for Query: '{query_text}' ---")
+        parser_engine = StandaloneQueryParser(args.model)
+        parse_result = parser_engine.parse_query(query_text)
+        anchors = parse_result["anchors"]
+        print(f"Entity Anchors: {anchors['entity_anchors']}")
+        print(f"Relation Anchors: {anchors['relation_anchors']}")
+
+        retrieval_res = retrieve_with_traversal_details(
+            state,
+            entity_anchors=anchors["entity_anchors"],
+            relation_anchors=anchors["relation_anchors"],
+        )
+        claims_out = output / "processed_graph/retrieved_claims.json"
+        claims_out.parent.mkdir(parents=True, exist_ok=True)
+        claims_out.write_text(
+            json.dumps(retrieval_res, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        stats = retrieval_res["stats"]
+        print(
+            f"Retrieved {len(retrieval_res['claims'])} deduplicated claims "
+            f"(dropped {stats['duplicates_dropped']} duplicates across "
+            f"{stats['paths_explored']} paths)"
+        )
+        for i, claim in enumerate(retrieval_res["claims"], 1):
+            reliability = claim.get("path_reliability", 1.0)
+            print(f"  {i}. [Reliability: {reliability:.3f}] {claim.get('fact', '')}")
+        print(f"Saved retrieved claims to {claims_out}")
 
     plot_graph(
         graph_path, output / "processed_graph/knowledge_graph.png", args.title,

@@ -51,6 +51,56 @@ def paragraph_ranges(text: str) -> list[tuple[int, int]]:
     ]
     return ranges or [(0, len(text))]
 
+def heading_ranges(text: str) -> list[tuple[int, int]]:
+    """Find short standalone headings that can be joined to prose by spaCy."""
+    ignored_title_words = {
+        "a", "an", "and", "as", "at", "by", "for", "from", "in", "into",
+        "of", "on", "or", "the", "to", "via", "with",
+    }
+    ranges: list[tuple[int, int]] = []
+    offset = 0
+    for line in text.splitlines(keepends=True):
+        content = line.rstrip("\r\n")
+        stripped = content.strip()
+        leading = len(content) - len(content.lstrip())
+        start, end = offset + leading, offset + len(content.rstrip())
+        words = re.findall(r"[A-Za-z][A-Za-z0-9'’-]*", stripped)
+        if (
+            stripped
+            and len(stripped) <= 140
+            and 0 < len(words) <= 14
+            and not re.search(r"[.!?]\s*$", stripped)
+        ):
+            content_words = [
+                word for word in words if word.casefold() not in ignored_title_words
+            ]
+            capitalized = sum(word[0].isupper() for word in content_words)
+            letters = [char for char in stripped if char.isalpha()]
+            uppercase_ratio = (
+                sum(char.isupper() for char in letters) / len(letters)
+                if letters else 0.0
+            )
+            numbered = bool(re.match(r"^\s*\d+(?:\.\d+)*[.)]?\s+", stripped))
+            markdown_heading = stripped.startswith("#")
+            title_case = bool(content_words) and capitalized / len(content_words) >= 0.7
+            all_caps = len(letters) >= 3 and uppercase_ratio >= 0.85
+            if numbered or markdown_heading or title_case or all_caps:
+                ranges.append((start, end))
+        offset += len(line)
+    return ranges
+
+def mask_heading_text(
+    text: str,
+    ranges: list[tuple[int, int]] | None = None,
+) -> str:
+    """Replace standalone headings with spaces while preserving source offsets."""
+    chars = list(text)
+    for start, end in (heading_ranges(text) if ranges is None else ranges):
+        for index in range(start, end):
+            if chars[index] not in "\r\n":
+                chars[index] = " "
+    return "".join(chars)
+
 def paragraph_index_for(offset: int, ranges: list[tuple[int, int]]) -> int:
     for index, (start, end) in enumerate(ranges):
         if start <= offset < end:

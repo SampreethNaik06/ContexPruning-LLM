@@ -13,7 +13,7 @@ from .entity_aliases import discover_corpus_aliases
 from .graph_constants import SCHEMA_VERSION
 from .graph_serialization import export_json, graph_to_dict
 from .graph_structure import build_traversal_backbone, ensure_connected, graph_diagnostics
-from .graph_text import clean_source_text, load_nlp, stable_id
+from .graph_text import clean_source_text, load_nlp, mask_heading_text, stable_id
 
 
 class KnowledgeGraphBuilder:
@@ -26,34 +26,56 @@ class KnowledgeGraphBuilder:
         self.state = None
         self.graph = nx.MultiDiGraph()
         self._source_documents: dict[str, tuple[str, str]] = {}
+        self._dirty = False
 
-    def add_chunk(self, chunk_id: str, text: str) -> None:
-        """Add a source and rebuild nodes using aliases discovered across all sources."""
+    def add_chunk(self, chunk_id: str, text: str, *, rebuild: bool = True) -> None:
+        """Add a source, optionally deferring corpus-wide rebuilding until finalize()."""
+        self.add_documents({chunk_id: text}, rebuild=rebuild)
+
+    def add_documents(self, documents: dict[str, str], *, rebuild: bool = True) -> None:
+        """Add sources together; pass ``rebuild=False`` to batch incremental additions."""
         if self.nlp is None:
             self.nlp = load_nlp(self.spacy_model)
-        cleaned = clean_source_text(text)
-        document_id = stable_id("doc", chunk_id, cleaned)
-        if document_id in self._source_documents:
-            return
-        self._source_documents[document_id] = (chunk_id, text)
-        self._rebuild_corpus()
+        changed = False
+        for source_name, text in documents.items():
+            cleaned = clean_source_text(text)
+            document_id = stable_id("doc", source_name, cleaned)
+            if document_id in self._source_documents:
+                continue
+            self._source_documents[document_id] = (source_name, text)
+            changed = True
+        if changed:
+            self._dirty = True
+        if changed and rebuild:
+            self._rebuild_corpus()
+
+    def finalize(self) -> None:
+        """Build the graph once after one or more deferred source additions."""
+        if self._source_documents and self._dirty:
+            self._rebuild_corpus()
 
     def _rebuild_corpus(self) -> None:
         """Resolve aliases corpus-wide before building any document's entity nodes."""
         if not self._source_documents:
             return
+        sources = list(self._source_documents.values())
+        cleaned_texts = [clean_source_text(text) for _, text in sources]
         corpus_aliases, corpus_alias_displays = discover_corpus_aliases(
-            (clean_source_text(text) for _, text in self._source_documents.values()),
-            self.nlp,
+            cleaned_texts, self.nlp,
         )
 
         self.state = None
         self.graph = nx.MultiDiGraph()
-        for source_name, text in self._source_documents.values():
+        parsed_texts = [mask_heading_text(text) for text in cleaned_texts]
+        parsed_documents = self.nlp.pipe(parsed_texts, batch_size=8)
+        for (source_name, text), cleaned, parsed_doc in zip(
+            sources, cleaned_texts, parsed_documents
+        ):
             incoming = build_graph(
                 text, source_name, self.spacy_model, self.max_chunk_chars,
                 nlp=self.nlp, corpus_aliases=corpus_aliases,
                 corpus_alias_displays=corpus_alias_displays,
+                parsed_doc=parsed_doc,
             )
             if self.state is None:
                 self.state = incoming
@@ -67,7 +89,7 @@ class KnowledgeGraphBuilder:
                 existing = self.graph.nodes[node]
                 for field in ("aliases", "claim_ids", "supporting_chunk_ids", "paragraph_indices"):
                     existing[field].update(attributes[field])
-                for field in ("mentions", "claims"):
+                for field in ("mentions",):
                     existing[field].extend(attributes[field])
                 if not existing.get("ent_type") and attributes.get("ent_type"):
                     existing["ent_type"] = attributes["ent_type"]
@@ -78,23 +100,33 @@ class KnowledgeGraphBuilder:
                 self.state[field].update(incoming[field])
             for field in ("context_bridges", "rejected_triples"):
                 self.state[field].extend(incoming[field])
-            # Cross-document links remain explicitly inferred navigation aids.
+
+        if len(sources) > 1:
+            # Add cross-document navigation bridges and rebuild the backbone once,
+            # after all source graphs have been merged.
             self.state["context_bridges"].extend(ensure_connected(
                 self.graph, self.state["topic_node"], "corpus", {}
             ))
             self.state["traversal_graph"] = build_traversal_backbone(
-                self.graph, self.state["topic_node"]
+                self.graph, self.state["topic_node"], component_count=1
             )
             self.state.pop("source_text", None)
             self.state["source_name"] = "document collection"
 
         self.state["explicit_aliases"] = corpus_aliases
+        component_count = (
+            1 if len(sources) > 1 else self.state["diagnostics"]["component_count"]
+        )
         self.state["diagnostics"].update(graph_diagnostics(
             self.graph, self.state["traversal_graph"], self.state["claims"],
             self.state["context_bridges"], self.state["rejected_triples"],
+            component_count=component_count,
+            traversal_component_count=component_count,
         ))
+        self._dirty = False
 
     def save(self, filepath: str = "data/knowledge_graph.pkl") -> None:
+        self.finalize()
         if self.state is None:
             raise ValueError("No documents have been indexed")
         path = Path(filepath)
@@ -138,8 +170,7 @@ def build_graph_from_documents(
     if not documents:
         raise ValueError("At least one document is required")
     builder = KnowledgeGraphBuilder(spacy_model, max_chunk_chars)
-    for name, text in documents.items():
-        builder.add_chunk(name, text)
+    builder.add_documents(documents)
     if output_path is not None:
         builder.save(output_path)
     return builder

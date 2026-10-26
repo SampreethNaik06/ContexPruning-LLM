@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections import defaultdict
 from typing import Any, Iterable
 
 import networkx as nx
@@ -10,7 +11,12 @@ from spacy.tokens import Doc, Span
 from .graph_text import stable_id
 
 
-def make_chunks(doc: Doc, max_chars: int, document_id: str) -> dict[str, dict[str, Any]]:
+def make_chunks(
+    doc: Doc,
+    max_chars: int,
+    document_id: str,
+    source_text: str | None = None,
+) -> dict[str, dict[str, Any]]:
     chunks: dict[str, dict[str, Any]] = {}
     pending: list[Span] = []
     pending_size = 0
@@ -23,7 +29,8 @@ def make_chunks(doc: Doc, max_chars: int, document_id: str) -> dict[str, dict[st
         chunk_id = stable_id("chunk", document_id, start, end)
         chunks[chunk_id] = {
             "chunk_id": chunk_id, "document_id": document_id, "index": len(chunks),
-            "start_char": start, "end_char": end, "text": doc.text[start:end],
+            "start_char": start, "end_char": end,
+            "text": (source_text if source_text is not None else doc.text)[start:end],
         }
         pending, pending_size = [], 0
 
@@ -55,7 +62,7 @@ def add_entity_node(
         graph.add_node(
             key, node_type="entity" if ent_type else "concept",
             canonical_name=display_name, ent_type=ent_type, aliases=set(),
-            mentions=[], claims=[], claim_ids=set(), supporting_chunk_ids=set(),
+            mentions=[], claim_ids=set(), supporting_chunk_ids=set(),
             paragraph_indices=set(),
         )
     node = graph.nodes[key]
@@ -66,6 +73,13 @@ def add_entity_node(
     if node.get("ent_type") is None and ent_type:
         node["ent_type"] = ent_type
         node["node_type"] = "entity"
+
+def _node_claim_count(data: dict[str, Any]) -> int:
+    """Count claims without requiring duplicated full claim records on each node."""
+    claim_ids = data.get("claim_ids")
+    if claim_ids is not None:
+        return len(claim_ids)
+    return len(data.get("claims", []))
 
 def ensure_connected(
     graph: nx.MultiDiGraph,
@@ -78,8 +92,32 @@ def ensure_connected(
     if topic_key not in graph or graph.number_of_nodes() < 2:
         return bridges
 
+    # Maintain weak connectivity as bridges are added. Repeated nx.has_path calls
+    # re-walk the graph for every candidate bridge and become costly on large docs.
+    parent = {node: node for node in graph}
+    rank = {node: 0 for node in graph}
+
+    def find(node: str) -> str:
+        while parent[node] != node:
+            parent[node] = parent[parent[node]]
+            node = parent[node]
+        return node
+
+    def union(left: str, right: str) -> None:
+        left_root, right_root = find(left), find(right)
+        if left_root == right_root:
+            return
+        if rank[left_root] < rank[right_root]:
+            left_root, right_root = right_root, left_root
+        parent[right_root] = left_root
+        if rank[left_root] == rank[right_root]:
+            rank[left_root] += 1
+
+    for source, target in graph.edges():
+        union(source, target)
+
     def add_bridge(source: str, target: str, relation: str) -> None:
-        if source == target or nx.has_path(graph.to_undirected(), source, target):
+        if source == target or find(source) == find(target):
             return
         mentions = graph.nodes[target].get("mentions", [])
         mention = mentions[0] if mentions else {}
@@ -95,26 +133,24 @@ def ensure_connected(
             "supporting_text": mention.get("supporting_text", ""),
         }
         graph.add_edge(source, target, key=edge_id, **data)
+        union(source, target)
         bridges.append({"source": source, "target": target, "key": edge_id, **data})
 
-    paragraph_ids = sorted({
-        index
-        for _, data in graph.nodes(data=True)
-        for index in data.get("paragraph_indices", set())
-    })
+    nodes_by_paragraph: dict[int, list[str]] = defaultdict(list)
+    for node, data in graph.nodes(data=True):
+        for paragraph_index in data.get("paragraph_indices", set()):
+            nodes_by_paragraph[paragraph_index].append(node)
+    paragraph_ids = sorted(nodes_by_paragraph)
     local_anchors: dict[int, str] = {}
     for paragraph_index in paragraph_ids:
-        candidates = [
-            node for node, data in graph.nodes(data=True)
-            if paragraph_index in data.get("paragraph_indices", set())
-        ]
+        candidates = nodes_by_paragraph[paragraph_index]
         non_topic = [node for node in candidates if node != topic_key]
         pool = non_topic if paragraph_index > 0 and non_topic else candidates
         if pool:
             local_anchors[paragraph_index] = max(
                 pool,
                 key=lambda node: (
-                    len(graph.nodes[node].get("claims", [])),
+                    _node_claim_count(graph.nodes[node]),
                     graph.degree(node),
                     graph.nodes[node].get("ent_type") is not None,
                 ),
@@ -132,33 +168,35 @@ def ensure_connected(
         add_bridge(previous_anchor, anchor, "next_topic")
         previous_anchor = anchor
 
-    while True:
-        components = list(nx.weakly_connected_components(graph))
-        if len(components) <= 1:
-            break
-        main = next(component for component in components if topic_key in component)
-        for component in [item for item in components if item is not main]:
-            representative = max(
-                component,
-                key=lambda node: (
-                    graph.degree(node), len(graph.nodes[node].get("claims", [])),
-                    -min(graph.nodes[node].get("paragraph_indices", {9999})),
-                ),
-            )
-            paragraph_index = min(graph.nodes[representative].get("paragraph_indices", {0}))
-            local_anchor = local_anchors.get(paragraph_index, previous_anchor)
-            if local_anchor in component:
-                outside_anchors = [
-                    anchor for _, anchor in sorted(local_anchors.items())
-                    if anchor not in component
-                ]
-                local_anchor = outside_anchors[-1] if outside_anchors else topic_key
-            add_bridge(local_anchor, representative, "contextualizes")
+    # The paragraph spine usually joins the graph. Any remaining components get
+    # one explicit navigation bridge to the topic's component.
+    components: dict[str, list[str]] = defaultdict(list)
+    for node in graph:
+        components[find(node)].append(node)
+    for component in components.values():
+        if find(component[0]) == find(topic_key):
+            continue
+        representative = max(
+            component,
+            key=lambda node: (
+                graph.degree(node), _node_claim_count(graph.nodes[node]),
+                -min(graph.nodes[node].get("paragraph_indices", {9999})),
+            ),
+        )
+        paragraph_index = min(graph.nodes[representative].get("paragraph_indices", {0}))
+        connected_anchors = [
+            (abs(anchor_paragraph - paragraph_index), anchor_paragraph, anchor)
+            for anchor_paragraph, anchor in local_anchors.items()
+            if find(anchor) == find(topic_key)
+        ]
+        local_anchor = min(connected_anchors)[2] if connected_anchors else topic_key
+        add_bridge(local_anchor, representative, "contextualizes")
     return bridges
 
 def build_traversal_backbone(
     graph: nx.MultiDiGraph,
     topic_key: str,
+    component_count: int | None = None,
 ) -> nx.MultiDiGraph:
     """Create a maximum-confidence spanning backbone without deleting evidence."""
     candidates = nx.Graph()
@@ -189,11 +227,11 @@ def build_traversal_backbone(
         source, target, key, data = tree_data["original"]
         backbone.add_edge(source, target, key=key, **data)
 
-    if backbone.number_of_nodes() > 1 and nx.is_weakly_connected(graph):
-        if nx.number_weakly_connected_components(backbone) != 1:
-            raise ValueError("Traversal backbone is unexpectedly disconnected")
-        if backbone.number_of_edges() != backbone.number_of_nodes() - 1:
-            raise ValueError("Traversal backbone is not a spanning tree")
+    if component_count is None:
+        component_count = nx.number_weakly_connected_components(graph)
+    expected_edges = backbone.number_of_nodes() - component_count
+    if backbone.number_of_edges() != expected_edges:
+        raise ValueError("Traversal backbone is not a spanning forest")
     return backbone
 
 def validate_graph_invariants(
@@ -201,10 +239,11 @@ def validate_graph_invariants(
     claims: dict[str, dict[str, Any]],
     source_text: str,
     require_connected: bool,
-) -> None:
+) -> int:
     """Fail the build when structural or provenance guarantees are broken."""
     errors: list[str] = []
-    if require_connected and nx.number_weakly_connected_components(graph) != 1:
+    component_count = nx.number_weakly_connected_components(graph)
+    if require_connected and component_count != 1:
         errors.append("graph is not a single weakly connected component")
     for claim_id, claim in claims.items():
         subject, object_ = claim["subject_id"], claim["object_id"]
@@ -222,20 +261,27 @@ def validate_graph_invariants(
     if errors:
         preview = "\n".join(f"- {error}" for error in errors[:20])
         raise ValueError(f"Knowledge-graph validation failed:\n{preview}")
+    return component_count
 
 def graph_diagnostics(
     graph: nx.MultiDiGraph, traversal_graph: nx.MultiDiGraph,
     claims: dict[str, Any], context_bridges: list, rejected_triples: list,
+    *, component_count: int | None = None,
+    traversal_component_count: int | None = None,
 ) -> dict[str, Any]:
     """Summarize a graph after a document build or collection merge."""
+    if component_count is None:
+        component_count = nx.number_weakly_connected_components(graph)
+    if traversal_component_count is None:
+        traversal_component_count = nx.number_weakly_connected_components(traversal_graph)
     return {
         "node_count": graph.number_of_nodes(),
         "factual_claim_count": len(claims),
         "context_bridge_count": len(context_bridges),
-        "component_count": nx.number_weakly_connected_components(graph),
+        "component_count": component_count,
         "traversal_node_count": traversal_graph.number_of_nodes(),
         "traversal_edge_count": traversal_graph.number_of_edges(),
-        "traversal_component_count": nx.number_weakly_connected_components(traversal_graph),
+        "traversal_component_count": traversal_component_count,
         "rejected_triple_count": len(rejected_triples),
         "topic_node": graph.graph["topic_node"],
     }

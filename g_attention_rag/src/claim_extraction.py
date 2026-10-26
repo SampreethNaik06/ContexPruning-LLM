@@ -33,9 +33,13 @@ def verb_relation(verb: Token, preposition: Token | None = None) -> str:
 
 def expand_conjuncts(tokens: Iterable[Token]) -> list[Token]:
     expanded: dict[int, Token] = {}
-    for token in tokens:
+    pending = list(tokens)
+    while pending:
+        token = pending.pop()
+        if token.i in expanded:
+            continue
         expanded[token.i] = token
-        expanded.update({conjunct.i: conjunct for conjunct in token.conjuncts})
+        pending.extend(token.conjuncts)
     return [expanded[index] for index in sorted(expanded)]
 
 def subjects_for(predicate: Token) -> list[Token]:

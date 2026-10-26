@@ -1,7 +1,7 @@
 """Shared vocabulary and schema settings for graph construction."""
 
 
-SCHEMA_VERSION = "3.1"
+SCHEMA_VERSION = "3.3"
 SUBJECT_DEPS = {"nsubj", "csubj", "nsubjpass", "csubjpass"}
 DIRECT_OBJECT_DEPS = {"dobj", "obj", "attr", "oprd", "dative"}
 DEICTIC_WORDS = {"this", "that", "these", "those"}

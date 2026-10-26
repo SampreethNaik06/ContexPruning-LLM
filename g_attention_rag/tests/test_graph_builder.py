@@ -12,6 +12,22 @@ from g_attention_rag.src.graph_builder import KnowledgeGraphBuilder, export_json
 
 
 class GraphBuilderIntegrationTest(unittest.TestCase):
+    def test_standalone_heading_is_not_used_as_a_claim_argument(self):
+        builder = KnowledgeGraphBuilder()
+        builder.add_chunk(
+            "heading-boundary",
+            "Executive Summary & Paradigm Shift\n"
+            "The field of Artificial Intelligence (AI) has transitioned from "
+            "academic research into a major technology platform.",
+        )
+
+        claims = list(builder.state["claims"].values())
+        self.assertFalse(any(claim["subject"] == "Shift" for claim in claims))
+        self.assertTrue(any(
+            "artificial intelligence" in claim["subject"].casefold()
+            for claim in claims
+        ))
+
     def test_opposing_claims_in_one_sentence_remain_separate(self):
         builder = KnowledgeGraphBuilder()
         builder.add_chunk(
@@ -84,6 +100,39 @@ class GraphBuilderIntegrationTest(unittest.TestCase):
             payload = json.loads(json_path.read_text(encoding="utf-8"))
             self.assertEqual(set(payload["claims"]), set(state["claims"]))
             self.assertEqual(restored.stats(), builder.stats())
+
+    def test_deferred_additions_build_once_after_corpus_alias_discovery(self):
+        builder = KnowledgeGraphBuilder()
+        builder.add_chunk(
+            "full-name", "International Business Machines (IBM) acquired Red Hat.",
+            rebuild=False,
+        )
+        builder.add_chunk("acronym", "IBM acquired HashiCorp.", rebuild=False)
+
+        self.assertIsNone(builder.state)
+        builder.finalize()
+
+        canonical_id = builder.state["explicit_aliases"]["ibm"]
+        self.assertEqual(canonical_id, "international business machine")
+        acronym_document_id = next(
+            document_id for document_id, document in builder.state["documents"].items()
+            if document["source_name"] == "acronym"
+        )
+        acronym_claims = [
+            claim for claim in builder.state["claims"].values()
+            if claim["document_id"] == acronym_document_id
+        ]
+        self.assertTrue(acronym_claims)
+        self.assertTrue(all(claim["subject_id"] == canonical_id for claim in acronym_claims))
+
+    def test_full_claims_are_kept_in_central_store(self):
+        builder = KnowledgeGraphBuilder()
+        builder.add_chunk("central-claims", "Microsoft acquired Nuance.")
+
+        claim = next(iter(builder.state["claims"].values()))
+        self.assertNotIn("claims", builder.graph.nodes[claim["subject_id"]])
+        self.assertIn(claim["claim_id"], builder.graph.nodes[claim["subject_id"]]["claim_ids"])
+        self.assertIn(claim["claim_id"], builder.graph.nodes[claim["object_id"]]["claim_ids"])
 
     def test_alias_from_one_document_canonicalizes_other_documents(self):
         sources = [

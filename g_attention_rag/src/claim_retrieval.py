@@ -10,6 +10,19 @@ from .path_traversal import PathRAGTraverser
 from .traversal_types import claim_dedup_key, match_nodes, relation_matches
 
 
+def _claims_for_node(
+    graph: nx.MultiDiGraph,
+    node_id: str,
+    claims_store: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Resolve compact claim IDs, while accepting legacy full claims on nodes."""
+    node = graph.nodes[node_id]
+    claim_ids = node.get("claim_ids", ())
+    if claims_store and claim_ids:
+        return [claims_store[cid] for cid in claim_ids if cid in claims_store]
+    return node.get("claims", [])
+
+
 def retrieve_claims(
     state_or_graph: dict[str, Any] | nx.MultiDiGraph,
     entity_anchors: list[str],
@@ -66,7 +79,7 @@ def retrieve_claims(
     if not claims:
         seen_facts: dict[str, dict[str, Any]] = {}
         for node_id in matched_node_ids:
-            node_claims = graph.nodes[node_id].get("claims", [])
+            node_claims = _claims_for_node(graph, node_id, claims_store)
             for c in node_claims:
                 cid = c.get("claim_id")
                 if not cid:
@@ -243,7 +256,7 @@ def retrieve_with_traversal_details(
     if not claims:
         seen_facts: dict[str, dict[str, Any]] = {}
         for node_id in matched_node_ids:
-            node_claims = graph.nodes[node_id].get("claims", [])
+            node_claims = _claims_for_node(graph, node_id, claims_store)
             for c in node_claims:
                 cid = c.get("claim_id")
                 if not cid:

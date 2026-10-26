@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from bisect import bisect_right
 from collections import Counter
 from datetime import datetime, timezone
 from typing import Any
@@ -14,7 +15,6 @@ from .graph_constants import SCHEMA_VERSION
 from .graph_structure import (
     add_entity_node,
     build_traversal_backbone,
-    chunk_for_offset,
     ensure_connected,
     graph_diagnostics,
     make_chunks,
@@ -23,7 +23,8 @@ from .graph_structure import (
 from .graph_text import (
     clean_source_text,
     load_nlp,
-    paragraph_index_for,
+    heading_ranges,
+    mask_heading_text,
     paragraph_ranges,
     stable_id,
 )
@@ -39,6 +40,7 @@ def build_graph(
     nlp=None,
     corpus_aliases: dict[str, str] | None = None,
     corpus_alias_displays: dict[str, set[str]] | None = None,
+    parsed_doc=None,
 ) -> dict[str, Any]:
     del add_cooccurrence  # Retained only for command/API compatibility.
     if max_chunk_chars < 100:
@@ -47,9 +49,27 @@ def build_graph(
         raise ValueError("Input document is empty")
     nlp = load_nlp(model_name) if nlp is None else nlp
     cleaned = clean_source_text(text)
-    doc = nlp(cleaned)
+    standalone_headings = heading_ranges(cleaned)
+    parse_text = mask_heading_text(cleaned, standalone_headings)
+    doc = nlp(parse_text) if parsed_doc is None else parsed_doc
+    if doc.text != parse_text:
+        raise ValueError("parsed_doc text must match the heading-masked source text")
     document_id = stable_id("doc", source_name, cleaned)
     ranges = paragraph_ranges(cleaned)
+    heading_starts = [start for start, _ in standalone_headings]
+
+    def overlaps_heading(phrase: dict[str, Any]) -> bool:
+        for start, end in phrase.get("spans", []):
+            index = max(0, bisect_right(heading_starts, start) - 1)
+            while index < len(standalone_headings):
+                heading_start, heading_end = standalone_headings[index]
+                if heading_start >= end:
+                    break
+                if start < heading_end and heading_start < end:
+                    return True
+                index += 1
+        return False
+
     document_aliases, document_alias_displays = discover_aliases(cleaned, nlp)
     aliases = document_aliases if corpus_aliases is None else corpus_aliases
     alias_displays = (
@@ -57,7 +77,23 @@ def build_graph(
         if corpus_alias_displays is None
         else corpus_alias_displays
     )
-    chunks = make_chunks(doc, max_chunk_chars, document_id)
+    chunks = make_chunks(doc, max_chunk_chars, document_id, source_text=cleaned)
+    chunk_items = list(chunks.items())
+    chunk_starts = [chunk["start_char"] for _, chunk in chunk_items]
+    paragraph_starts = [start for start, _ in ranges]
+
+    def chunk_at(offset: int) -> str:
+        index = bisect_right(chunk_starts, offset) - 1
+        if index >= 0 and offset < chunk_items[index][1]["end_char"]:
+            return chunk_items[index][0]
+        raise ValueError(f"No chunk contains document offset {offset}")
+
+    def paragraph_at(offset: int) -> int:
+        index = bisect_right(paragraph_starts, offset) - 1
+        if index >= 0 and offset < ranges[index][1]:
+            return index
+        return max(0, len(ranges) - 1)
+
     graph = nx.MultiDiGraph(
         name=f"Entity-anchored SVO graph for {source_name}",
         schema_version=SCHEMA_VERSION, document_id=document_id,
@@ -68,15 +104,25 @@ def build_graph(
     recent_nodes: list[dict[str, str]] = []
     previous_subject: str | None = None
     previous_object: str | None = None
+    previous_paragraph: int | None = None
     paragraph_anchors: dict[int, str] = {}
     subject_frequency: Counter[str] = Counter()
-    explicit_topic = next(iter(document_alias_displays), None)
 
     for sentence_index, sentence in enumerate(doc.sents):
-        paragraph_index = paragraph_index_for(sentence.start_char, ranges)
-        chunk_id = chunk_for_offset(chunks, sentence.start_char)
-        sentence_id = stable_id("sent", document_id, sentence.start_char, sentence.end_char)
-        sentence_text = sentence.text.strip()
+        sentence_tokens = [token for token in sentence if not token.is_space]
+        if not sentence_tokens:
+            continue
+        sentence_start = sentence_tokens[0].idx
+        sentence_end = sentence_tokens[-1].idx + len(sentence_tokens[-1])
+        paragraph_index = paragraph_at(sentence_start)
+        chunk_id = chunk_at(sentence_start)
+        if paragraph_index != previous_paragraph:
+            # Avoid carrying heuristic pronoun links across section boundaries.
+            recent_nodes.clear()
+            previous_subject = previous_object = None
+            previous_paragraph = paragraph_index
+        sentence_id = stable_id("sent", document_id, sentence_start, sentence_end)
+        sentence_text = cleaned[sentence_start:sentence_end].strip()
 
         for triple in extract_sentence_triples(sentence):
             subject_reference = resolve_reference(
@@ -100,6 +146,8 @@ def build_graph(
             rejection_reason = ""
             if subject_reference is None or object_reference is None:
                 rejection_reason = "unresolved reference"
+            elif overlaps_heading(triple["subject"]) or overlaps_heading(triple["object"]):
+                rejection_reason = "subject/object overlaps a standalone heading"
             elif not subject_ok:
                 rejection_reason = f"invalid subject: {subject_reason}"
             elif not object_ok:
@@ -135,7 +183,7 @@ def build_graph(
             mention_common = {
                 "document_id": document_id, "chunk_id": chunk_id,
                 "sentence_id": sentence_id, "supporting_text": sentence_text,
-                "sentence_span": [sentence.start_char, sentence.end_char],
+                "sentence_span": [sentence_start, sentence_end],
             }
             add_entity_node(
                 graph, subject_key, subject_display, triple["subject"].get("ent_type"),
@@ -170,7 +218,7 @@ def build_graph(
                 "document_id": document_id, "chunk_id": chunk_id,
                 "sentence_id": sentence_id, "sentence_index": sentence_index,
                 "paragraph_index": paragraph_index,
-                "sentence_span": [sentence.start_char, sentence.end_char],
+                "sentence_span": [sentence_start, sentence_end],
                 "subject_span": subject_span, "subject_spans": subject_spans,
                 "predicate_span": triple["predicate_span"],
                 "object_span": object_span, "object_spans": object_spans,
@@ -188,12 +236,9 @@ def build_graph(
                 weight=triple["confidence"], negated=triple["negated"],
                 inferred=False, edge_type="factual_claim", document_id=document_id,
                 chunk_id=chunk_id, sentence_id=sentence_id,
-                span=[sentence.start_char, sentence.end_char], supporting_text=sentence_text,
+                span=[sentence_start, sentence_end], supporting_text=sentence_text,
             )
-            for node_key, role in ((subject_key, "subject"), (object_key, "object")):
-                node_claim = dict(claim)
-                node_claim["entity_role"] = role
-                graph.nodes[node_key]["claims"].append(node_claim)
+            for node_key in (subject_key, object_key):
                 graph.nodes[node_key]["claim_ids"].add(claim_id)
 
             subject_frequency[subject_key] += 1
@@ -208,8 +253,16 @@ def build_graph(
     if graph.number_of_nodes() == 0:
         raise ValueError("No valid factual triples were extracted from the document.")
 
-    topic_key = explicit_topic if explicit_topic in graph else max(
-        graph.nodes, key=lambda node: (subject_frequency[node], graph.degree(node))
+    # Alias declarations are not evidence that an entity is the document topic.
+    # Select the most central extracted entity instead of privileging the first
+    # parenthetical acronym or alias that happens to occur in the source.
+    topic_key = max(
+        graph.nodes,
+        key=lambda node: (
+            subject_frequency[node],
+            len(graph.nodes[node].get("mentions", [])),
+            graph.degree(node),
+        ),
     )
     graph.graph["topic_node"] = topic_key
     graph.nodes[topic_key]["is_document_topic"] = True
@@ -217,9 +270,12 @@ def build_graph(
         ensure_connected(graph, topic_key, document_id, paragraph_anchors)
         if connect_components else []
     )
-    validate_graph_invariants(graph, claims, cleaned, connect_components)
-    traversal_graph = build_traversal_backbone(graph, topic_key)
-    diagnostics = graph_diagnostics(graph, traversal_graph, claims, context_bridges, rejected)
+    component_count = validate_graph_invariants(graph, claims, cleaned, connect_components)
+    traversal_graph = build_traversal_backbone(graph, topic_key, component_count)
+    diagnostics = graph_diagnostics(
+        graph, traversal_graph, claims, context_bridges, rejected,
+        component_count=component_count, traversal_component_count=component_count,
+    )
     return {
         "schema_version": SCHEMA_VERSION,
         "created_at": datetime.now(timezone.utc).isoformat(),
