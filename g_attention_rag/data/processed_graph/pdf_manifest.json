@@ -1,14 +1,10 @@
 [
   {
-    "file": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
+    "file": "Artificial Intelligence and Current Scenario.pdf",
+    "source_path": "C:\\Users\\sampr\\Desktop\\ContexPruning-LLM\\Artificial Intelligence and Current Scenario.pdf",
     "pages": 10,
     "ocr_pages": [],
-    "characters": 27199
-  },
-  {
-    "file": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
-    "pages": 16,
-    "ocr_pages": [],
-    "characters": 49753
+    "characters": 15143,
+    "extracted_text": "data\\raw\\Artificial Intelligence and Current Scenario.txt"
   }
 ]

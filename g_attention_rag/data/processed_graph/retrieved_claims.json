@@ -1,411 +1,671 @@
 {
   "matched_nodes": [
     {
-      "anchor": "revenue",
-      "node_id": "revenue",
-      "canonical_name": "revenue",
+      "anchor": "AI",
+      "node_id": "field of artificial intelligence",
+      "canonical_name": "The field of Artificial Intelligence",
       "score": 1.0
     }
   ],
   "paths": [
     {
       "nodes": [
-        "revenue",
-        "i"
+        "field of artificial intelligence",
+        "domain of academic curiosity"
       ],
       "hop_count": 1,
-      "reliability": 1.3686,
+      "reliability": 1.1972,
       "steps": [
         {
-          "source": "revenue",
-          "target": "i",
-          "edge_key": "claim_71a54ca35aa64865",
-          "relation": "total",
-          "claim_id": "claim_71a54ca35aa64865",
+          "source": "field of artificial intelligence",
+          "target": "domain of academic curiosity",
+          "edge_key": "claim_aa23045d4b77c982",
+          "relation": "transition_from",
+          "claim_id": "claim_aa23045d4b77c982",
           "negated": false,
           "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.3686,
-          "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         }
       ]
     },
     {
       "nodes": [
-        "revenue",
-        "i"
+        "field of artificial intelligence",
+        "primary engine of technological transformation"
       ],
       "hop_count": 1,
-      "reliability": 1.3686,
+      "reliability": 1.1972,
       "steps": [
         {
-          "source": "revenue",
-          "target": "i",
-          "edge_key": "claim_5ba08dd6b003517a",
-          "relation": "total",
-          "claim_id": "claim_5ba08dd6b003517a",
+          "source": "field of artificial intelligence",
+          "target": "primary engine of technological transformation",
+          "edge_key": "claim_86e703e66edd77a0",
+          "relation": "transition_into",
+          "claim_id": "claim_86e703e66edd77a0",
           "negated": false,
           "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.3686,
-          "supporting_text": "A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67"
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         }
       ]
     },
     {
       "nodes": [
-        "revenue",
-        "i"
+        "field of artificial intelligence",
+        "advanced large language model"
       ],
       "hop_count": 1,
-      "reliability": 1.3686,
+      "reliability": 1.0427,
       "steps": [
         {
-          "source": "revenue",
-          "target": "i",
-          "edge_key": "claim_72e07f4675412d10",
-          "relation": "total",
-          "claim_id": "claim_72e07f4675412d10",
+          "source": "field of artificial intelligence",
+          "target": "advanced large language model",
+          "edge_key": "context_36673b8a9320db8f",
+          "relation": "next_topic",
+          "claim_id": null,
           "negated": false,
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.3686,
-          "supporting_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs"
+          "inferred": true,
+          "confidence": 0.55,
+          "flow": 0.0427,
+          "supporting_text": "Advanced Large Language Models (LLMs), vision-language multimodal architectures, and autonomous\ndecision-making agents exhibit sophisticated reasoning, contextual comprehension, synthesis of scientific\nliterature, code execution, and creative generative capacities."
         }
       ]
     },
     {
       "nodes": [
-        "revenue",
-        "i"
+        "field of artificial intelligence",
+        "domain of academic curiosity",
+        "shift"
       ],
-      "hop_count": 1,
-      "reliability": 1.3686,
+      "hop_count": 2,
+      "reliability": 0.6325,
       "steps": [
         {
-          "source": "revenue",
-          "target": "i",
-          "edge_key": "claim_4b1d906b694f656e",
-          "relation": "total",
-          "claim_id": "claim_4b1d906b694f656e",
+          "source": "field of artificial intelligence",
+          "target": "domain of academic curiosity",
+          "edge_key": "claim_aa23045d4b77c982",
+          "relation": "transition_from",
+          "claim_id": "claim_aa23045d4b77c982",
           "negated": false,
           "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.3686,
-          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "source": "domain of academic curiosity",
+          "target": "shift",
+          "edge_key": "claim_45c3b535435517e6",
+          "relation": "transition_from",
+          "claim_id": "claim_45c3b535435517e6",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.0678,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         }
       ]
     },
     {
       "nodes": [
-        "revenue",
-        "9 74 net gain"
+        "field of artificial intelligence",
+        "primary engine of technological transformation",
+        "shift"
       ],
-      "hop_count": 1,
-      "reliability": 1.3686,
+      "hop_count": 2,
+      "reliability": 0.6325,
       "steps": [
         {
-          "source": "revenue",
-          "target": "9 74 net gain",
-          "edge_key": "claim_e1abfb8672fd6f50",
-          "relation": "total",
-          "claim_id": "claim_e1abfb8672fd6f50",
+          "source": "field of artificial intelligence",
+          "target": "primary engine of technological transformation",
+          "edge_key": "claim_86e703e66edd77a0",
+          "relation": "transition_into",
+          "claim_id": "claim_86e703e66edd77a0",
           "negated": false,
           "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.3686,
-          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "source": "primary engine of technological transformation",
+          "target": "shift",
+          "edge_key": "claim_e46c2d5442da6c8d",
+          "relation": "transition_into",
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.0678,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "field of artificial intelligence",
+        "primary engine of technological transformation",
+        "shift",
+        "domain of academic curiosity"
+      ],
+      "hop_count": 3,
+      "reliability": 0.4874,
+      "steps": [
+        {
+          "source": "field of artificial intelligence",
+          "target": "primary engine of technological transformation",
+          "edge_key": "claim_86e703e66edd77a0",
+          "relation": "transition_into",
+          "claim_id": "claim_86e703e66edd77a0",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "source": "primary engine of technological transformation",
+          "target": "shift",
+          "edge_key": "claim_e46c2d5442da6c8d",
+          "relation": "transition_into",
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.0678,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "source": "shift",
+          "target": "domain of academic curiosity",
+          "edge_key": "claim_45c3b535435517e6",
+          "relation": "transition_from",
+          "claim_id": "claim_45c3b535435517e6",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "field of artificial intelligence",
+        "domain of academic curiosity",
+        "shift",
+        "primary engine of technological transformation"
+      ],
+      "hop_count": 3,
+      "reliability": 0.4874,
+      "steps": [
+        {
+          "source": "field of artificial intelligence",
+          "target": "domain of academic curiosity",
+          "edge_key": "claim_aa23045d4b77c982",
+          "relation": "transition_from",
+          "claim_id": "claim_aa23045d4b77c982",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "source": "domain of academic curiosity",
+          "target": "shift",
+          "edge_key": "claim_45c3b535435517e6",
+          "relation": "transition_from",
+          "claim_id": "claim_45c3b535435517e6",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.0678,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "source": "shift",
+          "target": "primary engine of technological transformation",
+          "edge_key": "claim_e46c2d5442da6c8d",
+          "relation": "transition_into",
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1972,
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         }
       ]
     }
   ],
   "claims": [
     {
-      "claim_id": "claim_71a54ca35aa64865",
-      "subject_id": "i",
-      "subject": "I",
-      "relation": "total",
-      "object_id": "revenue",
-      "object": "revenue",
+      "claim_id": "claim_aa23045d4b77c982",
+      "subject_id": "field of artificial intelligence",
+      "subject": "The field of Artificial Intelligence",
+      "relation": "transition_from",
+      "object_id": "domain of academic curiosity",
+      "object": "domain of academic curiosity",
       "negated": false,
       "voice": "active",
-      "confidence": 0.96,
-      "extraction_method": "dependency_svo",
-      "document_id": "doc_59e42c99585bf22c",
-      "chunk_id": "chunk_cd554c898b19537b",
-      "sentence_id": "sent_cd554c898b19537b",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_1765561c7e2cdb47",
+      "chunk_id": "chunk_62939e2104a9175e",
+      "sentence_id": "sent_396b3b2d3c9f2878",
       "sentence_index": 2,
-      "paragraph_index": 2,
+      "paragraph_index": 0,
       "sentence_span": [
-        393,
-        1400
+        332,
+        600
       ],
       "subject_span": [
-        781,
-        782
+        371,
+        403
       ],
       "subject_spans": [
         [
-          781,
-          782
+          371,
+          403
         ]
       ],
       "predicate_span": [
-        783,
-        788
+        413,
+        425
       ],
       "object_span": [
-        789,
-        796
+        433,
+        461
       ],
       "object_spans": [
         [
-          789,
-          796
+          433,
+          461
         ]
       ],
-      "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)",
-      "fact": "I total revenue",
-      "path_reliability": 1.3686,
-      "edge_flow": 0.3686,
-      "best_path_rank": 4,
-      "path_count": 4,
+      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+      "fact": "The field of Artificial Intelligence transition from domain of academic curiosity",
+      "path_reliability": 1.1972,
+      "edge_flow": 0.1972,
+      "best_path_rank": 1,
+      "path_count": 3,
       "occurrences": [
         {
-          "claim_id": "claim_71a54ca35aa64865",
+          "claim_id": "claim_aa23045d4b77c982",
           "negated": false,
-          "document_id": "doc_59e42c99585bf22c",
+          "document_id": "doc_1765561c7e2cdb47",
           "sentence_span": [
-            393,
-            1400
+            332,
+            600
           ],
-          "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         },
         {
-          "claim_id": "claim_5ba08dd6b003517a",
+          "claim_id": "claim_aa23045d4b77c982",
           "negated": false,
-          "document_id": "doc_59e42c99585bf22c",
+          "document_id": "doc_1765561c7e2cdb47",
           "sentence_span": [
-            14922,
-            15049
+            332,
+            600
           ],
-          "supporting_text": "A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67"
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         },
         {
-          "claim_id": "claim_72e07f4675412d10",
+          "claim_id": "claim_aa23045d4b77c982",
           "negated": false,
-          "document_id": "doc_e6e1b70747d19696",
+          "document_id": "doc_1765561c7e2cdb47",
           "sentence_span": [
-            632,
-            1306
+            332,
+            600
           ],
-          "supporting_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs"
-        },
-        {
-          "claim_id": "claim_4b1d906b694f656e",
-          "negated": false,
-          "document_id": "doc_e6e1b70747d19696",
-          "sentence_span": [
-            25241,
-            25759
-          ],
-          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         }
       ],
       "evidence": [
         {
-          "claim_id": "claim_71a54ca35aa64865",
-          "document_id": "doc_59e42c99585bf22c",
-          "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
-          "chunk_id": "chunk_cd554c898b19537b",
-          "chunk_index": 1,
-          "start_char": 393,
-          "end_char": 1400,
+          "claim_id": "claim_aa23045d4b77c982",
+          "document_id": "doc_1765561c7e2cdb47",
+          "source_name": "Artificial Intelligence and Current Scenario.pdf",
+          "chunk_id": "chunk_62939e2104a9175e",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 983,
           "sentence_span": [
-            393,
-            1400
+            332,
+            600
           ],
-          "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)",
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
           "negated": false,
-          "source_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
-        },
-        {
-          "claim_id": "claim_5ba08dd6b003517a",
-          "document_id": "doc_59e42c99585bf22c",
-          "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
-          "chunk_id": "chunk_f3b38755b62bd904",
-          "chunk_index": 15,
-          "start_char": 13997,
-          "end_char": 15049,
-          "sentence_span": [
-            14922,
-            15049
-          ],
-          "supporting_text": "A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67",
-          "negated": false,
-          "source_text": "Date: July 21,2023\n\nCreditAccess Grameen Limited\n Regd. & Corporate office * #49,46'\" Cross, 8'\" Block, Jayanagar, Bengaluru-560070 CreditAccess Phone: 080-22637300 | Grameen Email: info@cagrameen.inFax:. 080-26643433\n Website: www.creditaccessgrameen.in\n CIN: 151 21 6KA1 991 P1C053425\n\n\n\n\n Statement of unaudited consolidated financial results for the quarter ended June 30, 2023\n\n < in crore\n ..1 Ei,.ii!{gd]:.i'i:::::=::r;ir'j,i+;:iii.:ili\\- .*YediEended .l\n il. 4r:Ju[,zr ruxqt;l4*-2s $\n ,tAud.}1teot\" .fli i t#rii-:i.i,.^; NIWrI= ry. ..;lN :4:: : \" r _: ; , ,,....,,,.''@' griti #.\"'tt,\n\n Revenue from operations\n (a) lnterest income 1,105.17 9il.79 I50.ZJ 3,327.13\n (b) Fees and commission 6.05 8.34 1.70 19.51\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Net gain on derecognition of financial instruments under 43.80 7't.u 6.09 122.25\n amortised cost category\n (e) Bad debts recovery 12.U 1A 7R 1n ?A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67\n "
-        },
-        {
-          "claim_id": "claim_72e07f4675412d10",
-          "document_id": "doc_e6e1b70747d19696",
-          "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
-          "chunk_id": "chunk_68c8472a6a9b0176",
-          "chunk_index": 1,
-          "start_char": 632,
-          "end_char": 1394,
-          "sentence_span": [
-            632,
-            1306
-          ],
-          "supporting_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs",
-          "negated": false,
-          "source_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (b) Fee and commission expense 1.75 1.64 ."
-        },
-        {
-          "claim_id": "claim_4b1d906b694f656e",
-          "document_id": "doc_e6e1b70747d19696",
-          "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
-          "chunk_id": "chunk_cdf3aae97a3cc8ac",
-          "chunk_index": 25,
-          "start_char": 25241,
-          "end_char": 25967,
-          "sentence_span": [
-            25241,
-            25759
-          ],
-          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69",
-          "negated": false,
-          "source_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.67\n 0.65 0.69 2.09 1.34 3.02 5.67\n Ill Total Income ll+lll 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.79\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (IJ)"
+          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
         }
       ]
     },
     {
-      "claim_id": "claim_e1abfb8672fd6f50",
-      "subject_id": "9 74 net gain",
-      "subject": "9.74 Net gain",
-      "relation": "total",
-      "object_id": "revenue",
-      "object": "revenue",
+      "claim_id": "claim_86e703e66edd77a0",
+      "subject_id": "field of artificial intelligence",
+      "subject": "The field of Artificial Intelligence",
+      "relation": "transition_into",
+      "object_id": "primary engine of technological transformation",
+      "object": "primary engine of technological transformations",
       "negated": false,
       "voice": "active",
-      "confidence": 0.96,
-      "extraction_method": "dependency_svo",
-      "document_id": "doc_e6e1b70747d19696",
-      "chunk_id": "chunk_cdf3aae97a3cc8ac",
-      "sentence_id": "sent_f6be8d4f1b2edf96",
-      "sentence_index": 105,
-      "paragraph_index": 87,
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_1765561c7e2cdb47",
+      "chunk_id": "chunk_62939e2104a9175e",
+      "sentence_id": "sent_396b3b2d3c9f2878",
+      "sentence_index": 2,
+      "paragraph_index": 0,
       "sentence_span": [
-        25241,
-        25759
+        332,
+        600
       ],
-      "subject_span": null,
+      "subject_span": [
+        371,
+        403
+      ],
       "subject_spans": [
         [
-          25452,
-          25456
-        ],
-        [
-          25468,
-          25476
+          371,
+          403
         ]
       ],
       "predicate_span": [
-        25650,
-        25655
+        413,
+        425
       ],
-      "object_span": [
-        25656,
-        25663
-      ],
+      "object_span": null,
       "object_spans": [
         [
-          25656,
-          25663
+          504,
+          535
+        ],
+        [
+          564,
+          579
         ]
       ],
-      "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69",
-      "fact": "9.74 Net gain total revenue",
-      "path_reliability": 1.3686,
-      "edge_flow": 0.3686,
-      "best_path_rank": 5,
-      "path_count": 1,
+      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+      "fact": "The field of Artificial Intelligence transition into primary engine of technological transformations",
+      "path_reliability": 1.1972,
+      "edge_flow": 0.1972,
+      "best_path_rank": 2,
+      "path_count": 3,
       "occurrences": [
         {
-          "claim_id": "claim_e1abfb8672fd6f50",
+          "claim_id": "claim_86e703e66edd77a0",
           "negated": false,
-          "document_id": "doc_e6e1b70747d19696",
+          "document_id": "doc_1765561c7e2cdb47",
           "sentence_span": [
-            25241,
-            25759
+            332,
+            600
           ],
-          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "claim_id": "claim_86e703e66edd77a0",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "claim_id": "claim_86e703e66edd77a0",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
         }
       ],
       "evidence": [
         {
-          "claim_id": "claim_e1abfb8672fd6f50",
-          "document_id": "doc_e6e1b70747d19696",
-          "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
-          "chunk_id": "chunk_cdf3aae97a3cc8ac",
-          "chunk_index": 25,
-          "start_char": 25241,
-          "end_char": 25967,
+          "claim_id": "claim_86e703e66edd77a0",
+          "document_id": "doc_1765561c7e2cdb47",
+          "source_name": "Artificial Intelligence and Current Scenario.pdf",
+          "chunk_id": "chunk_62939e2104a9175e",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 983,
           "sentence_span": [
-            25241,
-            25759
+            332,
+            600
           ],
-          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69",
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
           "negated": false,
-          "source_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.67\n 0.65 0.69 2.09 1.34 3.02 5.67\n Ill Total Income ll+lll 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.79\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (IJ)"
+          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_45c3b535435517e6",
+      "subject_id": "shift",
+      "subject": "Shift",
+      "relation": "transition_from",
+      "object_id": "domain of academic curiosity",
+      "object": "domain of academic curiosity",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_1765561c7e2cdb47",
+      "chunk_id": "chunk_62939e2104a9175e",
+      "sentence_id": "sent_396b3b2d3c9f2878",
+      "sentence_index": 2,
+      "paragraph_index": 0,
+      "sentence_span": [
+        332,
+        600
+      ],
+      "subject_span": [
+        361,
+        366
+      ],
+      "subject_spans": [
+        [
+          361,
+          366
+        ]
+      ],
+      "predicate_span": [
+        413,
+        425
+      ],
+      "object_span": [
+        433,
+        461
+      ],
+      "object_spans": [
+        [
+          433,
+          461
+        ]
+      ],
+      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+      "fact": "Shift transition from domain of academic curiosity",
+      "path_reliability": 0.6325,
+      "edge_flow": 0.0678,
+      "best_path_rank": 4,
+      "path_count": 3,
+      "occurrences": [
+        {
+          "claim_id": "claim_45c3b535435517e6",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "claim_id": "claim_45c3b535435517e6",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "claim_id": "claim_45c3b535435517e6",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        }
+      ],
+      "evidence": [
+        {
+          "claim_id": "claim_45c3b535435517e6",
+          "document_id": "doc_1765561c7e2cdb47",
+          "source_name": "Artificial Intelligence and Current Scenario.pdf",
+          "chunk_id": "chunk_62939e2104a9175e",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 983,
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+          "negated": false,
+          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_e46c2d5442da6c8d",
+      "subject_id": "shift",
+      "subject": "Shift",
+      "relation": "transition_into",
+      "object_id": "primary engine of technological transformation",
+      "object": "primary engine of technological transformations",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_1765561c7e2cdb47",
+      "chunk_id": "chunk_62939e2104a9175e",
+      "sentence_id": "sent_396b3b2d3c9f2878",
+      "sentence_index": 2,
+      "paragraph_index": 0,
+      "sentence_span": [
+        332,
+        600
+      ],
+      "subject_span": [
+        361,
+        366
+      ],
+      "subject_spans": [
+        [
+          361,
+          366
+        ]
+      ],
+      "predicate_span": [
+        413,
+        425
+      ],
+      "object_span": null,
+      "object_spans": [
+        [
+          504,
+          535
+        ],
+        [
+          564,
+          579
+        ]
+      ],
+      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+      "fact": "Shift transition into primary engine of technological transformations",
+      "path_reliability": 0.6325,
+      "edge_flow": 0.0678,
+      "best_path_rank": 5,
+      "path_count": 3,
+      "occurrences": [
+        {
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        },
+        {
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "negated": false,
+          "document_id": "doc_1765561c7e2cdb47",
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+        }
+      ],
+      "evidence": [
+        {
+          "claim_id": "claim_e46c2d5442da6c8d",
+          "document_id": "doc_1765561c7e2cdb47",
+          "source_name": "Artificial Intelligence and Current Scenario.pdf",
+          "chunk_id": "chunk_62939e2104a9175e",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 983,
+          "sentence_span": [
+            332,
+            600
+          ],
+          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+          "negated": false,
+          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
         }
       ]
     }
   ],
   "sources": [
     {
-      "document_id": "doc_59e42c99585bf22c",
-      "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
-      "chunk_id": "chunk_cd554c898b19537b",
-      "chunk_index": 1,
-      "start_char": 393,
-      "end_char": 1400,
-      "text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
-    },
-    {
-      "document_id": "doc_59e42c99585bf22c",
-      "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
-      "chunk_id": "chunk_f3b38755b62bd904",
-      "chunk_index": 15,
-      "start_char": 13997,
-      "end_char": 15049,
-      "text": "Date: July 21,2023\n\nCreditAccess Grameen Limited\n Regd. & Corporate office * #49,46'\" Cross, 8'\" Block, Jayanagar, Bengaluru-560070 CreditAccess Phone: 080-22637300 | Grameen Email: info@cagrameen.inFax:. 080-26643433\n Website: www.creditaccessgrameen.in\n CIN: 151 21 6KA1 991 P1C053425\n\n\n\n\n Statement of unaudited consolidated financial results for the quarter ended June 30, 2023\n\n < in crore\n ..1 Ei,.ii!{gd]:.i'i:::::=::r;ir'j,i+;:iii.:ili\\- .*YediEended .l\n il. 4r:Ju[,zr ruxqt;l4*-2s $\n ,tAud.}1teot\" .fli i t#rii-:i.i,.^; NIWrI= ry. ..;lN :4:: : \" r _: ; , ,,....,,,.''@' griti #.\"'tt,\n\n Revenue from operations\n (a) lnterest income 1,105.17 9il.79 I50.ZJ 3,327.13\n (b) Fees and commission 6.05 8.34 1.70 19.51\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Net gain on derecognition of financial instruments under 43.80 7't.u 6.09 122.25\n amortised cost category\n (e) Bad debts recovery 12.U 1A 7R 1n ?A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67\n "
-    },
-    {
-      "document_id": "doc_e6e1b70747d19696",
-      "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
-      "chunk_id": "chunk_68c8472a6a9b0176",
-      "chunk_index": 1,
-      "start_char": 632,
-      "end_char": 1394,
-      "text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (b) Fee and commission expense 1.75 1.64 ."
-    },
-    {
-      "document_id": "doc_e6e1b70747d19696",
-      "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
-      "chunk_id": "chunk_cdf3aae97a3cc8ac",
-      "chunk_index": 25,
-      "start_char": 25241,
-      "end_char": 25967,
-      "text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.67\n 0.65 0.69 2.09 1.34 3.02 5.67\n Ill Total Income ll+lll 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.79\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (IJ)"
+      "document_id": "doc_1765561c7e2cdb47",
+      "source_name": "Artificial Intelligence and Current Scenario.pdf",
+      "chunk_id": "chunk_62939e2104a9175e",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 983,
+      "text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
     }
   ],
   "stats": {
     "entity_anchors_count": 1,
     "matched_nodes_count": 1,
-    "paths_explored": 5,
-    "claims_extracted": 2,
-    "duplicates_dropped": 3,
+    "paths_explored": 7,
+    "claims_extracted": 4,
+    "duplicates_dropped": 8,
     "alpha": 0.8,
     "theta": 0.05,
     "max_hops": 3

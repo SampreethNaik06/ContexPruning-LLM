@@ -1,0 +1,16 @@
+{
+  "matched_nodes": [],
+  "paths": [],
+  "claims": [],
+  "sources": [],
+  "stats": {
+    "entity_anchors_count": 0,
+    "matched_nodes_count": 0,
+    "paths_explored": 0,
+    "claims_extracted": 0,
+    "duplicates_dropped": 0,
+    "alpha": 0.8,
+    "theta": 0.05,
+    "max_hops": 3
+  }
+}
