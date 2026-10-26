@@ -1,677 +1,411 @@
 {
   "matched_nodes": [
     {
-      "anchor": "SEBI",
-      "node_id": "sebi",
-      "canonical_name": "SEBI",
+      "anchor": "revenue",
+      "node_id": "revenue",
+      "canonical_name": "revenue",
       "score": 1.0
     }
   ],
   "paths": [
     {
       "nodes": [
-        "sebi",
-        "obligation"
+        "revenue",
+        "i"
       ],
       "hop_count": 1,
-      "reliability": 1.0922,
+      "reliability": 1.3686,
       "steps": [
         {
-          "source": "sebi",
-          "target": "obligation",
-          "edge_key": "claim_8812cb89a2cb9803",
-          "relation": "list",
-          "claim_id": "claim_8812cb89a2cb9803",
+          "source": "revenue",
+          "target": "i",
+          "edge_key": "claim_71a54ca35aa64865",
+          "relation": "total",
+          "claim_id": "claim_71a54ca35aa64865",
+          "negated": false,
           "inferred": false,
           "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
+          "flow": 0.3686,
+          "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
         }
       ]
     },
     {
       "nodes": [
-        "sebi",
-        "obligation"
+        "revenue",
+        "i"
       ],
       "hop_count": 1,
-      "reliability": 1.0922,
+      "reliability": 1.3686,
       "steps": [
         {
-          "source": "sebi",
-          "target": "obligation",
-          "edge_key": "claim_687bd5632c61857b",
-          "relation": "list",
-          "claim_id": "claim_687bd5632c61857b",
+          "source": "revenue",
+          "target": "i",
+          "edge_key": "claim_5ba08dd6b003517a",
+          "relation": "total",
+          "claim_id": "claim_5ba08dd6b003517a",
+          "negated": false,
           "inferred": false,
           "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
+          "flow": 0.3686,
+          "supporting_text": "A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67"
         }
       ]
     },
     {
       "nodes": [
-        "sebi",
-        "obligation"
+        "revenue",
+        "i"
       ],
       "hop_count": 1,
-      "reliability": 1.0922,
+      "reliability": 1.3686,
       "steps": [
         {
-          "source": "sebi",
-          "target": "obligation",
-          "edge_key": "claim_061d2cad07f67295",
-          "relation": "list",
-          "claim_id": "claim_061d2cad07f67295",
+          "source": "revenue",
+          "target": "i",
+          "edge_key": "claim_72e07f4675412d10",
+          "relation": "total",
+          "claim_id": "claim_72e07f4675412d10",
+          "negated": false,
           "inferred": false,
           "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
+          "flow": 0.3686,
+          "supporting_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs"
         }
       ]
     },
     {
       "nodes": [
-        "sebi",
-        "obligation"
+        "revenue",
+        "i"
       ],
       "hop_count": 1,
-      "reliability": 1.0922,
+      "reliability": 1.3686,
       "steps": [
         {
-          "source": "sebi",
-          "target": "obligation",
-          "edge_key": "claim_3070f805b76d0e2f",
-          "relation": "list",
-          "claim_id": "claim_3070f805b76d0e2f",
+          "source": "revenue",
+          "target": "i",
+          "edge_key": "claim_4b1d906b694f656e",
+          "relation": "total",
+          "claim_id": "claim_4b1d906b694f656e",
+          "negated": false,
           "inferred": false,
           "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
+          "flow": 0.3686,
+          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
         }
       ]
     },
     {
       "nodes": [
-        "sebi",
-        "obligation"
+        "revenue",
+        "9 74 net gain"
       ],
       "hop_count": 1,
-      "reliability": 1.0922,
+      "reliability": 1.3686,
       "steps": [
         {
-          "source": "sebi",
-          "target": "obligation",
-          "edge_key": "claim_bc221e88ac1c7e45",
-          "relation": "list",
-          "claim_id": "claim_bc221e88ac1c7e45",
+          "source": "revenue",
+          "target": "9 74 net gain",
+          "edge_key": "claim_e1abfb8672fd6f50",
+          "relation": "total",
+          "claim_id": "claim_e1abfb8672fd6f50",
+          "negated": false,
           "inferred": false,
           "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "obligation"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "obligation",
-          "edge_key": "claim_2426e096a43a2724",
-          "relation": "list",
-          "claim_id": "claim_2426e096a43a2724",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "disclosure requirement"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "disclosure requirement",
-          "edge_key": "claim_261d4e81a5f128a4",
-          "relation": "list",
-          "claim_id": "claim_261d4e81a5f128a4",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "disclosure requirement"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "disclosure requirement",
-          "edge_key": "claim_c38e40c7ca382de3",
-          "relation": "list",
-          "claim_id": "claim_c38e40c7ca382de3",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "disclosure requirement"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "disclosure requirement",
-          "edge_key": "claim_67be76f8b305f8b8",
-          "relation": "list",
-          "claim_id": "claim_67be76f8b305f8b8",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "disclosure requirement"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "disclosure requirement",
-          "edge_key": "claim_e7261987df6cd6dd",
-          "relation": "list",
-          "claim_id": "claim_e7261987df6cd6dd",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "disclosure requirement"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "disclosure requirement",
-          "edge_key": "claim_f636f1707171034e",
-          "relation": "list",
-          "claim_id": "claim_f636f1707171034e",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "disclosure requirement"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "disclosure requirement",
-          "edge_key": "claim_d3072d9d2c151938",
-          "relation": "list",
-          "claim_id": "claim_d3072d9d2c151938",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "re 1ulation"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0922,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "re 1ulation",
-          "edge_key": "claim_b27a21546a80b548",
-          "relation": "list",
-          "claim_id": "claim_b27a21546a80b548",
-          "inferred": false,
-          "confidence": 0.96,
-          "flow": 0.0922,
-          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "march 29 2019"
-      ],
-      "hop_count": 1,
-      "reliability": 1.0902,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "march 29 2019",
-          "edge_key": "claim_f5537a03ec80ff14",
-          "relation": "issue",
-          "claim_id": "claim_f5537a03ec80ff14",
-          "inferred": false,
-          "confidence": 0.95,
-          "flow": 0.0902,
-          "supporting_text": "We also performed procedures in accordance with the circular CIR/CFD/CMD1/44/2019 dated March\n 29, 2019 issued by the SEBI under Regulation 33(8) of the Listing Regulations, to the extent\n applicable."
-        }
-      ]
-    },
-    {
-      "nodes": [
-        "sebi",
-        "quarter end june 3o 2023"
-      ],
-      "hop_count": 1,
-      "reliability": 1.074,
-      "steps": [
-        {
-          "source": "sebi",
-          "target": "quarter end june 3o 2023",
-          "edge_key": "claim_4f0da3c64bcced9f",
-          "relation": "read_of",
-          "claim_id": "claim_4f0da3c64bcced9f",
-          "inferred": false,
-          "confidence": 0.86,
-          "flow": 0.074,
-          "supporting_text": "Y*:'t/,((ffiR\n ncial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nDeloitte Haskins & Sells PKF Sridhar & Santhanam LLP\n ASV N Ramana Tower TB & T9, Third Floor\n 52, Venkatnarayana Road Gem Plaza,\n T. Nagar; Chennai-600 017 66, Infantry Road\n Tamil Nadu, India Bangalore 560 001, India\n Tel: 044 6688 5000 Phone: 91-80-41307244\n Fax: O44 6688 5050 Phone: 91-80-41317244\n\n INDEPENDENT AUDITORS' REPORT ON REVIEW OF INTERIM STANDALONE FINANCIAL\n RESULTS\n\n TO THE BOARD OF DIRECTORS OF\n CREDITACCESS GRAMEEN LIMITED\n We have reviewed the accompanying Statement of Unaudited Standalone Financial Results of\n CreditAccess Grameen Limited (the \"Compdny'), for the quarter ended June 3O, 2023 (the\n \"Statement\"), being submitted by the Company pursuant to the requirement of Regulation 33 and\n Regulation 52 read with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure\n Requirements) Regulations, 20L5, as amended (the \"Listing Regulations\")."
+          "flow": 0.3686,
+          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
         }
       ]
     }
   ],
   "claims": [
     {
-      "claim_id": "claim_8812cb89a2cb9803",
-      "subject_id": "sebi",
-      "subject": "SEBI",
-      "relation": "list",
-      "object_id": "obligation",
-      "object": "Obligations",
+      "claim_id": "claim_71a54ca35aa64865",
+      "subject_id": "i",
+      "subject": "I",
+      "relation": "total",
+      "object_id": "revenue",
+      "object": "revenue",
       "negated": false,
       "voice": "active",
       "confidence": 0.96,
       "extraction_method": "dependency_svo",
       "document_id": "doc_59e42c99585bf22c",
-      "chunk_id": "chunk_0eff2691dde35227",
-      "sentence_id": "sent_28fce65abb3f3396",
-      "sentence_index": 18,
-      "paragraph_index": 17,
+      "chunk_id": "chunk_cd554c898b19537b",
+      "sentence_id": "sent_cd554c898b19537b",
+      "sentence_index": 2,
+      "paragraph_index": 2,
       "sentence_span": [
-        4865,
-        5245
+        393,
+        1400
       ],
       "subject_span": [
-        4927,
-        4935
+        781,
+        782
+      ],
+      "subject_spans": [
+        [
+          781,
+          782
+        ]
       ],
       "predicate_span": [
-        4937,
-        4944
+        783,
+        788
       ],
       "object_span": [
-        4945,
-        4956
+        789,
+        796
       ],
-      "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)",
-      "fact": "SEBI list Obligations",
-      "path_reliability": 1.0922,
-      "edge_flow": 0.0922,
-      "best_path_rank": 1,
-      "path_count": 6,
+      "object_spans": [
+        [
+          789,
+          796
+        ]
+      ],
+      "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)",
+      "fact": "I total revenue",
+      "path_reliability": 1.3686,
+      "edge_flow": 0.3686,
+      "best_path_rank": 4,
+      "path_count": 4,
       "occurrences": [
         {
-          "claim_id": "claim_8812cb89a2cb9803",
+          "claim_id": "claim_71a54ca35aa64865",
+          "negated": false,
           "document_id": "doc_59e42c99585bf22c",
           "sentence_span": [
-            4865,
-            5245
+            393,
+            1400
           ],
-          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
+          "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
         },
         {
-          "claim_id": "claim_687bd5632c61857b",
+          "claim_id": "claim_5ba08dd6b003517a",
+          "negated": false,
           "document_id": "doc_59e42c99585bf22c",
           "sentence_span": [
-            19137,
-            19853
+            14922,
+            15049
           ],
-          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
+          "supporting_text": "A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67"
         },
         {
-          "claim_id": "claim_061d2cad07f67295",
+          "claim_id": "claim_72e07f4675412d10",
+          "negated": false,
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            632,
+            1306
+          ],
+          "supporting_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs"
+        },
+        {
+          "claim_id": "claim_4b1d906b694f656e",
+          "negated": false,
+          "document_id": "doc_e6e1b70747d19696",
+          "sentence_span": [
+            25241,
+            25759
+          ],
+          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
+        }
+      ],
+      "evidence": [
+        {
+          "claim_id": "claim_71a54ca35aa64865",
           "document_id": "doc_59e42c99585bf22c",
+          "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
+          "chunk_id": "chunk_cd554c898b19537b",
+          "chunk_index": 1,
+          "start_char": 393,
+          "end_char": 1400,
           "sentence_span": [
-            20410,
-            21157
+            393,
+            1400
           ],
-          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
+          "supporting_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)",
+          "negated": false,
+          "source_text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
         },
         {
-          "claim_id": "claim_3070f805b76d0e2f",
-          "document_id": "doc_e6e1b70747d19696",
+          "claim_id": "claim_5ba08dd6b003517a",
+          "document_id": "doc_59e42c99585bf22c",
+          "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
+          "chunk_id": "chunk_f3b38755b62bd904",
+          "chunk_index": 15,
+          "start_char": 13997,
+          "end_char": 15049,
           "sentence_span": [
-            34843,
-            35510
+            14922,
+            15049
           ],
-          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
+          "supporting_text": "A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67",
+          "negated": false,
+          "source_text": "Date: July 21,2023\n\nCreditAccess Grameen Limited\n Regd. & Corporate office * #49,46'\" Cross, 8'\" Block, Jayanagar, Bengaluru-560070 CreditAccess Phone: 080-22637300 | Grameen Email: info@cagrameen.inFax:. 080-26643433\n Website: www.creditaccessgrameen.in\n CIN: 151 21 6KA1 991 P1C053425\n\n\n\n\n Statement of unaudited consolidated financial results for the quarter ended June 30, 2023\n\n < in crore\n ..1 Ei,.ii!{gd]:.i'i:::::=::r;ir'j,i+;:iii.:ili\\- .*YediEended .l\n il. 4r:Ju[,zr ruxqt;l4*-2s $\n ,tAud.}1teot\" .fli i t#rii-:i.i,.^; NIWrI= ry. ..;lN :4:: : \" r _: ; , ,,....,,,.''@' griti #.\"'tt,\n\n Revenue from operations\n (a) lnterest income 1,105.17 9il.79 I50.ZJ 3,327.13\n (b) Fees and commission 6.05 8.34 1.70 19.51\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Net gain on derecognition of financial instruments under 43.80 7't.u 6.09 122.25\n amortised cost category\n (e) Bad debts recovery 12.U 1A 7R 1n ?A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67\n "
         },
         {
-          "claim_id": "claim_bc221e88ac1c7e45",
+          "claim_id": "claim_72e07f4675412d10",
           "document_id": "doc_e6e1b70747d19696",
+          "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
+          "chunk_id": "chunk_68c8472a6a9b0176",
+          "chunk_index": 1,
+          "start_char": 632,
+          "end_char": 1394,
           "sentence_span": [
-            38630,
-            39001
+            632,
+            1306
           ],
-          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+          "supporting_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs",
+          "negated": false,
+          "source_text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (b) Fee and commission expense 1.75 1.64 ."
         },
         {
-          "claim_id": "claim_2426e096a43a2724",
+          "claim_id": "claim_4b1d906b694f656e",
           "document_id": "doc_e6e1b70747d19696",
+          "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
+          "chunk_id": "chunk_cdf3aae97a3cc8ac",
+          "chunk_index": 25,
+          "start_char": 25241,
+          "end_char": 25967,
           "sentence_span": [
-            41111,
-            41592
+            25241,
+            25759
           ],
-          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
+          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69",
+          "negated": false,
+          "source_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.67\n 0.65 0.69 2.09 1.34 3.02 5.67\n Ill Total Income ll+lll 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.79\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (IJ)"
         }
       ]
     },
     {
-      "claim_id": "claim_261d4e81a5f128a4",
-      "subject_id": "sebi",
-      "subject": "SEBI",
-      "relation": "list",
-      "object_id": "disclosure requirement",
-      "object": "Disclosure Requirements",
-      "negated": false,
-      "voice": "active",
-      "confidence": 0.96,
-      "extraction_method": "dependency_svo",
-      "document_id": "doc_59e42c99585bf22c",
-      "chunk_id": "chunk_0eff2691dde35227",
-      "sentence_id": "sent_28fce65abb3f3396",
-      "sentence_index": 18,
-      "paragraph_index": 17,
-      "sentence_span": [
-        4865,
-        5245
-      ],
-      "subject_span": [
-        4927,
-        4935
-      ],
-      "predicate_span": [
-        4937,
-        4944
-      ],
-      "object_span": [
-        4961,
-        4984
-      ],
-      "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)",
-      "fact": "SEBI list Disclosure Requirements",
-      "path_reliability": 1.0922,
-      "edge_flow": 0.0922,
-      "best_path_rank": 7,
-      "path_count": 6,
-      "occurrences": [
-        {
-          "claim_id": "claim_261d4e81a5f128a4",
-          "document_id": "doc_59e42c99585bf22c",
-          "sentence_span": [
-            4865,
-            5245
-          ],
-          "supporting_text": "Disclosures in compliance with Regulation 52 (4) and 54(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n Details of loans transferred during the quarter ended June 30, 2023 under the RBI Master Direction on Transfer of Loan Exposures dated September 24,\n 2021 are given below:\n (i)"
-        },
-        {
-          "claim_id": "claim_c38e40c7ca382de3",
-          "document_id": "doc_59e42c99585bf22c",
-          "sentence_span": [
-            19137,
-            19853
-          ],
-          "supporting_text": "Disclosures in compliance with Regulalion 52 (4) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter\n ended June 30, 2023 is attached as Annexure L\n\n During the quarter ended June 30, 2022, the Group had reassessed its business model and concluded that lncome Generating Loans (lGL) are\n primarily intended to collect contractual cash flows being solely payments of principal and inlerest on the principal amount outstanding- Accordingly,\n as required under Ind AS 109, IGL loans portfolio which were earlier classilied as and valued at \"Fair Value through other Comprehensive Income'\n have been classified as and valued at 'Amortised cost' with effect from July 01, 2022."
-        },
-        {
-          "claim_id": "claim_67be76f8b305f8b8",
-          "document_id": "doc_59e42c99585bf22c",
-          "sentence_span": [
-            20410,
-            21157
-          ],
-          "supporting_text": "For and on behalf of the Board of Directors of CreditAccess Grameen Limited\n\n\n\n\n Udaya Kumar Hebbar\n Managing Director & CEO\n\n Bengaluru\n 21.2023\n @trs\n $\n\n\n\n Our Financial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nCreditAccess Grameen Limited\n Regd. & Corporate Office\n #49,46'n Cross, 8'\" Block, Jayanagar, Bengaluru-560070CreditAccess' Phone:080-22637300 Fax:080-26643433 | Grameen imail: info@cagrameen.in\n Website: www.cred itaccessgra meen.in\n ClN: 151 21 6KA1 991PLCO53425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n 2015 as amended, for the quarter ended June 30,2023\n\n 1 Debt-Equity Ratio: * 3.12\n 2 Debt service coverage ratio :"
-        },
-        {
-          "claim_id": "claim_e7261987df6cd6dd",
-          "document_id": "doc_e6e1b70747d19696",
-          "sentence_span": [
-            34843,
-            35510
-          ],
-          "supporting_text": "half year ended September 30, 2023\nNotes:\n\n 3 The above consolidated financial results of CreditAccess Grameen Limited (the \"Holding Company\") and its subsidiary (collectively referred to as\n the \"Group\") for the quarter and half year ended September 30, 2023 have been reviewed by the Audit Committee and approved by the Board of\n Directors at their meetings held on October 20, 2023 in accordance \"Mth the requirement of Regulation 33 and Regulation 52 read with Regulation\n 63(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and have been subjected to limited review by\n the statutory auditors of the Holding Company."
-        },
-        {
-          "claim_id": "claim_f636f1707171034e",
-          "document_id": "doc_e6e1b70747d19696",
-          "sentence_span": [
-            38630,
-            39001
-          ],
-          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
-        },
-        {
-          "claim_id": "claim_d3072d9d2c151938",
-          "document_id": "doc_e6e1b70747d19696",
-          "sentence_span": [
-            41111,
-            41592
-          ],
-          "supporting_text": "We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of\n CreditAccess Grameen Limited (the \"Parent\") and its subsidiary (the Parent and its subsidiary together\n referred to as the \"Group\"), for the quarter and half year ended 30 September 2023 (the \"Statement\"),\n being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 read\n with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure Requirements)"
-        }
-      ]
-    },
-    {
-      "claim_id": "claim_b27a21546a80b548",
-      "subject_id": "sebi",
-      "subject": "SEBI",
-      "relation": "list",
-      "object_id": "re 1ulation",
-      "object": "Re<1ulations",
+      "claim_id": "claim_e1abfb8672fd6f50",
+      "subject_id": "9 74 net gain",
+      "subject": "9.74 Net gain",
+      "relation": "total",
+      "object_id": "revenue",
+      "object": "revenue",
       "negated": false,
       "voice": "active",
       "confidence": 0.96,
       "extraction_method": "dependency_svo",
       "document_id": "doc_e6e1b70747d19696",
-      "chunk_id": "chunk_bde3c43f82451f47",
-      "sentence_id": "sent_c1e644d5512a05da",
-      "sentence_index": 144,
-      "paragraph_index": 136,
+      "chunk_id": "chunk_cdf3aae97a3cc8ac",
+      "sentence_id": "sent_f6be8d4f1b2edf96",
+      "sentence_index": 105,
+      "paragraph_index": 87,
       "sentence_span": [
-        38630,
-        39001
+        25241,
+        25759
       ],
-      "subject_span": [
-        38866,
-        38874
+      "subject_span": null,
+      "subject_spans": [
+        [
+          25452,
+          25456
+        ],
+        [
+          25468,
+          25476
+        ]
       ],
       "predicate_span": [
-        38876,
-        38883
+        25650,
+        25655
       ],
       "object_span": [
-        38926,
-        38938
+        25656,
+        25663
       ],
-      "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023",
-      "fact": "SEBI list Re<1ulations",
-      "path_reliability": 1.0922,
-      "edge_flow": 0.0922,
-      "best_path_rank": 13,
+      "object_spans": [
+        [
+          25656,
+          25663
+        ]
+      ],
+      "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69",
+      "fact": "9.74 Net gain total revenue",
+      "path_reliability": 1.3686,
+      "edge_flow": 0.3686,
+      "best_path_rank": 5,
       "path_count": 1,
       "occurrences": [
         {
-          "claim_id": "claim_b27a21546a80b548",
+          "claim_id": "claim_e1abfb8672fd6f50",
+          "negated": false,
           "document_id": "doc_e6e1b70747d19696",
           "sentence_span": [
-            38630,
-            39001
+            25241,
+            25759
           ],
-          "supporting_text": "Bengaluru-560070editAccess® Phone: 080·22637300 I Fax: 080-26643433\n Grameen Email: info@cagrameen.in\n Websit e: www.creditaccessgrameen.in\n CIN:L51216KA1991PLC053425\n\n\n\n\n\n Annexure I\n Disclosure in compliance with Regulations 52(4) of the SEBI (Listing Obligations and Disclosure Requirements)\n Re<1ulations, 2015 as amended, for the half vear ended September 30, 2023"
+          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69"
         }
-      ]
-    },
-    {
-      "claim_id": "claim_f5537a03ec80ff14",
-      "subject_id": "sebi",
-      "subject": "SEBI",
-      "relation": "issue",
-      "object_id": "march 29 2019",
-      "object": "March\n 29, 2019",
-      "negated": false,
-      "voice": "passive_normalized",
-      "confidence": 0.95,
-      "extraction_method": "passive_svo",
-      "document_id": "doc_e6e1b70747d19696",
-      "chunk_id": "chunk_156b73c2a1ab0d9a",
-      "sentence_id": "sent_49897d5e14fc44e4",
-      "sentence_index": 171,
-      "paragraph_index": 147,
-      "sentence_span": [
-        42893,
-        43095
       ],
-      "subject_span": [
-        43007,
-        43015
-      ],
-      "predicate_span": [
-        42997,
-        43003
-      ],
-      "object_span": [
-        42981,
-        42996
-      ],
-      "supporting_text": "We also performed procedures in accordance with the circular CIR/CFD/CMD1/44/2019 dated March\n 29, 2019 issued by the SEBI under Regulation 33(8) of the Listing Regulations, to the extent\n applicable.",
-      "fact": "SEBI issue March\n 29, 2019",
-      "path_reliability": 1.0902,
-      "edge_flow": 0.0902,
-      "best_path_rank": 14,
-      "path_count": 1,
-      "occurrences": [
+      "evidence": [
         {
-          "claim_id": "claim_f5537a03ec80ff14",
+          "claim_id": "claim_e1abfb8672fd6f50",
           "document_id": "doc_e6e1b70747d19696",
+          "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
+          "chunk_id": "chunk_cdf3aae97a3cc8ac",
+          "chunk_index": 25,
+          "start_char": 25241,
+          "end_char": 25967,
           "sentence_span": [
-            42893,
-            43095
+            25241,
+            25759
           ],
-          "supporting_text": "We also performed procedures in accordance with the circular CIR/CFD/CMD1/44/2019 dated March\n 29, 2019 issued by the SEBI under Regulation 33(8) of the Listing Regulations, to the extent\n applicable."
+          "supporting_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69",
+          "negated": false,
+          "source_text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.67\n 0.65 0.69 2.09 1.34 3.02 5.67\n Ill Total Income ll+lll 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.79\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (IJ)"
         }
       ]
-    },
+    }
+  ],
+  "sources": [
     {
-      "claim_id": "claim_4f0da3c64bcced9f",
-      "subject_id": "quarter end june 3o 2023",
-      "subject": "the quarter ended June 3O, 2023",
-      "relation": "read_of",
-      "object_id": "sebi",
-      "object": "SEBI",
-      "negated": false,
-      "voice": "active",
-      "confidence": 0.86,
-      "extraction_method": "prepositional_svo",
       "document_id": "doc_59e42c99585bf22c",
-      "chunk_id": "chunk_c7170a3313de51ee",
-      "sentence_id": "sent_3a352b2b817a6589",
-      "sentence_index": 50,
-      "paragraph_index": 28,
-      "sentence_span": [
-        10569,
-        11539
-      ],
-      "subject_span": [
-        11243,
-        11274
-      ],
-      "predicate_span": [
-        11390,
-        11394
-      ],
-      "object_span": [
-        11420,
-        11428
-      ],
-      "supporting_text": "Y*:'t/,((ffiR\n ncial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nDeloitte Haskins & Sells PKF Sridhar & Santhanam LLP\n ASV N Ramana Tower TB & T9, Third Floor\n 52, Venkatnarayana Road Gem Plaza,\n T. Nagar; Chennai-600 017 66, Infantry Road\n Tamil Nadu, India Bangalore 560 001, India\n Tel: 044 6688 5000 Phone: 91-80-41307244\n Fax: O44 6688 5050 Phone: 91-80-41317244\n\n INDEPENDENT AUDITORS' REPORT ON REVIEW OF INTERIM STANDALONE FINANCIAL\n RESULTS\n\n TO THE BOARD OF DIRECTORS OF\n CREDITACCESS GRAMEEN LIMITED\n We have reviewed the accompanying Statement of Unaudited Standalone Financial Results of\n CreditAccess Grameen Limited (the \"Compdny'), for the quarter ended June 3O, 2023 (the\n \"Statement\"), being submitted by the Company pursuant to the requirement of Regulation 33 and\n Regulation 52 read with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure\n Requirements) Regulations, 20L5, as amended (the \"Listing Regulations\").",
-      "fact": "the quarter ended June 3O, 2023 read of SEBI",
-      "path_reliability": 1.074,
-      "edge_flow": 0.074,
-      "best_path_rank": 15,
-      "path_count": 1,
-      "occurrences": [
-        {
-          "claim_id": "claim_4f0da3c64bcced9f",
-          "document_id": "doc_59e42c99585bf22c",
-          "sentence_span": [
-            10569,
-            11539
-          ],
-          "supporting_text": "Y*:'t/,((ffiR\n ncial Products GrameenKoota GrameenKoota\n Micro Finance Retail Finance\n\nDeloitte Haskins & Sells PKF Sridhar & Santhanam LLP\n ASV N Ramana Tower TB & T9, Third Floor\n 52, Venkatnarayana Road Gem Plaza,\n T. Nagar; Chennai-600 017 66, Infantry Road\n Tamil Nadu, India Bangalore 560 001, India\n Tel: 044 6688 5000 Phone: 91-80-41307244\n Fax: O44 6688 5050 Phone: 91-80-41317244\n\n INDEPENDENT AUDITORS' REPORT ON REVIEW OF INTERIM STANDALONE FINANCIAL\n RESULTS\n\n TO THE BOARD OF DIRECTORS OF\n CREDITACCESS GRAMEEN LIMITED\n We have reviewed the accompanying Statement of Unaudited Standalone Financial Results of\n CreditAccess Grameen Limited (the \"Compdny'), for the quarter ended June 3O, 2023 (the\n \"Statement\"), being submitted by the Company pursuant to the requirement of Regulation 33 and\n Regulation 52 read with Regulation 63(2) of the SEBI (Listing Obligations and Disclosure\n Requirements) Regulations, 20L5, as amended (the \"Listing Regulations\")."
-        }
-      ]
+      "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
+      "chunk_id": "chunk_cd554c898b19537b",
+      "chunk_index": 1,
+      "start_char": 393,
+      "end_char": 1400,
+      "text": "IA ,ffi I 1nded,,, r,;,1i;q'*@\n $.r\"XS\n ffir\n =TF Revenue from operations\n (a) lnteresl income 1,105.17 964.79 736.23 3,327.13\n (b) Fees and commission 6.05 8.34 1.74 10 t1\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Bad Debt recovery 12.04 16.78 10.36 58.09\n (e) Net gain on derecognition of financial instruments under 43.80 71.U 6.09 122.25\n amortised cost category\n I Total revenue from operations 1,170.03 1.065.41 759.59 3.545:t2\n lt Other income 0.69 0.81 n02 5.64\n 0.69 0.E1 0.93 5.64\n ill fotal income {l+ll) 1.170.72 1.066.22 760.52 3.550.76\n\n Expenses\n (a) Finance costs 384.92 345.U 279.80 't,212.88\n (b) Fee and commission exDense 1.64 1.75 0.06 1.80\n (c) lmpairment of fi nancial instruments 76.40 105.32 100.91 401.O2\n (d) Employee benefit expenses tco-JZ 134.52 123.90 515.24\n (e) Depreciation and amortisation expenses 12.06 12.49 1't.92 49.84\n 1f\\ Olhcr cYbensar 74.18 68.97 55.12 t6a 4q\n tv fotal expenses (lV) 705.52 668.69 s71.71 2,4/5.37\n v ?rofit before tax (lll-lv)"
+    },
+    {
+      "document_id": "doc_59e42c99585bf22c",
+      "source_name": "Credit Access Grameen_2024_Q1__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-June_2023.pdf",
+      "chunk_id": "chunk_f3b38755b62bd904",
+      "chunk_index": 15,
+      "start_char": 13997,
+      "end_char": 15049,
+      "text": "Date: July 21,2023\n\nCreditAccess Grameen Limited\n Regd. & Corporate office * #49,46'\" Cross, 8'\" Block, Jayanagar, Bengaluru-560070 CreditAccess Phone: 080-22637300 | Grameen Email: info@cagrameen.inFax:. 080-26643433\n Website: www.creditaccessgrameen.in\n CIN: 151 21 6KA1 991 P1C053425\n\n\n\n\n Statement of unaudited consolidated financial results for the quarter ended June 30, 2023\n\n < in crore\n ..1 Ei,.ii!{gd]:.i'i:::::=::r;ir'j,i+;:iii.:ili\\- .*YediEended .l\n il. 4r:Ju[,zr ruxqt;l4*-2s $\n ,tAud.}1teot\" .fli i t#rii-:i.i,.^; NIWrI= ry. ..;lN :4:: : \" r _: ; , ,,....,,,.''@' griti #.\"'tt,\n\n Revenue from operations\n (a) lnterest income 1,105.17 9il.79 I50.ZJ 3,327.13\n (b) Fees and commission 6.05 8.34 1.70 19.51\n (c) Net gain on fair value changes 2.97 3.86 5.21 18.14\n (d) Net gain on derecognition of financial instruments under 43.80 7't.u 6.09 122.25\n amortised cost category\n (e) Bad debts recovery 12.U 1A 7R 1n ?A 6R Oq\n I Total revenue trom op€rations ,170.03 1.065.41 759.59 545.12\n\n tl Other income 0.83 0.93 5.67\n 0.69 0.83 0.93 5.67\n "
+    },
+    {
+      "document_id": "doc_e6e1b70747d19696",
+      "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
+      "chunk_id": "chunk_68c8472a6a9b0176",
+      "chunk_index": 1,
+      "start_char": 632,
+      "end_char": 1394,
+      "text": "Revenue from operations\n (a) Interest income 1.187.41 1.105.17 771.32 2,292.58 1,507.55 3,327.13\n (b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n (c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n(d) Bad Debt recovery 11.71 12.04 14.46 23.75 24.82 58.09\n(e) Net gain on derecognition of financial instruments under 8.69 43.80 17.68 52.49 23.77 122.25\n amortised cost category\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571 .81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.64\n 0.65 0.69 2.09 1.34 3.02 5.64\n Ill Total income (1+11) 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.76\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (b) Fee and commission expense 1.75 1.64 ."
+    },
+    {
+      "document_id": "doc_e6e1b70747d19696",
+      "source_name": "Credit Access Grameen_2024_Q2__CreditAccess-Grameen_Statement-of-Unaudited-Standalone-and-Consolidated-Results_Quarter-Ended_30-September_2023.pdf",
+      "chunk_id": "chunk_cdf3aae97a3cc8ac",
+      "chunk_index": 25,
+      "start_char": 25241,
+      "end_char": 25967,
+      "text": "Revenue from operations\n (a) Interest income 1,187.41 1,105.17 771.32 2,292.58 1.507.55 3,327.13\n{b) Fees and commission 30.06 6.05 4.23 36.12 5.93 19.51\n {c) Net gain on fair value changes 9.07 2.97 4.53 12.04 9.74 18.14\n (d) Net gain on derecognition of financial instruments under\n amortised cost category 8.69 43.80 17.68 52.49 23.77 122.25\n (e) Bad debts re,;overy 11.71 12.04 14.46 23.75 24.82 58.09\n I Total revenue from operations 1,246.94 1,170.03 812.22 2,416.98 1,571.81 3,545.12\n\n II Other income 0.65 0.69 2.09 1.34 3.02 5.67\n 0.65 0.69 2.09 1.34 3.02 5.67\n Ill Total Income ll+lll 1,247.59 1,170.72 814.31 2,418.32 1,574.83 3,550.79\n\n Expenses\n (a) Finance costs 423.87 384.92 273.23 808.79 553.03 1,212.88\n (IJ)"
     }
   ],
   "stats": {
     "entity_anchors_count": 1,
     "matched_nodes_count": 1,
-    "paths_explored": 15,
-    "claims_extracted": 5,
-    "duplicates_dropped": 10,
+    "paths_explored": 5,
+    "claims_extracted": 2,
+    "duplicates_dropped": 3,
     "alpha": 0.8,
     "theta": 0.05,
     "max_hops": 3

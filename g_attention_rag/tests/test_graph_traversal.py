@@ -97,7 +97,10 @@ class TestPathRAGTraversal(unittest.TestCase):
         )
 
         # Check unique canonical facts (subject_id, relation, object_id)
-        facts = [(c["subject_id"], c["relation"], c["object_id"]) for c in claims]
+        facts = [
+            (c["subject_id"], c["relation"], c["object_id"], c.get("negated", False))
+            for c in claims
+        ]
         self.assertEqual(
             len(facts),
             len(set(facts)),
@@ -108,6 +111,95 @@ class TestPathRAGTraversal(unittest.TestCase):
         self.assertIn("duplicates_dropped", stats)
         self.assertGreaterEqual(stats["duplicates_dropped"], 0)
         self.assertEqual(stats["claims_extracted"], len(claims))
+
+    def test_retrieval_returns_original_source_chunks(self):
+        """Retrieved claims link back to exact saved document chunks."""
+        details = retrieve_with_traversal_details(
+            self.state,
+            entity_anchors=["Albert Einstein", "Modern Physics"],
+            max_hops=3,
+        )
+
+        self.assertTrue(details["sources"])
+        chunks_by_id = self.state["chunks"]
+        documents = self.state["documents"]
+        retrieved_sources = {source["chunk_id"]: source for source in details["sources"]}
+        for claim in details["claims"]:
+            self.assertIn("evidence", claim)
+            for evidence in claim["evidence"]:
+                chunk = chunks_by_id[evidence["chunk_id"]]
+                document = documents[evidence["document_id"]]
+                self.assertEqual(evidence["source_text"], chunk["text"])
+                self.assertEqual(evidence["source_name"], document["source_name"])
+                self.assertEqual(
+                    retrieved_sources[evidence["chunk_id"]]["text"], chunk["text"]
+                )
+
+    def test_opposing_claims_survive_retrieval_deduplication(self):
+        """Polarity is part of claim identity during path-level deduplication."""
+        builder = KnowledgeGraphBuilder()
+        builder.add_chunk(
+            "opposing-retrieval",
+            "Microsoft acquired Nuance. Microsoft did not acquire Nuance.",
+        )
+
+        details = retrieve_with_traversal_details(
+            builder.state,
+            entity_anchors=["Microsoft", "Nuance"],
+            relation_anchors=["acquire"],
+        )
+        claims = [
+            claim for claim in details["claims"]
+            if claim["subject_id"] == "microsoft" and claim["object_id"] == "nuance"
+        ]
+
+        self.assertEqual({claim["negated"] for claim in claims}, {False, True})
+        self.assertEqual(len({claim["claim_id"] for claim in claims}), 2)
+        self.assertEqual(
+            {evidence["negated"] for claim in claims for evidence in claim["evidence"]},
+            {False, True},
+        )
+
+        graph_only_claims = retrieve_with_traversal_details(
+            builder.graph,
+            entity_anchors=["Microsoft", "Nuance"],
+            relation_anchors=["acquire"],
+        )["claims"]
+        graph_only_conflicts = [
+            claim for claim in graph_only_claims
+            if claim["subject_id"] == "microsoft" and claim["object_id"] == "nuance"
+        ]
+        self.assertEqual(
+            {claim["negated"] for claim in graph_only_conflicts},
+            {False, True},
+        )
+
+    def test_opposing_claims_survive_direct_retrieval_fallback(self):
+        """The no-path fallback uses the same polarity-aware claim identity."""
+        graph = nx.MultiDiGraph()
+        graph.add_node("microsoft", canonical_name="Microsoft", aliases=[], claims=[
+            {
+                "claim_id": "affirmed", "subject_id": "microsoft", "subject": "Microsoft",
+                "relation": "acquire", "object_id": "nuance", "object": "Nuance",
+                "negated": False, "confidence": 0.9, "supporting_text": "Microsoft acquired Nuance.",
+            },
+            {
+                "claim_id": "negated", "subject_id": "microsoft", "subject": "Microsoft",
+                "relation": "acquire", "object_id": "nuance", "object": "Nuance",
+                "negated": True, "confidence": 0.9, "supporting_text": "Microsoft did not acquire Nuance.",
+            },
+        ])
+
+        details = retrieve_with_traversal_details(
+            {"graph": graph, "claims": {}},
+            entity_anchors=["Microsoft"],
+            relation_anchors=["acquire"],
+        )
+
+        self.assertEqual(
+            {claim["negated"] for claim in details["claims"]},
+            {False, True},
+        )
 
     def test_synthetic_overlapping_paths_deduplication(self):
         """Construct synthetic multi-path graph where multiple routes share an edge."""
