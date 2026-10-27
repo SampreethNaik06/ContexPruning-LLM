@@ -7,7 +7,126 @@ from typing import Any
 import networkx as nx
 
 from .path_traversal import PathRAGTraverser
-from .traversal_types import claim_dedup_key, match_nodes, relation_matches
+from .traversal_types import (
+    claim_dedup_key,
+    match_nodes,
+    normalize_token,
+    relation_matches,
+    token_set,
+)
+
+
+_QUERY_FILLER = {
+    "a", "an", "and", "are", "as", "at", "by", "did", "do", "does",
+    "for", "from", "in", "is", "it", "of", "on", "or", "the", "to",
+    "was", "were", "what", "when", "where", "which", "who", "why", "with",
+}
+
+
+def retrieve_evidence_chunks(
+    state: dict[str, Any],
+    entity_anchors: list[str],
+    relation_anchors: list[str] | None = None,
+    top_k: int = 5,
+) -> list[dict[str, Any]]:
+    """Find original chunks that contain both query entities and relation terms.
+
+    This evidence path complements SVO claims for tables and OCR text, where row
+    labels and values may be present in the source chunk without forming a clean
+    subject-verb-object claim.
+    """
+    chunks = state.get("chunks", {})
+    documents = state.get("documents", {})
+    entity_terms = [
+        (anchor, token_set(normalize_token(anchor)) - _QUERY_FILLER)
+        for anchor in entity_anchors
+    ]
+    entity_terms = [(anchor, terms) for anchor, terms in entity_terms if terms]
+    relation_terms = {
+        term
+        for anchor in (relation_anchors or [])
+        for term in token_set(normalize_token(anchor)) - _QUERY_FILLER
+    }
+    if not entity_terms or not relation_terms:
+        return []
+
+    chunks_by_document: dict[str, dict[int, dict[str, Any]]] = {}
+    for chunk in chunks.values():
+        chunks_by_document.setdefault(chunk.get("document_id", ""), {})[
+            int(chunk.get("index", 0))
+        ] = chunk
+
+    ranked: list[tuple[float, dict[str, Any]]] = []
+    for chunk in chunks.values():
+        text = chunk.get("text", "")
+        document_id = chunk.get("document_id", "")
+        chunk_index = int(chunk.get("index", 0))
+        context = chunks_by_document.get(document_id, {})
+        doc_name = documents.get(document_id, {}).get("source_name", "").replace("_", " ")
+        search_text = doc_name + "\n" + "\n".join(
+            context[index].get("text", "")
+            for index in (chunk_index - 1, chunk_index, chunk_index + 1)
+            if index in context
+        )
+        words = token_set(search_text)
+        matched_entities = [
+            anchor for anchor, terms in entity_terms if terms.issubset(words)
+        ]
+        matched_relations = {
+            query_term
+            for query_term in relation_terms
+            if any(
+                word == query_term
+                or word.startswith(query_term)
+                or query_term.startswith(word)
+                for word in words
+            )
+        }
+        if len(matched_entities) != len(entity_terms) or not matched_relations:
+            continue
+
+        score = 3.0 * len(matched_entities) + len(matched_relations)
+        doc = documents.get(chunk.get("document_id"), {})
+        ranked.append((score, {
+            "document_id": chunk.get("document_id"),
+            "source_name": doc.get("source_name"),
+            "chunk_id": chunk.get("chunk_id"),
+            "chunk_index": chunk.get("index"),
+            "start_char": chunk.get("start_char"),
+            "end_char": chunk.get("end_char"),
+            "score": score,
+            "matched_entities": matched_entities,
+            "matched_relations": sorted(matched_relations),
+            "text": text,
+        }))
+
+    ranked.sort(
+        key=lambda item: (item[0], -int(item[1].get("chunk_index") or 0)),
+        reverse=True,
+    )
+    evidence: list[dict[str, Any]] = []
+    covered_chunks: set[tuple[str, int]] = set()
+    for _, record in ranked:
+        document_id = record.get("document_id", "")
+        chunk_index = int(record.get("chunk_index") or 0)
+        if (document_id, chunk_index) in covered_chunks:
+            continue
+        context = chunks_by_document.get(document_id, {})
+        adjacent = [
+            context[index]
+            for index in (chunk_index - 1, chunk_index, chunk_index + 1)
+            if index in context
+        ]
+        covered_chunks.update((document_id, int(item.get("index", 0))) for item in adjacent)
+        record["context_chunks"] = [
+            {"chunk_index": item.get("index"), "text": item.get("text", "")}
+            for item in adjacent
+        ]
+        record["text"] = "\n\n".join(item.get("text", "") for item in adjacent)
+        evidence.append(record)
+        if len(evidence) >= top_k:
+            break
+    return evidence
 
 
 def _claims_for_node(
@@ -308,12 +427,18 @@ def retrieve_with_traversal_details(
 
 
     claims, sources = attach_source_evidence(claims, state_or_graph)
+    evidence_chunks = (
+        retrieve_evidence_chunks(state_or_graph, entity_anchors, relation_anchors)
+        if isinstance(state_or_graph, dict)
+        else []
+    )
 
     return {
         "matched_nodes": matches,
         "paths": [p.to_dict() for p in paths],
         "claims": claims,
         "sources": sources,
+        "evidence_chunks": evidence_chunks,
         "stats": {
             "entity_anchors_count": len(entity_anchors),
             "matched_nodes_count": len(matches),

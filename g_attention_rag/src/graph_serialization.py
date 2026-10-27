@@ -47,6 +47,8 @@ def export_json(state: dict[str, Any], output_path: Path) -> None:
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
-        json.dumps(graph_to_dict(state), indent=2, ensure_ascii=False),
+        # Keep line breaks while avoiding deep indentation; merged PDF corpora
+        # duplicate substantial provenance text across claims and graph edges.
+        json.dumps(graph_to_dict(state), indent=0, ensure_ascii=False),
         encoding="utf-8",
     )

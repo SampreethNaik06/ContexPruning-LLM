@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171717">
+  <meta name="color-scheme" content="dark">
+  <title>Static</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23a7f3d0'/%3E%3Cpath d='M32 12v40M12 32h40M18 18l28 28m0-28L18 46' stroke='%23171717' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar" aria-label="Chat history">
+    <div class="sidebar-top">
+      <a class="brand" href="./" aria-label="Static home"><span class="brand-mark" aria-hidden="true">✳</span><span>Static</span></a>
+      <button id="new-chat" class="new-chat" type="button" aria-label="Start a new chat" title="New chat"><span aria-hidden="true">＋</span><span class="new-chat-label">New chat</span></button>
+    </div>
+    <div class="history-heading">Recent</div>
+    <nav id="chat-list" class="chat-list" aria-label="Recent conversations"></nav>
+    <div class="sidebar-footer"><span class="status-dot" aria-hidden="true"></span><span>Private to this browser</span></div>
+  </aside>
+
+  <main class="workspace">
+    <header class="topbar"><span class="topbar-title">Static</span><span class="topbar-note">Your knowledge assistant</span></header>
+    <div id="scroll-area" class="scroll-area">
+      <section id="welcome" class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-mark" aria-hidden="true">✳</div>
+        <h1 id="welcome-title">How can I help?</h1>
+        <p class="intro">Ask a question about your information.</p>
+      </section>
+      <section id="messages" class="messages" aria-label="Conversation" aria-live="polite" aria-relevant="additions"></section>
+    </div>
+    <div class="composer-area">
+      <div id="error" class="error" role="alert" hidden></div>
+      <form id="chat-form" class="composer">
+        <label for="query" class="sr-only">Message Static</label>
+        <textarea id="query" name="query" rows="1" maxlength="4000" placeholder="Message Static…" required></textarea>
+        <div class="composer-bottom"><span id="composer-hint">Answers are based on your connected data.</span><button id="send" type="submit" aria-label="Send message" disabled><span aria-hidden="true">↑</span></button></div>
+      </form>
+      <div class="composer-footnote">Static can make mistakes. Check important information.</div>
+    </div>
+  </main>
+</body>
+</html>
+
+
+
+

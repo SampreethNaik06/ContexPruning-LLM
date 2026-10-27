@@ -1,10 +1,530 @@
 [
-  {
-    "file": "Artificial Intelligence and Current Scenario.pdf",
-    "source_path": "C:\\Users\\sampr\\Desktop\\ContexPruning-LLM\\Artificial Intelligence and Current Scenario.pdf",
-    "pages": 10,
-    "ocr_pages": [],
-    "characters": 15143,
-    "extracted_text": "data\\raw\\Artificial Intelligence and Current Scenario.txt"
-  }
+    {
+        "file":  "InfoEdge_2024_Q1__financial-results-11aug23.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2024_Q1__financial-results-11aug23.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2024_Q1__financial-results-11aug23.txt",
+        "pages":  10,
+        "characters":  34078,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2024_Q2__Unaudited-Financial-Results-Q2-23.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2024_Q2__Unaudited-Financial-Results-Q2-23.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2024_Q2__Unaudited-Financial-Results-Q2-23.txt",
+        "pages":  13,
+        "characters":  48323,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2024_Q3__Unaudited-Financial-Results-Q3-23.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2024_Q3__Unaudited-Financial-Results-Q3-23.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2024_Q3__Unaudited-Financial-Results-Q3-23.txt",
+        "pages":  8,
+        "characters":  36561,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2024_Q4__audited-Financial-Results-Q4-FY24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2024_Q4__audited-Financial-Results-Q4-FY24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2024_Q4__audited-Financial-Results-Q4-FY24.txt",
+        "pages":  17,
+        "characters":  57126,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2025_Q1__financial-results-09aug24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2025_Q1__financial-results-09aug24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2025_Q1__financial-results-09aug24.txt",
+        "pages":  10,
+        "characters":  30922,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2025_Q2__Unaudited-Financial-Results-Q2-24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2025_Q2__Unaudited-Financial-Results-Q2-24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2025_Q2__Unaudited-Financial-Results-Q2-24.txt",
+        "pages":  14,
+        "characters":  50157,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2025_Q3__Unaudited-Financial-Results-Q3-24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2025_Q3__Unaudited-Financial-Results-Q3-24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2025_Q3__Unaudited-Financial-Results-Q3-24.txt",
+        "pages":  11,
+        "characters":  41350,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2025_Q4__audited-Financial-Results-Q4-FY25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2025_Q4__audited-Financial-Results-Q4-FY25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2025_Q4__audited-Financial-Results-Q4-FY25.txt",
+        "pages":  19,
+        "characters":  65561,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2026_Q1__financial-results-08aug25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2026_Q1__financial-results-08aug25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2026_Q1__financial-results-08aug25.txt",
+        "pages":  12,
+        "characters":  39985,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2026_Q2__Unaudited-Financial-Results-Q2-25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2026_Q2__Unaudited-Financial-Results-Q2-25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2026_Q2__Unaudited-Financial-Results-Q2-25.txt",
+        "pages":  15,
+        "characters":  59941,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2026_Q3__Unaudited-Financial-Results-Q3-25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2026_Q3__Unaudited-Financial-Results-Q3-25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2026_Q3__Unaudited-Financial-Results-Q3-25.txt",
+        "pages":  11,
+        "characters":  52278,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "InfoEdge_2026_Q4__audited-Financial-Results-Q4-26.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\InfoEdge_2026_Q4__audited-Financial-Results-Q4-26.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\InfoEdge_2026_Q4__audited-Financial-Results-Q4-26.txt",
+        "pages":  20,
+        "characters":  77417,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2024_Q1__Outcome-1.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2024_Q1__Outcome-1.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2024_Q1__Outcome-1.txt",
+        "pages":  16,
+        "characters":  36918,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2024_Q2__2.-Financial-result.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2024_Q2__2.-Financial-result.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2024_Q2__2.-Financial-result.txt",
+        "pages":  16,
+        "characters":  42561,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2024_Q3__Outcome191023.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2024_Q3__Outcome191023.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2024_Q3__Outcome191023.txt",
+        "pages":  19,
+        "characters":  62137,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2024_Q4__JSLBMOutcome15May-1.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2024_Q4__JSLBMOutcome15May-1.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2024_Q4__JSLBMOutcome15May-1.txt",
+        "pages":  22,
+        "characters":  77945,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2025_Q1__BMOutcome30072024.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2025_Q1__BMOutcome30072024.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2025_Q1__BMOutcome30072024.txt",
+        "pages":  17,
+        "characters":  49202,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2025_Q2__JSLBMOutcome17Oct2024-1.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2025_Q2__JSLBMOutcome17Oct2024-1.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2025_Q2__JSLBMOutcome17Oct2024-1.txt",
+        "pages":  17,
+        "characters":  54018,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2025_Q3__Dec24-UFR.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2025_Q3__Dec24-UFR.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2025_Q3__Dec24-UFR.txt",
+        "pages":  12,
+        "characters":  43615,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2025_Q4__FinancialsMarch31.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2025_Q4__FinancialsMarch31.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2025_Q4__FinancialsMarch31.txt",
+        "pages":  22,
+        "characters":  75710,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2026_Q1__UFR_June25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2026_Q1__UFR_June25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2026_Q1__UFR_June25.txt",
+        "pages":  12,
+        "characters":  38057,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2026_Q2__Financials.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2026_Q2__Financials.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2026_Q2__Financials.txt",
+        "pages":  16,
+        "characters":  50822,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2026_Q3__Financial-Results.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2026_Q3__Financial-Results.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2026_Q3__Financial-Results.txt",
+        "pages":  14,
+        "characters":  46174,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Jindal Stainless Limited_2026_Q4__Financials-1.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Jindal Stainless Limited_2026_Q4__Financials-1.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Jindal Stainless Limited_2026_Q4__Financials-1.txt",
+        "pages":  20,
+        "characters":  70290,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2024_Q1__outcome-of-board-meeting-on-financial-results-q1-fy24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2024_Q1__outcome-of-board-meeting-on-financial-results-q1-fy24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2024_Q1__outcome-of-board-meeting-on-financial-results-q1-fy24.txt",
+        "pages":  11,
+        "characters":  29024,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2024_Q2__Outcome-of-Board-Meeting-on-Financial-Results-Q2-FY24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2024_Q2__Outcome-of-Board-Meeting-on-Financial-Results-Q2-FY24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2024_Q2__Outcome-of-Board-Meeting-on-Financial-Results-Q2-FY24.txt",
+        "pages":  15,
+        "characters":  38363,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2024_Q3__Outcome-of-Board-Meeting-on-Financial-Results-Q3-FY24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2024_Q3__Outcome-of-Board-Meeting-on-Financial-Results-Q3-FY24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2024_Q3__Outcome-of-Board-Meeting-on-Financial-Results-Q3-FY24.txt",
+        "pages":  9,
+        "characters":  25742,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2024_Q4__Outcome-of-Board-Meeting-on-Financial-Results-Q4-FY24.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2024_Q4__Outcome-of-Board-Meeting-on-Financial-Results-Q4-FY24.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2024_Q4__Outcome-of-Board-Meeting-on-Financial-Results-Q4-FY24.txt",
+        "pages":  17,
+        "characters":  48680,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2025_Q1__Outcome-of-Board-Meeting-on-Financial-Results-Q1-FY25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2025_Q1__Outcome-of-Board-Meeting-on-Financial-Results-Q1-FY25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2025_Q1__Outcome-of-Board-Meeting-on-Financial-Results-Q1-FY25.txt",
+        "pages":  10,
+        "characters":  24850,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2025_Q2__board-outcome-12-11-2024.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2025_Q2__board-outcome-12-11-2024.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2025_Q2__board-outcome-12-11-2024.txt",
+        "pages":  13,
+        "characters":  35683,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2025_Q3__Outcome-of-Board-Meeting-on-Financial-Results-Q3-FY25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2025_Q3__Outcome-of-Board-Meeting-on-Financial-Results-Q3-FY25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2025_Q3__Outcome-of-Board-Meeting-on-Financial-Results-Q3-FY25.txt",
+        "pages":  9,
+        "characters":  26312,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2025_Q4__Outcome-of-Board-Meeting-on-Financial-Results-Q4-and-FY25.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2025_Q4__Outcome-of-Board-Meeting-on-Financial-Results-Q4-and-FY25.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2025_Q4__Outcome-of-Board-Meeting-on-Financial-Results-Q4-and-FY25.txt",
+        "pages":  16,
+        "characters":  48713,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2026_Q1__outcome-of-board-meeting-on-financial-results-q1-fy-26.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2026_Q1__outcome-of-board-meeting-on-financial-results-q1-fy-26.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2026_Q1__outcome-of-board-meeting-on-financial-results-q1-fy-26.txt",
+        "pages":  10,
+        "characters":  23197,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2026_Q2__Outcome-of-Board-Meeting-on-Financial-Results-Q2-and-FY26.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2026_Q2__Outcome-of-Board-Meeting-on-Financial-Results-Q2-and-FY26.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2026_Q2__Outcome-of-Board-Meeting-on-Financial-Results-Q2-and-FY26.txt",
+        "pages":  13,
+        "characters":  33603,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2026_Q3__outcome-of-Board-Meeting-on-Financial-Results-Q3-FY26.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2026_Q3__outcome-of-Board-Meeting-on-Financial-Results-Q3-FY26.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2026_Q3__outcome-of-Board-Meeting-on-Financial-Results-Q3-FY26.txt",
+        "pages":  9,
+        "characters":  26216,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "NYKAA_2026_Q4__Outcome-of-Board-Meeting.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\NYKAA_2026_Q4__Outcome-of-Board-Meeting.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\NYKAA_2026_Q4__Outcome-of-Board-Meeting.txt",
+        "pages":  18,
+        "characters":  53619,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2024_Q1__consolidated-results-June 2023_signed.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2024_Q1__consolidated-results-June 2023_signed.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2024_Q1__consolidated-results-June 2023_signed.txt",
+        "pages":  8,
+        "characters":  18371,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2024_Q2__consolidated_results_sep_2023.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2024_Q2__consolidated_results_sep_2023.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2024_Q2__consolidated_results_sep_2023.txt",
+        "pages":  9,
+        "characters":  23746,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2024_Q3__consolidated-results-dec2023.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2024_Q3__consolidated-results-dec2023.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2024_Q3__consolidated-results-dec2023.txt",
+        "pages":  8,
+        "characters":  21933,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2024_Q4__consolidated-results-q4-2023-2024.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2024_Q4__consolidated-results-q4-2023-2024.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2024_Q4__consolidated-results-q4-2023-2024.txt",
+        "pages":  13,
+        "characters":  39101,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2025_Q1__consolidated-results-june2024-signed.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2025_Q1__consolidated-results-june2024-signed.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2025_Q1__consolidated-results-june2024-signed.txt",
+        "pages":  8,
+        "characters":  18830,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2025_Q2__Consolidated_Results_Sep 2024.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2025_Q2__Consolidated_Results_Sep 2024.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2025_Q2__Consolidated_Results_Sep 2024.txt",
+        "pages":  10,
+        "characters":  26492,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2025_Q3__Consolidated_Results_dec 2024_signed.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2025_Q3__Consolidated_Results_dec 2024_signed.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2025_Q3__Consolidated_Results_dec 2024_signed.txt",
+        "pages":  8,
+        "characters":  20329,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2025_Q4__Consolidated_Results_March2025.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2025_Q4__Consolidated_Results_March2025.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2025_Q4__Consolidated_Results_March2025.txt",
+        "pages":  13,
+        "characters":  37331,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2026_Q1__Group_Sebi_Results_June\u002725.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2026_Q1__Group_Sebi_Results_June\u002725.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2026_Q1__Group_Sebi_Results_June\u002725.txt",
+        "pages":  8,
+        "characters":  17827,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2026_Q2__Q2_FY26_Group_Sebi_Results.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2026_Q2__Q2_FY26_Group_Sebi_Results.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2026_Q2__Q2_FY26_Group_Sebi_Results.txt",
+        "pages":  10,
+        "characters":  25471,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2026_Q3__Consolidated_Sebi_Results_Q3_FY26.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2026_Q3__Consolidated_Sebi_Results_Q3_FY26.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2026_Q3__Consolidated_Sebi_Results_Q3_FY26.txt",
+        "pages":  8,
+        "characters":  20424,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    },
+    {
+        "file":  "Tata Consumer Products_2026_Q4__Consolidated_Results.pdf",
+        "source_path":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs\\Tata Consumer Products_2026_Q4__Consolidated_Results.pdf",
+        "extracted_text":  "C:\\Users\\bhuva\\Documents\\New folder (2)\\ContexPruning-LLM\\g_attention_rag\\data\\raw\\all_pdfs_text\\Tata Consumer Products_2026_Q4__Consolidated_Results.txt",
+        "pages":  12,
+        "characters":  37631,
+        "extraction_method":  "Windows PDF renderer + Windows OCR",
+        "warnings":  [
+
+                     ]
+    }
 ]

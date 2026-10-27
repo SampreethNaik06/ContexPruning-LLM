@@ -1,671 +1,1219 @@
 {
   "matched_nodes": [
     {
-      "anchor": "AI",
-      "node_id": "field of artificial intelligence",
-      "canonical_name": "The field of Artificial Intelligence",
-      "score": 1.0
+      "anchor": "Tata Consumer Products",
+      "node_id": "tata consumer product limit",
+      "canonical_name": "TATA CONSUMER PRODUCTS LIMITED",
+      "score": 0.9367
     }
   ],
   "paths": [
     {
       "nodes": [
-        "field of artificial intelligence",
-        "domain of academic curiosity"
+        "tata consumer product limit",
+        "independent auditor review report"
       ],
       "hop_count": 1,
-      "reliability": 1.1972,
+      "reliability": 1.1479,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "domain of academic curiosity",
-          "edge_key": "claim_aa23045d4b77c982",
-          "relation": "transition_from",
-          "claim_id": "claim_aa23045d4b77c982",
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_13a8b517c431e8fe",
+          "relation": "result_of",
+          "claim_id": "claim_13a8b517c431e8fe",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
       "nodes": [
-        "field of artificial intelligence",
-        "primary engine of technological transformation"
+        "tata consumer product limit",
+        "independent auditor review report"
       ],
       "hop_count": 1,
-      "reliability": 1.1972,
+      "reliability": 1.1479,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "primary engine of technological transformation",
-          "edge_key": "claim_86e703e66edd77a0",
-          "relation": "transition_into",
-          "claim_id": "claim_86e703e66edd77a0",
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_286f62755d6b560c",
+          "relation": "result_of",
+          "claim_id": "claim_286f62755d6b560c",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
       "nodes": [
-        "field of artificial intelligence",
-        "advanced large language model"
+        "tata consumer product limit",
+        "independent auditor review report"
       ],
       "hop_count": 1,
-      "reliability": 1.0427,
+      "reliability": 1.1479,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "advanced large language model",
-          "edge_key": "context_36673b8a9320db8f",
-          "relation": "next_topic",
-          "claim_id": null,
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_e43a80e43a187f7b",
+          "relation": "result_of",
+          "claim_id": "claim_e43a80e43a187f7b",
           "negated": false,
-          "inferred": true,
-          "confidence": 0.55,
-          "flow": 0.0427,
-          "supporting_text": "Advanced Large Language Models (LLMs), vision-language multimodal architectures, and autonomous\ndecision-making agents exhibit sophisticated reasoning, contextual comprehension, synthesis of scientific\nliterature, code execution, and creative generative capacities."
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
       "nodes": [
-        "field of artificial intelligence",
-        "domain of academic curiosity",
-        "shift"
+        "tata consumer product limit",
+        "independent auditor review report"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_816f1159f69cb504",
+          "relation": "result_of",
+          "claim_id": "claim_816f1159f69cb504",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "independent auditor review report"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_933228e5873425d1",
+          "relation": "result_of",
+          "claim_id": "claim_933228e5873425d1",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "independent auditor review report"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_c827d94ce8a4939d",
+          "relation": "result_of",
+          "claim_id": "claim_c827d94ce8a4939d",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements)"
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "independent auditor review report"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_f50683dd6c3bc851",
+          "relation": "result_of",
+          "claim_id": "claim_f50683dd6c3bc851",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "accountant one international center tower 3"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "accountant one international center tower 3",
+          "edge_key": "claim_b9be2695a3631331",
+          "relation": "result_of",
+          "claim_id": "claim_b9be2695a3631331",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "013 maharashtra"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "013 maharashtra",
+          "edge_key": "claim_f363b431c7e77fae",
+          "relation": "result_of",
+          "claim_id": "claim_f363b431c7e77fae",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "i auditor 's review report"
+      ],
+      "hop_count": 1,
+      "reliability": 1.1479,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "i auditor 's review report",
+          "edge_key": "claim_488170a7e25582a9",
+          "relation": "result_of",
+          "claim_id": "claim_488170a7e25582a9",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "I INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "independent auditor review report",
+        "board of director"
       ],
       "hop_count": 2,
-      "reliability": 0.6325,
+      "reliability": 0.5994,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "domain of academic curiosity",
-          "edge_key": "claim_aa23045d4b77c982",
-          "relation": "transition_from",
-          "claim_id": "claim_aa23045d4b77c982",
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_13a8b517c431e8fe",
+          "relation": "result_of",
+          "claim_id": "claim_13a8b517c431e8fe",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "source": "domain of academic curiosity",
-          "target": "shift",
-          "edge_key": "claim_45c3b535435517e6",
-          "relation": "transition_from",
-          "claim_id": "claim_45c3b535435517e6",
+          "source": "independent auditor review report",
+          "target": "board of director",
+          "edge_key": "claim_0e23d85e92465006",
+          "relation": "result_to",
+          "claim_id": "claim_0e23d85e92465006",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.0678,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.0509,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
       "nodes": [
-        "field of artificial intelligence",
-        "primary engine of technological transformation",
-        "shift"
+        "tata consumer product limit",
+        "independent auditor review report",
+        "board of director"
       ],
       "hop_count": 2,
-      "reliability": 0.6325,
+      "reliability": 0.5994,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "primary engine of technological transformation",
-          "edge_key": "claim_86e703e66edd77a0",
-          "relation": "transition_into",
-          "claim_id": "claim_86e703e66edd77a0",
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_13a8b517c431e8fe",
+          "relation": "result_of",
+          "claim_id": "claim_13a8b517c431e8fe",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "source": "primary engine of technological transformation",
-          "target": "shift",
-          "edge_key": "claim_e46c2d5442da6c8d",
-          "relation": "transition_into",
-          "claim_id": "claim_e46c2d5442da6c8d",
+          "source": "independent auditor review report",
+          "target": "board of director",
+          "edge_key": "claim_ce63b27aef4ada77",
+          "relation": "result_to",
+          "claim_id": "claim_ce63b27aef4ada77",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.0678,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.0509,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
       "nodes": [
-        "field of artificial intelligence",
-        "primary engine of technological transformation",
-        "shift",
-        "domain of academic curiosity"
+        "tata consumer product limit",
+        "independent auditor review report",
+        "board of director"
       ],
-      "hop_count": 3,
-      "reliability": 0.4874,
+      "hop_count": 2,
+      "reliability": 0.5994,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "primary engine of technological transformation",
-          "edge_key": "claim_86e703e66edd77a0",
-          "relation": "transition_into",
-          "claim_id": "claim_86e703e66edd77a0",
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_13a8b517c431e8fe",
+          "relation": "result_of",
+          "claim_id": "claim_13a8b517c431e8fe",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "source": "primary engine of technological transformation",
-          "target": "shift",
-          "edge_key": "claim_e46c2d5442da6c8d",
-          "relation": "transition_into",
-          "claim_id": "claim_e46c2d5442da6c8d",
+          "source": "independent auditor review report",
+          "target": "board of director",
+          "edge_key": "claim_66dc90940c02c33a",
+          "relation": "result_to",
+          "claim_id": "claim_66dc90940c02c33a",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.0678,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "source": "shift",
-          "target": "domain of academic curiosity",
-          "edge_key": "claim_45c3b535435517e6",
-          "relation": "transition_from",
-          "claim_id": "claim_45c3b535435517e6",
-          "negated": false,
-          "inferred": false,
-          "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.0509,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
       "nodes": [
-        "field of artificial intelligence",
-        "domain of academic curiosity",
-        "shift",
-        "primary engine of technological transformation"
+        "tata consumer product limit",
+        "independent auditor review report",
+        "board of director"
       ],
-      "hop_count": 3,
-      "reliability": 0.4874,
+      "hop_count": 2,
+      "reliability": 0.5994,
       "steps": [
         {
-          "source": "field of artificial intelligence",
-          "target": "domain of academic curiosity",
-          "edge_key": "claim_aa23045d4b77c982",
-          "relation": "transition_from",
-          "claim_id": "claim_aa23045d4b77c982",
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_13a8b517c431e8fe",
+          "relation": "result_of",
+          "claim_id": "claim_13a8b517c431e8fe",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "source": "domain of academic curiosity",
-          "target": "shift",
-          "edge_key": "claim_45c3b535435517e6",
-          "relation": "transition_from",
-          "claim_id": "claim_45c3b535435517e6",
+          "source": "independent auditor review report",
+          "target": "board of director",
+          "edge_key": "claim_8da4276d75b2e596",
+          "relation": "result_to",
+          "claim_id": "claim_8da4276d75b2e596",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.0678,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.0509,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "nodes": [
+        "tata consumer product limit",
+        "independent auditor review report",
+        "board of director"
+      ],
+      "hop_count": 2,
+      "reliability": 0.5994,
+      "steps": [
+        {
+          "source": "tata consumer product limit",
+          "target": "independent auditor review report",
+          "edge_key": "claim_13a8b517c431e8fe",
+          "relation": "result_of",
+          "claim_id": "claim_13a8b517c431e8fe",
+          "negated": false,
+          "inferred": false,
+          "confidence": 0.86,
+          "flow": 0.1479,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "source": "shift",
-          "target": "primary engine of technological transformation",
-          "edge_key": "claim_e46c2d5442da6c8d",
-          "relation": "transition_into",
-          "claim_id": "claim_e46c2d5442da6c8d",
+          "source": "independent auditor review report",
+          "target": "board of director",
+          "edge_key": "claim_f80a5196e6495766",
+          "relation": "result_to",
+          "claim_id": "claim_f80a5196e6495766",
           "negated": false,
           "inferred": false,
           "confidence": 0.86,
-          "flow": 0.1972,
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "flow": 0.0509,
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     }
   ],
   "claims": [
     {
-      "claim_id": "claim_aa23045d4b77c982",
-      "subject_id": "field of artificial intelligence",
-      "subject": "The field of Artificial Intelligence",
-      "relation": "transition_from",
-      "object_id": "domain of academic curiosity",
-      "object": "domain of academic curiosity",
+      "claim_id": "claim_13a8b517c431e8fe",
+      "subject_id": "independent auditor review report",
+      "subject": "INDEPENDENT AUDITOR REVIEW REPORT",
+      "relation": "result_of",
+      "object_id": "tata consumer product limit",
+      "object": "TATA CONSUMER PRODUCTS LIMITED",
       "negated": false,
       "voice": "active",
       "confidence": 0.86,
       "extraction_method": "prepositional_svo",
-      "document_id": "doc_1765561c7e2cdb47",
-      "chunk_id": "chunk_62939e2104a9175e",
-      "sentence_id": "sent_396b3b2d3c9f2878",
-      "sentence_index": 2,
+      "document_id": "doc_e887e92b2bf34de4",
+      "chunk_id": "chunk_183ac210a105e35a",
+      "sentence_id": "sent_4341f81863d5a530",
+      "sentence_index": 1,
       "paragraph_index": 0,
       "sentence_span": [
-        332,
-        600
+        246,
+        987
       ],
-      "subject_span": [
-        371,
-        403
-      ],
+      "subject_span": null,
       "subject_spans": [
         [
-          371,
-          403
-        ]
-      ],
-      "predicate_span": [
-        413,
-        425
-      ],
-      "object_span": [
-        433,
-        461
-      ],
-      "object_spans": [
-        [
-          433,
-          461
-        ]
-      ],
-      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
-      "fact": "The field of Artificial Intelligence transition from domain of academic curiosity",
-      "path_reliability": 1.1972,
-      "edge_flow": 0.1972,
-      "best_path_rank": 1,
-      "path_count": 3,
-      "occurrences": [
-        {
-          "claim_id": "claim_aa23045d4b77c982",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "claim_id": "claim_aa23045d4b77c982",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "claim_id": "claim_aa23045d4b77c982",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        }
-      ],
-      "evidence": [
-        {
-          "claim_id": "claim_aa23045d4b77c982",
-          "document_id": "doc_1765561c7e2cdb47",
-          "source_name": "Artificial Intelligence and Current Scenario.pdf",
-          "chunk_id": "chunk_62939e2104a9175e",
-          "chunk_index": 0,
-          "start_char": 0,
-          "end_char": 983,
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
-          "negated": false,
-          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
-        }
-      ]
-    },
-    {
-      "claim_id": "claim_86e703e66edd77a0",
-      "subject_id": "field of artificial intelligence",
-      "subject": "The field of Artificial Intelligence",
-      "relation": "transition_into",
-      "object_id": "primary engine of technological transformation",
-      "object": "primary engine of technological transformations",
-      "negated": false,
-      "voice": "active",
-      "confidence": 0.86,
-      "extraction_method": "prepositional_svo",
-      "document_id": "doc_1765561c7e2cdb47",
-      "chunk_id": "chunk_62939e2104a9175e",
-      "sentence_id": "sent_396b3b2d3c9f2878",
-      "sentence_index": 2,
-      "paragraph_index": 0,
-      "sentence_span": [
-        332,
-        600
-      ],
-      "subject_span": [
-        371,
-        403
-      ],
-      "subject_spans": [
-        [
-          371,
-          403
-        ]
-      ],
-      "predicate_span": [
-        413,
-        425
-      ],
-      "object_span": null,
-      "object_spans": [
-        [
-          504,
-          535
+          246,
+          265
         ],
         [
-          564,
-          579
-        ]
-      ],
-      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
-      "fact": "The field of Artificial Intelligence transition into primary engine of technological transformations",
-      "path_reliability": 1.1972,
-      "edge_flow": 0.1972,
-      "best_path_rank": 2,
-      "path_count": 3,
-      "occurrences": [
-        {
-          "claim_id": "claim_86e703e66edd77a0",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "claim_id": "claim_86e703e66edd77a0",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "claim_id": "claim_86e703e66edd77a0",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        }
-      ],
-      "evidence": [
-        {
-          "claim_id": "claim_86e703e66edd77a0",
-          "document_id": "doc_1765561c7e2cdb47",
-          "source_name": "Artificial Intelligence and Current Scenario.pdf",
-          "chunk_id": "chunk_62939e2104a9175e",
-          "chunk_index": 0,
-          "start_char": 0,
-          "end_char": 983,
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
-          "negated": false,
-          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
-        }
-      ]
-    },
-    {
-      "claim_id": "claim_45c3b535435517e6",
-      "subject_id": "shift",
-      "subject": "Shift",
-      "relation": "transition_from",
-      "object_id": "domain of academic curiosity",
-      "object": "domain of academic curiosity",
-      "negated": false,
-      "voice": "active",
-      "confidence": 0.86,
-      "extraction_method": "prepositional_svo",
-      "document_id": "doc_1765561c7e2cdb47",
-      "chunk_id": "chunk_62939e2104a9175e",
-      "sentence_id": "sent_396b3b2d3c9f2878",
-      "sentence_index": 2,
-      "paragraph_index": 0,
-      "sentence_span": [
-        332,
-        600
-      ],
-      "subject_span": [
-        361,
-        366
-      ],
-      "subject_spans": [
-        [
-          361,
-          366
+          268,
+          281
         ]
       ],
       "predicate_span": [
-        413,
-        425
+        326,
+        333
       ],
       "object_span": [
-        433,
-        461
+        363,
+        393
       ],
       "object_spans": [
         [
-          433,
-          461
+          363,
+          393
         ]
       ],
-      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
-      "fact": "Shift transition from domain of academic curiosity",
-      "path_reliability": 0.6325,
-      "edge_flow": 0.0678,
-      "best_path_rank": 4,
-      "path_count": 3,
+      "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+      "fact": "INDEPENDENT AUDITOR REVIEW REPORT result of TATA CONSUMER PRODUCTS LIMITED",
+      "path_reliability": 1.1479,
+      "edge_flow": 0.1479,
+      "best_path_rank": 7,
+      "path_count": 12,
       "occurrences": [
         {
-          "claim_id": "claim_45c3b535435517e6",
+          "claim_id": "claim_13a8b517c431e8fe",
           "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
+          "document_id": "doc_e887e92b2bf34de4",
           "sentence_span": [
-            332,
-            600
+            246,
+            987
           ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "claim_id": "claim_45c3b535435517e6",
+          "claim_id": "claim_286f62755d6b560c",
           "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
+          "document_id": "doc_7bab8c7211e3b6ae",
           "sentence_span": [
-            332,
-            600
+            246,
+            1010
           ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         },
         {
-          "claim_id": "claim_45c3b535435517e6",
+          "claim_id": "claim_e43a80e43a187f7b",
           "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
+          "document_id": "doc_b5a3094eb8c01585",
           "sentence_span": [
-            332,
-            600
+            250,
+            1027
           ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_816f1159f69cb504",
+          "negated": false,
+          "document_id": "doc_c31e4ec96850216c",
+          "sentence_span": [
+            246,
+            1023
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_933228e5873425d1",
+          "negated": false,
+          "document_id": "doc_1918699c36b82689",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_c827d94ce8a4939d",
+          "negated": false,
+          "document_id": "doc_7d603be80cb424c6",
+          "sentence_span": [
+            246,
+            957
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements)"
+        },
+        {
+          "claim_id": "claim_f50683dd6c3bc851",
+          "negated": false,
+          "document_id": "doc_6bbf0f38fc8ecb11",
+          "sentence_span": [
+            247,
+            1017
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_13a8b517c431e8fe",
+          "negated": false,
+          "document_id": "doc_e887e92b2bf34de4",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_13a8b517c431e8fe",
+          "negated": false,
+          "document_id": "doc_e887e92b2bf34de4",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_13a8b517c431e8fe",
+          "negated": false,
+          "document_id": "doc_e887e92b2bf34de4",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_13a8b517c431e8fe",
+          "negated": false,
+          "document_id": "doc_e887e92b2bf34de4",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_13a8b517c431e8fe",
+          "negated": false,
+          "document_id": "doc_e887e92b2bf34de4",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ],
       "evidence": [
         {
-          "claim_id": "claim_45c3b535435517e6",
-          "document_id": "doc_1765561c7e2cdb47",
-          "source_name": "Artificial Intelligence and Current Scenario.pdf",
-          "chunk_id": "chunk_62939e2104a9175e",
+          "claim_id": "claim_13a8b517c431e8fe",
+          "document_id": "doc_e887e92b2bf34de4",
+          "source_name": "Tata Consumer Products_2024_Q1__consolidated-results-June 2023_signed.pdf",
+          "chunk_id": "chunk_183ac210a105e35a",
           "chunk_index": 0,
           "start_char": 0,
-          "end_char": 983,
+          "end_char": 987,
           "sentence_span": [
-            332,
-            600
+            246,
+            987
           ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
           "negated": false,
-          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_286f62755d6b560c",
+          "document_id": "doc_7bab8c7211e3b6ae",
+          "source_name": "Tata Consumer Products_2024_Q2__consolidated_results_sep_2023.pdf",
+          "chunk_id": "chunk_d14802dc6eb3404c",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1010,
+          "sentence_span": [
+            246,
+            1010
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_e43a80e43a187f7b",
+          "document_id": "doc_b5a3094eb8c01585",
+          "source_name": "Tata Consumer Products_2025_Q2__Consolidated_Results_Sep 2024.pdf",
+          "chunk_id": "chunk_446b89a43ccd45a3",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1027,
+          "sentence_span": [
+            250,
+            1027
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 27th-3rd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_816f1159f69cb504",
+          "document_id": "doc_c31e4ec96850216c",
+          "source_name": "Tata Consumer Products_2025_Q3__Consolidated_Results_dec 2024_signed.pdf",
+          "chunk_id": "chunk_9cda2c14bf9d1d03",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1023,
+          "sentence_span": [
+            246,
+            1023
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_933228e5873425d1",
+          "document_id": "doc_1918699c36b82689",
+          "source_name": "Tata Consumer Products_2026_Q1__Group_Sebi_Results_June'25.pdf",
+          "chunk_id": "chunk_0e26f387f5fbb769",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 987,
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_c827d94ce8a4939d",
+          "document_id": "doc_7d603be80cb424c6",
+          "source_name": "Tata Consumer Products_2026_Q2__Q2_FY26_Group_Sebi_Results.pdf",
+          "chunk_id": "chunk_4fd0fb243a35d6b3",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1016,
+          "sentence_span": [
+            246,
+            957
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements)",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai — 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_f50683dd6c3bc851",
+          "document_id": "doc_6bbf0f38fc8ecb11",
+          "source_name": "Tata Consumer Products_2026_Q3__Consolidated_Sebi_Results_Q3_FY26.pdf",
+          "chunk_id": "chunk_93c332fbd302b6c0",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1017,
+          "sentence_span": [
+            247,
+            1017
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center, Tower 3, 31 st Floor, Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tel: +91 22 6185 6000 Fax: +91 22 6185 4101 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     },
     {
-      "claim_id": "claim_e46c2d5442da6c8d",
-      "subject_id": "shift",
-      "subject": "Shift",
-      "relation": "transition_into",
-      "object_id": "primary engine of technological transformation",
-      "object": "primary engine of technological transformations",
+      "claim_id": "claim_b9be2695a3631331",
+      "subject_id": "accountant one international center tower 3",
+      "subject": "Accountants One International Center Tower 3",
+      "relation": "result_of",
+      "object_id": "tata consumer product limit",
+      "object": "TATA CONSUMER PRODUCTS LIMITED",
       "negated": false,
       "voice": "active",
       "confidence": 0.86,
       "extraction_method": "prepositional_svo",
-      "document_id": "doc_1765561c7e2cdb47",
-      "chunk_id": "chunk_62939e2104a9175e",
-      "sentence_id": "sent_396b3b2d3c9f2878",
-      "sentence_index": 2,
+      "document_id": "doc_636c75fd7bbd7119",
+      "chunk_id": "chunk_640d8d10096c2e86",
+      "sentence_id": "sent_c0089b79f3826b7a",
+      "sentence_index": 0,
       "paragraph_index": 0,
       "sentence_span": [
-        332,
-        600
+        9,
+        390
       ],
       "subject_span": [
-        361,
-        366
+        48,
+        92
       ],
       "subject_spans": [
         [
-          361,
-          366
+          48,
+          92
         ]
       ],
       "predicate_span": [
-        413,
-        425
+        311,
+        318
       ],
-      "object_span": null,
+      "object_span": [
+        348,
+        378
+      ],
       "object_spans": [
         [
-          504,
-          535
-        ],
-        [
-          564,
-          579
+          348,
+          378
         ]
       ],
-      "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
-      "fact": "Shift transition into primary engine of technological transformations",
-      "path_reliability": 0.6325,
-      "edge_flow": 0.0678,
-      "best_path_rank": 5,
-      "path_count": 3,
+      "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4.",
+      "fact": "Accountants One International Center Tower 3 result of TATA CONSUMER PRODUCTS LIMITED",
+      "path_reliability": 1.1479,
+      "edge_flow": 0.1479,
+      "best_path_rank": 8,
+      "path_count": 1,
       "occurrences": [
         {
-          "claim_id": "claim_e46c2d5442da6c8d",
+          "claim_id": "claim_b9be2695a3631331",
           "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
+          "document_id": "doc_636c75fd7bbd7119",
           "sentence_span": [
-            332,
-            600
+            9,
+            390
           ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "claim_id": "claim_e46c2d5442da6c8d",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
-        },
-        {
-          "claim_id": "claim_e46c2d5442da6c8d",
-          "negated": false,
-          "document_id": "doc_1765561c7e2cdb47",
-          "sentence_span": [
-            332,
-            600
-          ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century."
+          "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4."
         }
       ],
       "evidence": [
         {
-          "claim_id": "claim_e46c2d5442da6c8d",
-          "document_id": "doc_1765561c7e2cdb47",
-          "source_name": "Artificial Intelligence and Current Scenario.pdf",
-          "chunk_id": "chunk_62939e2104a9175e",
+          "claim_id": "claim_b9be2695a3631331",
+          "document_id": "doc_636c75fd7bbd7119",
+          "source_name": "Tata Consumer Products_2024_Q3__consolidated-results-dec2023.pdf",
+          "chunk_id": "chunk_640d8d10096c2e86",
           "chunk_index": 0,
           "start_char": 0,
-          "end_char": 983,
+          "end_char": 1025,
           "sentence_span": [
-            332,
-            600
+            9,
+            390
           ],
-          "supporting_text": "Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century.",
+          "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4.",
           "negated": false,
-          "source_text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4. We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_f363b431c7e77fae",
+      "subject_id": "013 maharashtra",
+      "subject": "013 Maharashtra",
+      "relation": "result_of",
+      "object_id": "tata consumer product limit",
+      "object": "TATA CONSUMER PRODUCTS LIMITED",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_636c75fd7bbd7119",
+      "chunk_id": "chunk_640d8d10096c2e86",
+      "sentence_id": "sent_c0089b79f3826b7a",
+      "sentence_index": 0,
+      "paragraph_index": 0,
+      "sentence_span": [
+        9,
+        390
+      ],
+      "subject_span": [
+        162,
+        177
+      ],
+      "subject_spans": [
+        [
+          162,
+          177
+        ]
+      ],
+      "predicate_span": [
+        311,
+        318
+      ],
+      "object_span": [
+        348,
+        378
+      ],
+      "object_spans": [
+        [
+          348,
+          378
+        ]
+      ],
+      "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4.",
+      "fact": "013 Maharashtra result of TATA CONSUMER PRODUCTS LIMITED",
+      "path_reliability": 1.1479,
+      "edge_flow": 0.1479,
+      "best_path_rank": 9,
+      "path_count": 1,
+      "occurrences": [
+        {
+          "claim_id": "claim_f363b431c7e77fae",
+          "negated": false,
+          "document_id": "doc_636c75fd7bbd7119",
+          "sentence_span": [
+            9,
+            390
+          ],
+          "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4."
+        }
+      ],
+      "evidence": [
+        {
+          "claim_id": "claim_f363b431c7e77fae",
+          "document_id": "doc_636c75fd7bbd7119",
+          "source_name": "Tata Consumer Products_2024_Q3__consolidated-results-dec2023.pdf",
+          "chunk_id": "chunk_640d8d10096c2e86",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1025,
+          "sentence_span": [
+            9,
+            390
+          ],
+          "supporting_text": "Deloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4.",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4. We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_488170a7e25582a9",
+      "subject_id": "i auditor 's review report",
+      "subject": "I AUDITOR 'S REVIEW REPORT",
+      "relation": "result_of",
+      "object_id": "tata consumer product limit",
+      "object": "TATA CONSUMER PRODUCTS LIMITED",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_f761f6c952d198fb",
+      "chunk_id": "chunk_674b312c7beb79af",
+      "sentence_id": "sent_754dac6bb9bbc5a9",
+      "sentence_index": 2,
+      "paragraph_index": 0,
+      "sentence_span": [
+        244,
+        998
+      ],
+      "subject_span": null,
+      "subject_spans": [
+        [
+          244,
+          245
+        ],
+        [
+          258,
+          281
+        ]
+      ],
+      "predicate_span": [
+        326,
+        333
+      ],
+      "object_span": [
+        363,
+        393
+      ],
+      "object_spans": [
+        [
+          363,
+          393
+        ]
+      ],
+      "supporting_text": "I INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+      "fact": "I AUDITOR 'S REVIEW REPORT result of TATA CONSUMER PRODUCTS LIMITED",
+      "path_reliability": 1.1479,
+      "edge_flow": 0.1479,
+      "best_path_rank": 10,
+      "path_count": 1,
+      "occurrences": [
+        {
+          "claim_id": "claim_488170a7e25582a9",
+          "negated": false,
+          "document_id": "doc_f761f6c952d198fb",
+          "sentence_span": [
+            244,
+            998
+          ],
+          "supporting_text": "I INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ],
+      "evidence": [
+        {
+          "claim_id": "claim_488170a7e25582a9",
+          "document_id": "doc_f761f6c952d198fb",
+          "source_name": "Tata Consumer Products_2025_Q1__consolidated-results-june2024-signed.pdf",
+          "chunk_id": "chunk_674b312c7beb79af",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 998,
+          "sentence_span": [
+            244,
+            998
+          ],
+          "supporting_text": "I INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 27th-3rd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. I INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ]
+    },
+    {
+      "claim_id": "claim_0e23d85e92465006",
+      "subject_id": "independent auditor review report",
+      "subject": "INDEPENDENT AUDITOR REVIEW REPORT",
+      "relation": "result_to",
+      "object_id": "board of director",
+      "object": "BOARD OF DIRECTORS",
+      "negated": false,
+      "voice": "active",
+      "confidence": 0.86,
+      "extraction_method": "prepositional_svo",
+      "document_id": "doc_e887e92b2bf34de4",
+      "chunk_id": "chunk_183ac210a105e35a",
+      "sentence_id": "sent_4341f81863d5a530",
+      "sentence_index": 1,
+      "paragraph_index": 0,
+      "sentence_span": [
+        246,
+        987
+      ],
+      "subject_span": null,
+      "subject_spans": [
+        [
+          246,
+          265
+        ],
+        [
+          268,
+          281
+        ]
+      ],
+      "predicate_span": [
+        326,
+        333
+      ],
+      "object_span": [
+        341,
+        359
+      ],
+      "object_spans": [
+        [
+          341,
+          359
+        ]
+      ],
+      "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+      "fact": "INDEPENDENT AUDITOR REVIEW REPORT result to BOARD OF DIRECTORS",
+      "path_reliability": 0.5994,
+      "edge_flow": 0.0509,
+      "best_path_rank": 15,
+      "path_count": 5,
+      "occurrences": [
+        {
+          "claim_id": "claim_0e23d85e92465006",
+          "negated": false,
+          "document_id": "doc_e887e92b2bf34de4",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_ce63b27aef4ada77",
+          "negated": false,
+          "document_id": "doc_7bab8c7211e3b6ae",
+          "sentence_span": [
+            246,
+            1010
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_66dc90940c02c33a",
+          "negated": false,
+          "document_id": "doc_b5a3094eb8c01585",
+          "sentence_span": [
+            250,
+            1027
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_8da4276d75b2e596",
+          "negated": false,
+          "document_id": "doc_c31e4ec96850216c",
+          "sentence_span": [
+            246,
+            1023
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_f80a5196e6495766",
+          "negated": false,
+          "document_id": "doc_1918699c36b82689",
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        }
+      ],
+      "evidence": [
+        {
+          "claim_id": "claim_0e23d85e92465006",
+          "document_id": "doc_e887e92b2bf34de4",
+          "source_name": "Tata Consumer Products_2024_Q1__consolidated-results-June 2023_signed.pdf",
+          "chunk_id": "chunk_183ac210a105e35a",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 987,
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_ce63b27aef4ada77",
+          "document_id": "doc_7bab8c7211e3b6ae",
+          "source_name": "Tata Consumer Products_2024_Q2__consolidated_results_sep_2023.pdf",
+          "chunk_id": "chunk_d14802dc6eb3404c",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1010,
+          "sentence_span": [
+            246,
+            1010
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_66dc90940c02c33a",
+          "document_id": "doc_b5a3094eb8c01585",
+          "source_name": "Tata Consumer Products_2025_Q2__Consolidated_Results_Sep 2024.pdf",
+          "chunk_id": "chunk_446b89a43ccd45a3",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1027,
+          "sentence_span": [
+            250,
+            1027
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 27th-3rd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_8da4276d75b2e596",
+          "document_id": "doc_c31e4ec96850216c",
+          "source_name": "Tata Consumer Products_2025_Q3__Consolidated_Results_dec 2024_signed.pdf",
+          "chunk_id": "chunk_9cda2c14bf9d1d03",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 1023,
+          "sentence_span": [
+            246,
+            1023
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+        },
+        {
+          "claim_id": "claim_f80a5196e6495766",
+          "document_id": "doc_1918699c36b82689",
+          "source_name": "Tata Consumer Products_2026_Q1__Group_Sebi_Results_June'25.pdf",
+          "chunk_id": "chunk_0e26f387f5fbb769",
+          "chunk_index": 0,
+          "start_char": 0,
+          "end_char": 987,
+          "sentence_span": [
+            246,
+            987
+          ],
+          "supporting_text": "INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\").",
+          "negated": false,
+          "source_text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
         }
       ]
     }
   ],
   "sources": [
     {
-      "document_id": "doc_1765561c7e2cdb47",
-      "source_name": "Artificial Intelligence and Current Scenario.pdf",
-      "chunk_id": "chunk_62939e2104a9175e",
+      "document_id": "doc_e887e92b2bf34de4",
+      "source_name": "Tata Consumer Products_2024_Q1__consolidated-results-June 2023_signed.pdf",
+      "chunk_id": "chunk_183ac210a105e35a",
       "chunk_index": 0,
       "start_char": 0,
-      "end_char": 983,
-      "text": "Artificial Intelligence in the Modern Era:\nTechnical Foundations, Current Landscape, and\nFuture Horizons\nA Comprehensive Analysis of Algorithmic Architectures, Societal Impacts, Infrastructure Dynamics,\nand Governance\nPrepared by: AI Policy & Technical Research Group  |  Date: October 2026  |  Document Ref: Monograph Vol. 14-B\n1. Executive Summary & Paradigm Shift\nThe field of Artificial Intelligence (AI) has transitioned from a domain of academic curiosity and localized\nrule-based systems into the primary engine of technological, economic, and geopolitical transformations in\nthe 21st century. Over the past decade, the convergence of high-performance parallel computing, massive\ndigital datasets, and radical innovations in neural network architectures—most notably the Transformer\nself-attention mechanism—has re-engineered the horizon of human-machine interaction.\nToday, artificial intelligence systems possess abilities that extend far beyond narrow pattern recognition.\n"
+      "end_char": 987,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_7bab8c7211e3b6ae",
+      "source_name": "Tata Consumer Products_2024_Q2__consolidated_results_sep_2023.pdf",
+      "chunk_id": "chunk_d14802dc6eb3404c",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 1010,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_b5a3094eb8c01585",
+      "source_name": "Tata Consumer Products_2025_Q2__Consolidated_Results_Sep 2024.pdf",
+      "chunk_id": "chunk_446b89a43ccd45a3",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 1027,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 27th-3rd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and six months ended September 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_c31e4ec96850216c",
+      "source_name": "Tata Consumer Products_2025_Q3__Consolidated_Results_dec 2024_signed.pdf",
+      "chunk_id": "chunk_9cda2c14bf9d1d03",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 1023,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income/(loss) of its associates and joint ventures for the quarter and nine months ended December 31, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_1918699c36b82689",
+      "source_name": "Tata Consumer Products_2026_Q1__Group_Sebi_Results_June'25.pdf",
+      "chunk_id": "chunk_0e26f387f5fbb769",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 987,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_7d603be80cb424c6",
+      "source_name": "Tata Consumer Products_2026_Q2__Q2_FY26_Group_Sebi_Results.pdf",
+      "chunk_id": "chunk_4fd0fb243a35d6b3",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 1016,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 31st Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai — 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and six months ended September 30, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_6bbf0f38fc8ecb11",
+      "source_name": "Tata Consumer Products_2026_Q3__Consolidated_Sebi_Results_Q3_FY26.pdf",
+      "chunk_id": "chunk_93c332fbd302b6c0",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 1017,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center, Tower 3, 31 st Floor, Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tel: +91 22 6185 6000 Fax: +91 22 6185 4101 1. 2. 3. 4. 5. INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/(loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2025 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_636c75fd7bbd7119",
+      "source_name": "Tata Consumer Products_2024_Q3__consolidated-results-dec2023.pdf",
+      "chunk_id": "chunk_640d8d10096c2e86",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 1025,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 32nd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED 1. 2. 3. 4. We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net profit/ (loss) after tax and total comprehensive income of its associates and joint ventures for the quarter and nine months ended December 31, 2023 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
+    },
+    {
+      "document_id": "doc_f761f6c952d198fb",
+      "source_name": "Tata Consumer Products_2025_Q1__consolidated-results-june2024-signed.pdf",
+      "chunk_id": "chunk_674b312c7beb79af",
+      "chunk_index": 0,
+      "start_char": 0,
+      "end_char": 998,
+      "text": "[Page 1]\nDeloitte Haskins & Sells LLP Chartered Accountants One International Center Tower 3, 27th-3rd Floor Senapati Bapat Marg Elphinstone Road (West) Mumbai - 400 013 Maharashtra, India Tele: + 91 22 6185 4000 Fax: +91 22 6185 4001 1. 2. 3. I INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM CONSOLIDATED FINANCIAL RESULTS TO THE BOARD OF DIRECTORS OF TATA CONSUMER PRODUCTS LIMITED We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of TATA CONSUMER PRODUCTS LIMITED (the \"Parent\") and its subsidiaries (the Parent and its subsidiaries together referred to as the \"Group\"), and its share of the net loss after tax and total comprehensive income of its associates and joint ventures for the quarter ended June 30, 2024 (the \"Statement\") being submitted by the Parent pursuant to the requirement of Regulation 33 and Regulation 52 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended (the \"Listing Regulations\")."
     }
   ],
+  "evidence_chunks": [],
   "stats": {
     "entity_anchors_count": 1,
     "matched_nodes_count": 1,
-    "paths_explored": 7,
-    "claims_extracted": 4,
-    "duplicates_dropped": 8,
+    "paths_explored": 15,
+    "claims_extracted": 5,
+    "duplicates_dropped": 15,
     "alpha": 0.8,
     "theta": 0.05,
     "max_hops": 3

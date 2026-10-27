@@ -54,8 +54,11 @@ def match_nodes(
                 # Exact or substring containment boost
                 if wanted == candidate:
                     sim = 1.0
-                elif wanted in candidate or candidate in wanted:
-                    sim = 0.92
+                elif len(wanted) >= 3 and len(candidate) >= 3 and (
+                    re.search(r"\b" + re.escape(wanted) + r"\b", candidate)
+                    or re.search(r"\b" + re.escape(candidate) + r"\b", wanted)
+                ):
+                    sim = 0.90 + 0.05 * (min(len(wanted), len(candidate)) / max(len(wanted), len(candidate)))
                 else:
                     cand_tokens = token_set(candidate)
                     if wanted_tokens and cand_tokens and wanted_tokens.issubset(cand_tokens):
