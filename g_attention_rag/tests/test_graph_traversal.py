@@ -7,13 +7,22 @@ python -B -m unittest discover -s g_attention_rag/tests
 import unittest
 import networkx as nx
 
-from g_attention_rag.src.graph_builder import KnowledgeGraphBuilder
-from g_attention_rag.src.graph_traversal import (
-    PathRAGTraverser,
-    match_nodes,
-    retrieve_claims,
-    retrieve_with_traversal_details,
-)
+try:
+    from g_attention_rag.src.graph_builder import KnowledgeGraphBuilder
+    from g_attention_rag.src.graph_traversal import (
+        PathRAGTraverser,
+        match_nodes,
+        retrieve_claims,
+        retrieve_with_traversal_details,
+    )
+except ModuleNotFoundError:
+    from src.graph_builder import KnowledgeGraphBuilder
+    from src.graph_traversal import (
+        PathRAGTraverser,
+        match_nodes,
+        retrieve_claims,
+        retrieve_with_traversal_details,
+    )
 
 
 class TestPathRAGTraversal(unittest.TestCase):

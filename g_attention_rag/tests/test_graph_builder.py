@@ -8,7 +8,10 @@ import unittest
 
 import networkx as nx
 
-from g_attention_rag.src.graph_builder import KnowledgeGraphBuilder, export_json
+try:
+    from g_attention_rag.src.graph_builder import KnowledgeGraphBuilder, export_json
+except ModuleNotFoundError:
+    from src.graph_builder import KnowledgeGraphBuilder, export_json
 
 
 class GraphBuilderIntegrationTest(unittest.TestCase):

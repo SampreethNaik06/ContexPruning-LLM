@@ -4,10 +4,16 @@ import pickle
 import re
 from threading import Lock
 
-from main import _graph_entity_mentions
-from src.graph_constants import SCHEMA_VERSION
-from src.graph_traversal import retrieve_with_traversal_details
-from src.query_parser import StandaloneQueryParser
+try:
+    from main import _graph_entity_mentions
+    from src.graph_constants import SCHEMA_VERSION
+    from src.graph_traversal import retrieve_with_traversal_details
+    from src.query_parser import StandaloneQueryParser
+except ModuleNotFoundError:
+    from g_attention_rag.main import _graph_entity_mentions
+    from g_attention_rag.src.graph_constants import SCHEMA_VERSION
+    from g_attention_rag.src.graph_traversal import retrieve_with_traversal_details
+    from g_attention_rag.src.query_parser import StandaloneQueryParser
 
 from .settings import GRAPH_PATH
 

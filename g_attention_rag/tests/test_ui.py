@@ -10,10 +10,16 @@ from http.server import ThreadingHTTPServer
 from unittest.mock import patch
 from urllib.error import HTTPError
 
-from ui.gemini import generate
-from ui.prompt import build_payload
-from ui.server import ChatHandler, validate_request
-from ui.settings import _load_env_file, api_key
+try:
+    from ui.gemini import generate
+    from ui.prompt import build_payload
+    from ui.server import ChatHandler, validate_request
+    from ui.settings import _load_env_file, api_key
+except ModuleNotFoundError:
+    from g_attention_rag.ui.gemini import generate
+    from g_attention_rag.ui.prompt import build_payload
+    from g_attention_rag.ui.server import ChatHandler, validate_request
+    from g_attention_rag.ui.settings import _load_env_file, api_key
 
 
 class ChatTests(unittest.TestCase):

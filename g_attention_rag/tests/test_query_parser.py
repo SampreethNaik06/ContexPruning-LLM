@@ -5,7 +5,10 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from g_attention_rag.src.query_parser import StandaloneQueryParser
+try:
+    from g_attention_rag.src.query_parser import StandaloneQueryParser
+except ModuleNotFoundError:
+    from src.query_parser import StandaloneQueryParser
 
 
 class QueryParserTest(unittest.TestCase):
