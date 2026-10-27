@@ -56,9 +56,11 @@ function messageElement(role, text, pending = false) {
 function render() {
   $("welcome").hidden = current.messages.length > 0 || busy;
   $("messages").replaceChildren(...current.messages.map((m) => messageElement(m.role, m.text)));
-  $("room-label").textContent = current.messages.length ? "Following the thread" : "A fresh perspective";
+  const roomLabel = $("room-label");
+  if (roomLabel) roomLabel.textContent = current.messages.length ? "Following the thread" : "A fresh perspective";
   $("chat-list").replaceChildren();
-  $("chat-count").textContent = String(chats.length).padStart(2, "0");
+  const chatCount = $("chat-count");
+  if (chatCount) chatCount.textContent = String(chats.length).padStart(2, "0");
   if (!chats.length) {
     const hint = document.createElement("p");
     hint.className = "empty-history";
@@ -114,12 +116,12 @@ $("chat-form").addEventListener("submit", async (event) => {
   $("query").disabled = true;
   $("composer-hint").textContent = "A little thinking in progress…";
   updateSend();
-  render();
-  $("messages").append(messageElement("user", query), messageElement("assistant", "Finding context and preparing your answer…", true));
-  scrollDown();
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 180000);
   try {
+    render();
+    $("messages").append(messageElement("user", query), messageElement("assistant", "Finding context and preparing your answer…", true));
+    scrollDown();
     const response = await fetch("/api/chat", {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query, history: current.messages.slice(-12) }),

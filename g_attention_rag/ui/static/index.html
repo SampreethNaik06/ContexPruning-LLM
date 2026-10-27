@@ -16,13 +16,13 @@
       <a class="brand" href="./" aria-label="Static home"><span class="brand-mark" aria-hidden="true">✳</span><span>Static</span></a>
       <button id="new-chat" class="new-chat" type="button" aria-label="Start a new chat" title="New chat"><span aria-hidden="true">＋</span><span class="new-chat-label">New chat</span></button>
     </div>
-    <div class="history-heading">Recent</div>
+    <div class="history-heading">Recent <span id="chat-count"></span></div>
     <nav id="chat-list" class="chat-list" aria-label="Recent conversations"></nav>
     <div class="sidebar-footer"><span class="status-dot" aria-hidden="true"></span><span>Private to this browser</span></div>
   </aside>
 
   <main class="workspace">
-    <header class="topbar"><span class="topbar-title">Static</span><span class="topbar-note">Your knowledge assistant</span></header>
+    <header class="topbar"><span class="topbar-title">Static</span><span id="room-label" class="topbar-note">Your knowledge assistant</span></header>
     <div id="scroll-area" class="scroll-area">
       <section id="welcome" class="welcome" aria-labelledby="welcome-title">
         <div class="welcome-mark" aria-hidden="true">✳</div>
